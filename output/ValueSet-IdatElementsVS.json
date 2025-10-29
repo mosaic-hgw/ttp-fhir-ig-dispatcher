@@ -1,0 +1,107 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "IdatElementsVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet IdatElementsVS</b></p><a name=\"IdatElementsVS\"> </a><a name=\"hcIdatElementsVS\"> </a><p>This value set contains 15 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-given\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-given\">given</a></td><td>Vorname</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-family\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-family\">family</a></td><td>Nachname</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-prefix\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-prefix\">prefix</a></td><td>Namens-Präfix</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-suffix\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-suffix\">suffix</a></td><td>Namens-Suffix</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-birthdate\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-birthdate\">birthdate</a></td><td>Geburtsdatum</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-gender\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-gender\">gender</a></td><td>Geschlecht</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-address-line\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-address-line\">address-line</a></td><td>Straße, Hausnummer, Postfach</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-address-city\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-address-city\">address-city</a></td><td>Ort</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-address-postalcode\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-address-postalcode\">address-postalcode</a></td><td>Postleitzahl</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-birthplace\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-birthplace\">birthplace</a></td><td>Geburtsort</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-maidenname\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-maidenname\">maidenname</a></td><td>Geburtsname</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-degree\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-degree\">degree</a></td><td>akademischer Titel</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-language\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-language\">language</a></td><td>(Mutter-)Sprache</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-nationality\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-nationality\">nationality</a></td><td>Staatsangehörigkeit</td><td/></tr><tr><td><a name=\"IdatElementsVS-https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements-maritalstatus\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-IdatElementsCS.html#IdatElementsCS-maritalstatus\">maritalstatus</a></td><td>Familienstand</td><td/></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements",
+  "version" : "2025.1.0",
+  "name" : "IdatElements",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "compose" : {
+    "include" : [{
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"
+    }]
+  },
+  "expansion" : {
+    "timestamp" : "2021-05-27T11:00:00+00:00",
+    "total" : 15,
+    "contains" : [{
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "given",
+      "display" : "Vorname"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "family",
+      "display" : "Nachname"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "prefix",
+      "display" : "Namens-Präfix"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "suffix",
+      "display" : "Namens-Suffix"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "birthdate",
+      "display" : "Geburtsdatum"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "gender",
+      "display" : "Geschlecht"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "address-line",
+      "display" : "Straße, Hausnummer, Postfach"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "address-city",
+      "display" : "Ort"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "address-postalcode",
+      "display" : "Postleitzahl"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "birthplace",
+      "display" : "Geburtsort"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "maidenname",
+      "display" : "Geburtsname"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "degree",
+      "display" : "akademischer Titel"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "language",
+      "display" : "(Mutter-)Sprache"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "nationality",
+      "display" : "Staatsangehörigkeit"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "code" : "maritalstatus",
+      "display" : "Familienstand"
+    }]
+  }
+}

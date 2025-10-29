@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ConsentPolicyActorCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ConsentPolicyActorCS</b></p><a name="ConsentPolicyActorCS"> </a><a name="hcConsentPolicyActorCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyActor</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">LIMS<a name="ConsentPolicyActorCS-LIMS"> </a></td></tr><tr><td style="white-space:nowrap">TTP<a name="ConsentPolicyActorCS-TTP"> </a></td></tr><tr><td style="white-space:nowrap">DTU<a name="ConsentPolicyActorCS-DTU"> </a></td></tr><tr><td style="white-space:nowrap">BDMS<a name="ConsentPolicyActorCS-BDMS"> </a></td></tr><tr><td style="white-space:nowrap">RDP<a name="ConsentPolicyActorCS-RDP"> </a></td></tr><tr><td style="white-space:nowrap">DIC<a name="ConsentPolicyActorCS-DIC"> </a></td></tr><tr><td style="white-space:nowrap">FTTP<a name="ConsentPolicyActorCS-FTTP"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>LIMS</td><td>Laborinformationsmanagementsystem</td><td>Laboratory information management system</td></tr><tr><td>TTP</td><td>Treuhandstelle/Vertrauensstelle</td><td>Trusted Third Party</td></tr><tr><td>DTU</td><td>Datentransferstelle</td><td>Data Transfer Unit</td></tr><tr><td>BDMS</td><td>Bilddatenmanagementsystem</td><td>Image data management system</td></tr><tr><td>RDP</td><td>Forschungsplattform</td><td>Research data platform</td></tr><tr><td>DIC</td><td>Datenintegrationszenrum</td><td>Data integration centre</td></tr><tr><td>FTTP</td><td>Föderierte Treuhandstelle/Vertrauensstelle</td><td>Federated Trusted Third Party</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyActor"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentPolicyActor"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)"/>
+  <purpose value="Axis 'actor' of the 'Semantic Consent Code (SCC)' for optional use"/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="LIMS"/>
+    <display value="LIMS"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Laborinformationsmanagementsystem"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Laboratory information management system"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TTP"/>
+    <display value="TTP"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Treuhandstelle/Vertrauensstelle"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Trusted Third Party"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DTU"/>
+    <display value="DTU"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Datentransferstelle"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Data Transfer Unit"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="BDMS"/>
+    <display value="BDMS"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Bilddatenmanagementsystem"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Image data management system"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RDP"/>
+    <display value="RDP"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Forschungsplattform"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Research data platform"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DIC"/>
+    <display value="DIC"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Datenintegrationszenrum"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Data integration centre"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTTP"/>
+    <display value="FTTP"/>
+    <designation>
+      <language value="de-DE"/>
+      <value value="Föderierte Treuhandstelle/Vertrauensstelle"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <value value="Federated Trusted Third Party"/>
+    </designation>
+  </concept>
+</CodeSystem>

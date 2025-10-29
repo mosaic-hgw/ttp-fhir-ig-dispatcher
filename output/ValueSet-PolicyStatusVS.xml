@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="PolicyStatusVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet PolicyStatusVS</b></p><a name="PolicyStatusVS"> </a><a name="hcPolicyStatusVS"> </a><p>This value set contains 3 concepts</p><table class="codes"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="PolicyStatusVS-http://hl7.org/fhir/consent-provision-type-deny"> </a><code>http://hl7.org/fhir/consent-provision-type</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-consent-provision-type.html#consent-provision-type-deny">deny</a></td><td>Opt Out</td></tr><tr><td><a name="PolicyStatusVS-http://hl7.org/fhir/consent-provision-type-permit"> </a><code>http://hl7.org/fhir/consent-provision-type</code></td><td style="white-space:nowrap">  <a href="http://hl7.org/fhir/R4/codesystem-consent-provision-type.html#consent-provision-type-permit">permit</a></td><td>Opt In</td></tr><tr><td><a name="PolicyStatusVS-http://terminology.hl7.org/CodeSystem/v3-NullFlavor-UNK"> </a><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></td><td style="white-space:nowrap">  <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-UNK">UNK</a></td><td>unknown</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/ValueSet/gics/PolicyStatus"/>
+  <version value="2025.1.0"/>
+  <name value="PolicyStatus"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/ValueSet/consent-provision-type"/>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="UNK"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2021-09-05T11:23:00+00:00"/>
+    <total value="3"/>
+    <contains>
+      <system value="http://hl7.org/fhir/consent-provision-type"/>
+      <code value="deny"/>
+      <display value="Opt Out"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/consent-provision-type"/>
+      <code value="permit"/>
+      <display value="Opt In"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <code value="UNK"/>
+      <display value="unknown"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,109 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentPolicyActorCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConsentPolicyActorCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentPolicyActorCS</b></p><a name=\"ConsentPolicyActorCS\"> </a><a name=\"hcConsentPolicyActorCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyActor</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">LIMS<a name=\"ConsentPolicyActorCS-LIMS\"> </a></td></tr><tr><td style=\"white-space:nowrap\">TTP<a name=\"ConsentPolicyActorCS-TTP\"> </a></td></tr><tr><td style=\"white-space:nowrap\">DTU<a name=\"ConsentPolicyActorCS-DTU\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BDMS<a name=\"ConsentPolicyActorCS-BDMS\"> </a></td></tr><tr><td style=\"white-space:nowrap\">RDP<a name=\"ConsentPolicyActorCS-RDP\"> </a></td></tr><tr><td style=\"white-space:nowrap\">DIC<a name=\"ConsentPolicyActorCS-DIC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">FTTP<a name=\"ConsentPolicyActorCS-FTTP\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>LIMS</td><td>Laborinformationsmanagementsystem</td><td>Laboratory information management system</td></tr><tr><td>TTP</td><td>Treuhandstelle/Vertrauensstelle</td><td>Trusted Third Party</td></tr><tr><td>DTU</td><td>Datentransferstelle</td><td>Data Transfer Unit</td></tr><tr><td>BDMS</td><td>Bilddatenmanagementsystem</td><td>Image data management system</td></tr><tr><td>RDP</td><td>Forschungsplattform</td><td>Research data platform</td></tr><tr><td>DIC</td><td>Datenintegrationszenrum</td><td>Data integration centre</td></tr><tr><td>FTTP</td><td>Föderierte Treuhandstelle/Vertrauensstelle</td><td>Federated Trusted Third Party</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyActor"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2025.1.0"] ; # 
+  fhir:name [ fhir:v "ConsentPolicyActor"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-06-12"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.ths-greifswald.de/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)"] ; # 
+  fhir:purpose [ fhir:v "Axis 'actor' of the 'Semantic Consent Code (SCC)' for optional use"] ; # 
+  fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "LIMS" ] ;
+     fhir:display [ fhir:v "LIMS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Laborinformationsmanagementsystem" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Laboratory information management system" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TTP" ] ;
+     fhir:display [ fhir:v "TTP" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Treuhandstelle/Vertrauensstelle" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Trusted Third Party" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DTU" ] ;
+     fhir:display [ fhir:v "DTU" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Datentransferstelle" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Data Transfer Unit" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BDMS" ] ;
+     fhir:display [ fhir:v "BDMS" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Bilddatenmanagementsystem" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Image data management system" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RDP" ] ;
+     fhir:display [ fhir:v "RDP" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Forschungsplattform" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Research data platform" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIC" ] ;
+     fhir:display [ fhir:v "DIC" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Datenintegrationszenrum" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Data integration centre" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FTTP" ] ;
+     fhir:display [ fhir:v "FTTP" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de-DE" ] ;
+       fhir:value [ fhir:v "Föderierte Treuhandstelle/Vertrauensstelle" ]
+     ] [
+       fhir:language [ fhir:v "en-UK" ] ;
+       fhir:value [ fhir:v "Federated Trusted Third Party" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

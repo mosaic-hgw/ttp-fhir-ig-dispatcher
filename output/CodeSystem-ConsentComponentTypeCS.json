@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ConsentComponentTypeCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentComponentTypeCS</b></p><a name=\"ConsentComponentTypeCS\"> </a><a name=\"hcConsentComponentTypeCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ConsentPolicy<a name=\"ConsentComponentTypeCS-ConsentPolicy\"> </a></td><td>Consent-Policy</td></tr><tr><td style=\"white-space:nowrap\">ConsentModule<a name=\"ConsentComponentTypeCS-ConsentModule\"> </a></td><td>Consent-Module</td></tr><tr><td style=\"white-space:nowrap\">ConsentTemplate<a name=\"ConsentComponentTypeCS-ConsentTemplate\"> </a></td><td>Consent-Template</td></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+  "version" : "2025.1.0",
+  "name" : "ConsentComponentType",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium",
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "ConsentPolicy",
+    "display" : "Consent-Policy"
+  },
+  {
+    "code" : "ConsentModule",
+    "display" : "Consent-Module"
+  },
+  {
+    "code" : "ConsentTemplate",
+    "display" : "Consent-Template"
+  }]
+}

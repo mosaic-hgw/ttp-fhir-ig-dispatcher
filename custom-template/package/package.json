@@ -1,0 +1,13 @@
+{
+  "name" : "ths-greifswald.ttp-fhir-gw.template",
+  "type" : "fhir.template",
+  "license" : "Copyright 2025 THS Greifswald",
+  "description" : "Custom Template für den TTP FHIR IG",
+  "author" : "https://www.ths-greifswald.de/",
+  "canonical" : "https://www.ths-greifswald.de/templates/ths-greifswald.ttp-fhir-gw.template",
+  "base" : "fhir.base.template",
+  "dependencies" : {
+    "fhir.base.template" : "current"
+  },
+  "version" : "1.0.0"
+}

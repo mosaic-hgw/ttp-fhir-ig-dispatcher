@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="UpdateBf"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition UpdateBf</b></p><a name="UpdateBf"> </a><a name="hcUpdateBf"> </a><p>URL: [base]/$updateBf</p><h3>Parameters</h3><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>Angabe der Studie</p>
+</div></td></tr><tr><td>IN</td><td>bloomfilter</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#base64Binary">base64Binary</a></td><td/><td><div><p>der hinzu zu fügende Bloomfilter (base64-codiert)</p>
+</div></td></tr><tr><td>IN</td><td>source</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>Angabe des Bloomfilter sendenden Standorts (Quell-Domäne)</p>
+</div></td></tr><tr><td>IN</td><td>pseudonym</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>Das Pseudonym, dessen Bloomfilter aktualisiert werden soll.</p>
+</div></td></tr><tr><td>IN</td><td>bfVersion</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>Bloomfilter-Version.</p>
+</div></td></tr><tr><td>OUT</td><td>return</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/operationoutcome.html">OperationOutcome</a></td><td/><td><div><p>Rückinformation.</p>
+</div></td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/UpdateBf"/>
+  <version value="2025.1.0"/>
+  <name value="UpdateBf"/>
+  <title value="updateBf"/>
+  <status value="draft"/>
+  <kind value="operation"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Aktualisierung eines bestehenden Bloomfilters (z.B. bei geänderter Konfiguration oder vorheriger fehlerhafter Übermittlung) bezogen auf ein bereits bekanntes Pseudonym."/>
+  <affectsState value="true"/>
+  <code value="updateBf"/>
+  <system value="true"/>
+  <type value="false"/>
+  <instance value="false"/>
+  <parameter>
+    <name value="study"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Angabe der Studie"/>
+    <type value="string"/>
+  </parameter>
+  <parameter>
+    <name value="bloomfilter"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="der hinzu zu fügende Bloomfilter (base64-codiert)"/>
+    <type value="base64Binary"/>
+  </parameter>
+  <parameter>
+    <name value="source"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Angabe des Bloomfilter sendenden Standorts (Quell-Domäne)"/>
+    <type value="string"/>
+  </parameter>
+  <parameter>
+    <name value="pseudonym"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Das Pseudonym, dessen Bloomfilter aktualisiert werden soll."/>
+    <type value="string"/>
+  </parameter>
+  <parameter>
+    <name value="bfVersion"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Bloomfilter-Version."/>
+    <type value="string"/>
+  </parameter>
+  <parameter>
+    <name value="return"/>
+    <use value="out"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Rückinformation."/>
+    <type value="OperationOutcome"/>
+  </parameter>
+</OperationDefinition>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="PseudonymizePatient-Bundle-response-example-1"/>
+  <type value="batch-response"/>
+  <entry>
+    <resource>
+      <Parameters>
+        <id value="PseudonymizePatient-Bundle-response-example-1-Par1"/>
+        <parameter>
+          <name value="externalPatientId"/>
+          <valueId value="aaaaaaaa-8a1e-4442-af99-50abc27d6f52"/>
+        </parameter>
+        <parameter>
+          <name value="pseudonym"/>
+          <part>
+            <name value="target"/>
+            <valueIdentifier>
+              <system value="http://my.fhir.domain.local/fhir/sid/domains"/>
+              <value value="MyStudy-Domain1"/>
+            </valueIdentifier>
+          </part>
+          <part>
+            <name value="value"/>
+            <valueIdentifier>
+              <system value="http://my.fhir.domain.local/fhir/sid/pseudonyms"/>
+              <value value="56464986521"/>
+            </valueIdentifier>
+          </part>
+        </parameter>
+        <parameter>
+          <name value="pseudonym"/>
+          <part>
+            <name value="target"/>
+            <valueIdentifier>
+              <system value="http://my.fhir.domain.local/fhir/sid/domains"/>
+              <value value="MyStudy-Domain2"/>
+            </valueIdentifier>
+          </part>
+          <part>
+            <name value="value"/>
+            <valueIdentifier>
+              <system value="http://my.fhir.domain.local/fhir/sid/pseudonyms"/>
+              <value value="8976834765347"/>
+            </valueIdentifier>
+          </part>
+        </parameter>
+      </Parameters>
+    </resource>
+    <response>
+      <status value="200"/>
+      <outcome>
+        <OperationOutcome>
+          <id value="PseudonymizePatient-Bundle-response-example-1-Par1OpO"/>
+          <issue>
+            <severity value="information"/>
+            <code value="informational"/>
+            <diagnostics value="Operation completed successfully."/>
+          </issue>
+        </OperationOutcome>
+      </outcome>
+    </response>
+  </entry>
+  <entry>
+    <resource>
+      <Parameters>
+        <id value="PseudonymizePatient-Bundle-response-example-1-Par2"/>
+        <parameter>
+          <name value="externalPatientId"/>
+          <valueId value="bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e"/>
+        </parameter>
+        <parameter>
+          <name value="pseudonym"/>
+          <part>
+            <name value="target"/>
+            <valueIdentifier>
+              <system value="http://my.fhir.domain.local/fhir/sid/domains"/>
+              <value value="MyStudy-Domain15"/>
+            </valueIdentifier>
+          </part>
+          <part>
+            <name value="value"/>
+            <valueIdentifier>
+              <system value="http://my.fhir.domain.local/fhir/sid/pseudonyms"/>
+              <value value="8976834765347"/>
+            </valueIdentifier>
+          </part>
+        </parameter>
+      </Parameters>
+    </resource>
+    <response>
+      <status value="404"/>
+      <outcome>
+        <OperationOutcome>
+          <id value="PseudonymizePatient-Bundle-response-example-1-Par2OpO"/>
+          <issue>
+            <severity value="fatal"/>
+            <code value="security"/>
+            <diagnostics value="Target domain 'NotMyStudy-Domain15' not found."/>
+          </issue>
+        </OperationOutcome>
+      </outcome>
+    </response>
+  </entry>
+</Bundle>

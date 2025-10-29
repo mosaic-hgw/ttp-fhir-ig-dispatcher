@@ -1,0 +1,247 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/address-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressType",
+      "title" : "AddressType",
+      "description" : "The type of an address (physical / postal).",
+      "oids" : ["2.16.840.1.113883.4.642.4.70"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-address-type.html" : "AddressType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/address-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "The use of an address.",
+      "oids" : ["2.16.840.1.113883.4.642.4.68"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-address-use.html" : "AddressUse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+    },
+    {
+      "url" : "http://hl7.org/fhir/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.424"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-link-type.html" : "LinkType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "oids" : ["2.16.840.1.113883.4.642.4.66"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ContactRole2",
+      "title" : "contactRole2",
+      "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+      "oids" : ["2.16.840.1.113883.18.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "EntityNamePartQualifier",
+      "title" : "EntityNamePartQualifier",
+      "description" : "*OpenIssue:* Needs description",
+      "oids" : ["2.16.840.1.113883.5.43"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/extensions/5.2.0/ValueSet-name-part-qualifier.html" : "EntityNamePartQualifier"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifierR2",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "EntityNamePartQualifierR2",
+      "title" : "EntityNamePartQualifierR2",
+      "description" : "**Description:**The qualifier is a set of codes each of which specifies a certain subcategory of the name part in addition to the main name part type. For example, a given name may be flagged as a nickname, a family name may be a pseudonym or a name of public records.",
+      "oids" : ["2.16.840.1.113883.5.1122"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/extensions/5.2.0/ValueSet-name-part-qualifier.html" : "EntityNamePartQualifier"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "MaritalStatus",
+      "title" : "MaritalStatus",
+      "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+      "oids" : ["2.16.840.1.113883.5.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "ValueSet-PolicyStatusVS.html" : "PolicyStatus"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdatElements",
+      "title" : null,
+      "description" : "Element names for use in $requestTasks operation.",
+      "uses" : {
+      },
+      "ValueSet-IdatElementsVS.html" : "IdatElements"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "BloomfilterType",
+      "title" : null,
+      "description" : "Types of Bloomfilters.",
+      "uses" : {
+      },
+      "ValueSet-BloomfilterTypeVS.html" : "BloomfilterType"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "MatchStatus",
+      "title" : null,
+      "description" : "Possible match statuses in the context of adding patient identities.",
+      "uses" : {
+      },
+      "ValueSet-MatchStatusVS.html" : "MatchStatus"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "SaveAction",
+      "title" : null,
+      "description" : "Possible save actions in the context of adding patient identities.",
+      "uses" : {
+      },
+      "ValueSet-SaveActionVS.html" : "SaveAction"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentComponentType",
+      "title" : null,
+      "description" : "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium",
+      "uses" : {
+      },
+      "ValueSet-ConsentComponentTypeVS.html" : "ConsentComponentType"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatus",
+      "title" : null,
+      "description" : " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
+      "uses" : {
+      },
+      "ValueSet-ConsentStatusConsentFullValuesVS.html" : "ConsentStatusConsentFullValues",
+      "ValueSet-ConsentStatusConsentOptOutFullValuesVS.html" : "ConsentStatusConsentOptOutFullValues",
+      "ValueSet-ConsentStatusConsentOptOutShortValuesVS.html" : "ConsentStatusConsentOptOutShortValues",
+      "ValueSet-ConsentStatusWithdrawalFullValuesVS.html" : "ConsentStatusWithdrawalFullValues",
+      "ValueSet-ConsentStatusVS.html" : "ConsentStatus",
+      "ValueSet-ConsentStatusObjectionFullValuesVS.html" : "ConsentStatusObjectionFullValues",
+      "ValueSet-ConsentStatusConsentShortValuesVS.html" : "ConsentStatusConsentShortValues",
+      "ValueSet-ConsentStatusRefusalShortValuesVS.html" : "ConsentStatusRefusalShortValues",
+      "ValueSet-ConsentStatusRefusalFullValuesVS.html" : "ConsentStatusRefusalFullValues",
+      "ValueSet-ConsentStatusWithdrawalShortValuesVS.html" : "ConsentStatusWithdrawalShortValues",
+      "ValueSet-ConsentStatusObjectionShortValuesVS.html" : "ConsentStatusObjectionShortValues"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdMatchingType",
+      "title" : null,
+      "description" : "ID matching types used in consent management",
+      "uses" : {
+      },
+      "ValueSet-IdMatchingTypeVS.html" : "IdMatchingType"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "Policy",
+      "title" : null,
+      "description" : "Policies used in consent management",
+      "uses" : {
+      },
+      "ValueSet-PolicyVS.html" : "Policy"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    },
+    {
+      "url" : "urn:iso:std:iso:3166",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ISO3166Part1",
+      "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+      "description" : "ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations.",
+      "oids" : ["1.0.3166.1"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-iso3166-1-2.html" : "Iso 3166 Part 1: 2 Letter Codes"
+    }
+  ]
+}

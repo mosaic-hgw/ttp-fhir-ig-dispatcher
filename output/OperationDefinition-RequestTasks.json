@@ -1,0 +1,175 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "RequestTasks",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition RequestTasks</b></p><a name=\"RequestTasks\"> </a><a name=\"hcRequestTasks\"> </a><p>URL: [base]/$requestTasks</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Studie</p>\n</div></td></tr><tr><td>IN</td><td>target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Ziel-Domäne bzw. des abrufenden Standorts</p>\n</div></td></tr><tr><td>OUT</td><td>dic_psn_available</td><td/><td>0..*</td><td/><td/><td><div><p>Pseudonym-Rückgabe aus einem Bloomfilter-Request.</p>\n</div></td></tr><tr><td>OUT</td><td>dic_psn_available.expires</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#instant\">instant</a></td><td/><td><div><p>Ablaufdatum (danach ist die Information ungültig)</p>\n</div></td></tr><tr><td>OUT</td><td>dic_psn_available.bloomfilter</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#base64Binary\">base64Binary</a></td><td/><td><div><p>Bloomfilter</p>\n</div></td></tr><tr><td>OUT</td><td>dic_psn_available.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Target-Identifikator</p>\n</div></td></tr><tr><td>OUT</td><td>dic_psn_available.pseudonym</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Pseudonym</p>\n</div></td></tr><tr><td>OUT</td><td>send_idat</td><td/><td>0..*</td><td/><td/><td><div><p>Anforderung, IDAT zu übermitteln.</p>\n</div></td></tr><tr><td>OUT</td><td>send_idat.expires</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#instant\">instant</a></td><td/><td><div><p>Ablaufdatum (danach ist die Information ungültig)</p>\n</div></td></tr><tr><td>OUT</td><td>send_idat.taskId</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#id\">id</a></td><td/><td><div><p>Identifikator der Aufgabe, dient der Rückreferenzierung in der providePatientData Operation.</p>\n</div></td></tr><tr><td>OUT</td><td>send_idat.pseudonym</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Pseudonym. Entweder Pseudonym oder Bloomfilter müssen enthalten sein.</p>\n</div></td></tr><tr><td>OUT</td><td>send_idat.bloomfilter</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#base64Binary\">base64Binary</a></td><td/><td><div><p>Bloomfilter. Entweder Pseudonym oder Bloomfilter müssen enthalten sein.</p>\n</div></td></tr><tr><td>OUT</td><td>send_idat.element</td><td/><td>1..*</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td><a href=\"ValueSet-IdatElementsVS.html\">IdatElements</a> (Required)</td><td><div><p>Vorgabe, welche Elemente in den IDAT von providePatientData enthalten sein sollen. Das Coding ist an das Value Set IdatElements gebunden.</p>\n</div></td></tr><tr><td>OUT</td><td>repeat_request</td><td/><td>0..*</td><td/><td/><td><div><p>Anforderung einen Bloomfilter-Request zu wiederholen.</p>\n</div></td></tr><tr><td>OUT</td><td>repeat_request.expires</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#instant\">instant</a></td><td/><td><div><p>Ablaufdatum (danach ist die Information ungültig)</p>\n</div></td></tr><tr><td>OUT</td><td>repeat_request.study</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Angabe der Studie</p>\n</div></td></tr><tr><td>OUT</td><td>repeat_request.bloomfilter</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#base64Binary\">base64Binary</a></td><td/><td><div><p>Studien- und standortspezifischer Bloomfilter (base64-codiert)</p>\n</div></td></tr><tr><td>OUT</td><td>repeat_request.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Angabe des Bloomfilter sendenden Standorts (Ziel-Domäne)</p>\n</div></td></tr></table><div><p>Ein Standort kann seine offenen Aufgaben abrufen. Antwort ist eine Liste von Tasks.</p>\n</div></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestTasks",
+  "version" : "2025.1.0",
+  "name" : "RequestTasks",
+  "title" : "requestTasks",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Abruf offener Standort-Aufgaben (Tasks) von der föderierten Treuhandstelle (fTTP).",
+  "affectsState" : false,
+  "code" : "requestTasks",
+  "comment" : "Ein Standort kann seine offenen Aufgaben abrufen. Antwort ist eine Liste von Tasks.",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [{
+    "name" : "study",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Angabe der Studie",
+    "type" : "string"
+  },
+  {
+    "name" : "target",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Angabe der Ziel-Domäne bzw. des abrufenden Standorts",
+    "type" : "string"
+  },
+  {
+    "name" : "dic_psn_available",
+    "use" : "out",
+    "min" : 0,
+    "max" : "*",
+    "documentation" : "Pseudonym-Rückgabe aus einem Bloomfilter-Request.",
+    "part" : [{
+      "name" : "expires",
+      "use" : "out",
+      "min" : 0,
+      "max" : "1",
+      "documentation" : "Ablaufdatum (danach ist die Information ungültig)",
+      "type" : "instant"
+    },
+    {
+      "name" : "bloomfilter",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Bloomfilter",
+      "type" : "base64Binary"
+    },
+    {
+      "name" : "target",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Target-Identifikator",
+      "type" : "Identifier"
+    },
+    {
+      "name" : "pseudonym",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Pseudonym",
+      "type" : "Identifier"
+    }]
+  },
+  {
+    "name" : "send_idat",
+    "use" : "out",
+    "min" : 0,
+    "max" : "*",
+    "documentation" : "Anforderung, IDAT zu übermitteln.",
+    "part" : [{
+      "name" : "expires",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Ablaufdatum (danach ist die Information ungültig)",
+      "type" : "instant"
+    },
+    {
+      "name" : "taskId",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Identifikator der Aufgabe, dient der Rückreferenzierung in der providePatientData Operation.",
+      "type" : "id"
+    },
+    {
+      "name" : "pseudonym",
+      "use" : "out",
+      "min" : 0,
+      "max" : "1",
+      "documentation" : "Pseudonym. Entweder Pseudonym oder Bloomfilter müssen enthalten sein.",
+      "type" : "Identifier"
+    },
+    {
+      "name" : "bloomfilter",
+      "use" : "out",
+      "min" : 0,
+      "max" : "1",
+      "documentation" : "Bloomfilter. Entweder Pseudonym oder Bloomfilter müssen enthalten sein.",
+      "type" : "base64Binary"
+    },
+    {
+      "name" : "element",
+      "use" : "out",
+      "min" : 1,
+      "max" : "*",
+      "documentation" : "Vorgabe, welche Elemente in den IDAT von providePatientData enthalten sein sollen. Das Coding ist an das Value Set IdatElements gebunden.",
+      "type" : "Coding",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements"
+      }
+    }]
+  },
+  {
+    "name" : "repeat_request",
+    "use" : "out",
+    "min" : 0,
+    "max" : "*",
+    "documentation" : "Anforderung einen Bloomfilter-Request zu wiederholen.",
+    "part" : [{
+      "name" : "expires",
+      "use" : "out",
+      "min" : 0,
+      "max" : "1",
+      "documentation" : "Ablaufdatum (danach ist die Information ungültig)",
+      "type" : "instant"
+    },
+    {
+      "name" : "study",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe der Studie",
+      "type" : "Identifier"
+    },
+    {
+      "name" : "bloomfilter",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Studien- und standortspezifischer Bloomfilter (base64-codiert)",
+      "type" : "base64Binary"
+    },
+    {
+      "name" : "target",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe des Bloomfilter sendenden Standorts (Ziel-Domäne)",
+      "type" : "Identifier"
+    }]
+  }]
+}

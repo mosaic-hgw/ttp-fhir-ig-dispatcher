@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BloomfilterTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem BloomfilterTypeCS</b></p><a name="BloomfilterTypeCS"> </a><a name="hcBloomfilterTypeCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">A<a name="BloomfilterTypeCS-A"> </a></td><td>Dummy-Bloomfilter A</td></tr><tr><td style="white-space:nowrap">B<a name="BloomfilterTypeCS-B"> </a></td><td>Dummy-Bloomfilter B</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"/>
+  <version value="2025.1.0"/>
+  <name value="BloomfilterType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Types of Bloomfilters."/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="A"/>
+    <display value="Dummy-Bloomfilter A"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Dummy-Bloomfilter B"/>
+  </concept>
+</CodeSystem>

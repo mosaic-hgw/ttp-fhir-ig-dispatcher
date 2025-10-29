@@ -1,0 +1,56 @@
+{
+  "resourceType": "Patient",
+  "id": "Idat-example-1",
+  "meta": {
+    "profile": [
+      "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat"
+    ]
+  },
+  "extension": [
+    {
+      "valueAddress": {
+        "city": "Musterhausen"
+      },
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"
+    },
+    {
+      "extension": [
+        {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "DE",
+                "system": "urn:iso:std:iso:3166"
+              }
+            ]
+          },
+          "url": "code"
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Martin"
+      ],
+      "prefix": [
+        "Dr. med."
+      ],
+      "_prefix": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "AC"
+            }
+          ]
+        }
+      ],
+      "family": "Mustermann"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1965-12-03"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ConsentComponentTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ConsentComponentTypeCS</b></p><a name="ConsentComponentTypeCS"> </a><a name="hcConsentComponentTypeCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ConsentPolicy<a name="ConsentComponentTypeCS-ConsentPolicy"> </a></td><td>Consent-Policy</td></tr><tr><td style="white-space:nowrap">ConsentModule<a name="ConsentComponentTypeCS-ConsentModule"> </a></td><td>Consent-Module</td></tr><tr><td style="white-space:nowrap">ConsentTemplate<a name="ConsentComponentTypeCS-ConsentTemplate"> </a></td><td>Consent-Template</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentComponentType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium"/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="ConsentPolicy"/>
+    <display value="Consent-Policy"/>
+  </concept>
+  <concept>
+    <code value="ConsentModule"/>
+    <display value="Consent-Module"/>
+  </concept>
+  <concept>
+    <code value="ConsentTemplate"/>
+    <display value="Consent-Template"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SaveActionVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SaveActionVS</b></p><a name="SaveActionVS"> </a><a name="hcSaveActionVS"> </a><p>This value set contains 4 concepts</p><table class="codes"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="SaveActionVS-https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction-DONT_SAVE"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction</code></td><td style="white-space:nowrap">  <a href="CodeSystem-SaveActionCS.html#SaveActionCS-DONT_SAVE">DONT_SAVE</a></td><td>don't save</td><td/></tr><tr><td><a name="SaveActionVS-https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction-DONT_SAVE_ON_PERFECT_MATCH"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction</code></td><td style="white-space:nowrap">  <a href="CodeSystem-SaveActionCS.html#SaveActionCS-DONT_SAVE_ON_PERFECT_MATCH">DONT_SAVE_ON_PERFECT_MATCH</a></td><td>don't save on perfect match</td><td/></tr><tr><td><a name="SaveActionVS-https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction-DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction</code></td><td style="white-space:nowrap">  <a href="CodeSystem-SaveActionCS.html#SaveActionCS-DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS">DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS</a></td><td>don't save on perfect match except contacts</td><td/></tr><tr><td><a name="SaveActionVS-https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction-SAVE_ALL"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction</code></td><td style="white-space:nowrap">  <a href="CodeSystem-SaveActionCS.html#SaveActionCS-SAVE_ALL">SAVE_ALL</a></td><td>save all</td><td/></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/ValueSet/epix/SaveAction"/>
+  <version value="2025.1.0"/>
+  <name value="SaveAction"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <compose>
+    <include>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"/>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2021-10-28T12:00:00.000+02:00"/>
+    <total value="4"/>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"/>
+      <code value="DONT_SAVE"/>
+      <display value="don't save"/>
+    </contains>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"/>
+      <code value="DONT_SAVE_ON_PERFECT_MATCH"/>
+      <display value="don't save on perfect match"/>
+    </contains>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"/>
+      <code value="DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS"/>
+      <display value="don't save on perfect match except contacts"/>
+    </contains>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"/>
+      <code value="SAVE_ALL"/>
+      <display value="save all"/>
+    </contains>
+  </expansion>
+</ValueSet>

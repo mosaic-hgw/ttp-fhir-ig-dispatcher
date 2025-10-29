@@ -1,0 +1,99 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "PseudonymizePatient",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition PseudonymizePatient</b></p><a name=\"PseudonymizePatient\"> </a><a name=\"hcPseudonymizePatient\"> </a><p>URL: [base]/$pseudonymizePatient</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden</p>\n</div></td></tr><tr><td>IN</td><td>patient</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a></td><td/><td><div><p>Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen</p>\n</div></td></tr><tr><td>IN</td><td>context</td><td/><td>1..*</td><td/><td/><td><div><p>Kontext der zu generierenden oder zu suchenden Pseudonyme.</p>\n</div></td></tr><tr><td>IN</td><td>context.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen.</p>\n</div></td></tr><tr><td>IN</td><td>context.count</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td/><td><div><p>Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1.</p>\n</div></td></tr><tr><td>OUT</td><td>externalPatientId</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation.</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym</td><td/><td>1..*</td><td/><td/><td><div><p>Gruppierung der domänenspezifischen Pseudonyme.</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym.value</td><td/><td>0..*</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt).</p>\n</div></td></tr></table><div><p>Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen.</p>\n</div></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient",
+  "version" : "2025.1.0",
+  "name" : "PseudonymizePatient",
+  "title" : "pseudonymizePatient",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "affectsState" : true,
+  "code" : "pseudonymizePatient",
+  "comment" : "Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen.",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [{
+    "name" : "study",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden",
+    "type" : "string"
+  },
+  {
+    "name" : "patient",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen",
+    "type" : "Patient"
+  },
+  {
+    "name" : "context",
+    "use" : "in",
+    "min" : 1,
+    "max" : "*",
+    "documentation" : "Kontext der zu generierenden oder zu suchenden Pseudonyme.",
+    "part" : [{
+      "name" : "target",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen.",
+      "type" : "string"
+    },
+    {
+      "name" : "count",
+      "use" : "in",
+      "min" : 0,
+      "max" : "1",
+      "documentation" : "Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1.",
+      "type" : "integer"
+    }]
+  },
+  {
+    "name" : "externalPatientId",
+    "use" : "out",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation.",
+    "type" : "string"
+  },
+  {
+    "name" : "pseudonym",
+    "use" : "out",
+    "min" : 1,
+    "max" : "*",
+    "documentation" : "Gruppierung der domänenspezifischen Pseudonyme.",
+    "part" : [{
+      "name" : "target",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung",
+      "type" : "Identifier"
+    },
+    {
+      "name" : "value",
+      "use" : "out",
+      "min" : 0,
+      "max" : "*",
+      "documentation" : "Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt).",
+      "type" : "Identifier"
+    }]
+  }]
+}

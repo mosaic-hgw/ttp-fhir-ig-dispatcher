@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="IdMatchingTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem IdMatchingTypeCS</b></p><a name="IdMatchingTypeCS"> </a><a name="hcIdMatchingTypeCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AT_LEAST_ALL<a name="IdMatchingTypeCS-AT_LEAST_ALL"> </a></td><td>at least all</td></tr><tr><td style="white-space:nowrap">AT_LEAST_ONE<a name="IdMatchingTypeCS-AT_LEAST_ONE"> </a></td><td>at least one</td></tr><tr><td style="white-space:nowrap">EXACT<a name="IdMatchingTypeCS-EXACT"> </a></td><td>exact</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"/>
+  <version value="2025.1.0"/>
+  <name value="IdMatchingType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="ID matching types used in consent management"/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="AT_LEAST_ALL"/>
+    <display value="at least all"/>
+  </concept>
+  <concept>
+    <code value="AT_LEAST_ONE"/>
+    <display value="at least one"/>
+  </concept>
+  <concept>
+    <code value="EXACT"/>
+    <display value="exact"/>
+  </concept>
+</CodeSystem>

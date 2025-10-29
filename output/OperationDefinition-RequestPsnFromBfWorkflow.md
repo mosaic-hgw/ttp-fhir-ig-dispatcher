@@ -1,0 +1,147 @@
+# requestPsnFromBfWorkflow - v2025.1.0
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "RequestPsnFromBfWorkflow",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnFromBfWorkflow",
+  "version" : "2025.1.0",
+  "name" : "RequestPsnFromBfWorkflow",
+  "title" : "requestPsnFromBfWorkflow",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [
+    {
+      "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "https://www.ths-greifswald.de/"
+        }
+      ]
+    }
+  ],
+  "description" : "Personenregistrierung und Privacy-Preserving Record Linkage (PPRL) auf Basis von Bloomfiltern (BF) innerhalb eines Geltungsbereiches (Studie, Standort). Die Erzeugung eines standortspezifischen Pseudonyms erfolgt innerhalb der angegebenen Ziel-Domäne. Diese wird automatisch erzeugt, sofern noch nicht vorhanden. Die Rückgabe eines standortspezifischen Pseudonyms (z.B. DIZPseudonym) erfolgt als Parameter.",
+  "purpose" : "Teil des FHIR Gateway für Dispatcher und gPAS. Weitere Infos unter https://ths-greifswald.de",
+  "code" : "requestPsnFromBfWorkflow",
+  "comment" : "Personenregistrierung und Privacy-Preserving Record Linkage (PPRL) auf Basis von Bloomfiltern (BF) innerhalb eines Geltungsbereiches (Studie, Standort). Die Erzeugung eines standortspezifischen Pseudonyms erfolgt innerhalb der angegebenen Ziel-Domäne. Diese wird automatisch erzeugt, sofern noch nicht vorhanden. Die Rückgabe eines standortspezifischen Pseudonyms (z.B. DIZPseudonym) erfolgt als Parameter.",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [
+    {
+      "name" : "study",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe der Studie",
+      "type" : "string"
+    },
+    {
+      "name" : "bloomfilter",
+      "use" : "in",
+      "min" : 1,
+      "max" : "*",
+      "documentation" : "Liste studien- und standortspezifischer Bloomfilter (base64-codiert)",
+      "type" : "base64Binary",
+      "part" : [
+        {
+          "name" : "bloomfilter",
+          "use" : "out",
+          "min" : 1,
+          "max" : "1",
+          "documentation" : "Bloomfilter"
+        },
+        {
+          "name" : "version",
+          "use" : "out",
+          "min" : 1,
+          "max" : "1",
+          "documentation" : "Version des Bloomfilters"
+        }
+      ]
+    },
+    {
+      "name" : "target",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe des Bloomfilter sendenden Standorts (Ziel-Domäne)",
+      "type" : "string"
+    },
+    {
+      "name" : "pseudonym-bf",
+      "use" : "out",
+      "min" : 0,
+      "max" : "*",
+      "documentation" : "Ermitteltes bzw. generiertes studien- und standort-spezifisches Pseudonym",
+      "part" : [
+        {
+          "name" : "bloomfilter",
+          "use" : "out",
+          "min" : 1,
+          "max" : "1",
+          "documentation" : "Bloomfilter",
+          "type" : "base64Binary"
+        },
+        {
+          "name" : "target",
+          "use" : "out",
+          "min" : 1,
+          "max" : "1",
+          "documentation" : "die verwendete Ziel-Domäne (im Request übergeben)",
+          "type" : "Identifier"
+        },
+        {
+          "name" : "pseudonym",
+          "use" : "out",
+          "min" : 1,
+          "max" : "1",
+          "documentation" : "das in der Ziel-Domäne erzeugte Pseudonym.",
+          "type" : "Identifier"
+        }
+      ]
+    },
+    {
+      "name" : "error",
+      "use" : "out",
+      "min" : 0,
+      "max" : "*",
+      "documentation" : "Fehlerrückgabe bei Teil-Fehlern",
+      "part" : [
+        {
+          "name" : "bloomfilter",
+          "use" : "out",
+          "min" : 0,
+          "max" : "1",
+          "documentation" : "Bloomfilter",
+          "type" : "base64Binary"
+        },
+        {
+          "name" : "target",
+          "use" : "out",
+          "min" : 0,
+          "max" : "1",
+          "documentation" : "die verwendete Ziel-Domäne (im Request übergeben)",
+          "type" : "Identifier"
+        },
+        {
+          "name" : "error-code",
+          "use" : "out",
+          "min" : 1,
+          "max" : "1",
+          "documentation" : "Fehlercode",
+          "type" : "Coding"
+        }
+      ]
+    }
+  ]
+}
+
+```

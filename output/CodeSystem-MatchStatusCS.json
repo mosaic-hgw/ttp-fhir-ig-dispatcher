@@ -1,0 +1,59 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "MatchStatusCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem MatchStatusCS</b></p><a name=\"MatchStatusCS\"> </a><a name=\"hcMatchStatusCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EXTERNAL_MATCH<a name=\"MatchStatusCS-EXTERNAL_MATCH\"> </a></td><td>external match</td></tr><tr><td style=\"white-space:nowrap\">MATCH<a name=\"MatchStatusCS-MATCH\"> </a></td><td>match</td></tr><tr><td style=\"white-space:nowrap\">MATCH_ERROR<a name=\"MatchStatusCS-MATCH_ERROR\"> </a></td><td>match error</td></tr><tr><td style=\"white-space:nowrap\">MULTIPLE_MATCH<a name=\"MatchStatusCS-MULTIPLE_MATCH\"> </a></td><td>multiple match</td></tr><tr><td style=\"white-space:nowrap\">NO_MATCH<a name=\"MatchStatusCS-NO_MATCH\"> </a></td><td>no match</td></tr><tr><td style=\"white-space:nowrap\">PERFECT_MATCH<a name=\"MatchStatusCS-PERFECT_MATCH\"> </a></td><td>perfect match</td></tr><tr><td style=\"white-space:nowrap\">PERFECT_MATCH_WITH_UPDATE<a name=\"MatchStatusCS-PERFECT_MATCH_WITH_UPDATE\"> </a></td><td>perfect match with update</td></tr><tr><td style=\"white-space:nowrap\">POSSIBLE_MATCH<a name=\"MatchStatusCS-POSSIBLE_MATCH\"> </a></td><td>possible match</td></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus",
+  "version" : "2025.1.0",
+  "name" : "MatchStatus",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Possible match statuses in the context of adding patient identities.",
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "EXTERNAL_MATCH",
+    "display" : "external match"
+  },
+  {
+    "code" : "MATCH",
+    "display" : "match"
+  },
+  {
+    "code" : "MATCH_ERROR",
+    "display" : "match error"
+  },
+  {
+    "code" : "MULTIPLE_MATCH",
+    "display" : "multiple match"
+  },
+  {
+    "code" : "NO_MATCH",
+    "display" : "no match"
+  },
+  {
+    "code" : "PERFECT_MATCH",
+    "display" : "perfect match"
+  },
+  {
+    "code" : "PERFECT_MATCH_WITH_UPDATE",
+    "display" : "perfect match with update"
+  },
+  {
+    "code" : "POSSIBLE_MATCH",
+    "display" : "possible match"
+  }]
+}

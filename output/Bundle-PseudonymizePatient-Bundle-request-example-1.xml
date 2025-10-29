@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="PseudonymizePatient-Bundle-request-example-1"/>
+  <type value="batch"/>
+  <entry>
+    <resource>
+      <Parameters>
+        <id value="PseudonymizePatient-Bundle-request-example-1-Par1"/>
+        <parameter>
+          <name value="study"/>
+          <valueString value="MyStudy"/>
+        </parameter>
+        <parameter>
+          <name value="patient"/>
+          <resource>
+            <Patient>
+              <id value="aaaaaaaa-8a1e-4442-af99-50abc27d6f52"/>
+              <identifier>
+                <type>
+                  <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                    <code value="MR"/>
+                  </coding>
+                </type>
+                <system value="http://my.fhir.domain.local/fhir/sid/patients"/>
+                <value value="1337"/>
+              </identifier>
+              <identifier>
+                <system value="http://fhir.de/sid/gkv/kvid-10"/>
+                <value value="A123456789"/>
+              </identifier>
+              <identifier>
+                <type>
+                  <coding>
+                    <system value="https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"/>
+                    <code value="A"/>
+                  </coding>
+                </type>
+                <system value="https://ths-greifswald.de/fhir/sid/epix/bloomfilter"/>
+                <value value="SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="/>
+              </identifier>
+            </Patient>
+          </resource>
+        </parameter>
+        <parameter>
+          <name value="context"/>
+          <part>
+            <name value="target"/>
+            <valueString value="MyStudy-Domain1"/>
+          </part>
+          <part>
+            <name value="count"/>
+            <valueInteger value="1"/>
+          </part>
+        </parameter>
+        <parameter>
+          <name value="context"/>
+          <part>
+            <name value="target"/>
+            <valueString value="MyStudy-Domain2"/>
+          </part>
+          <part>
+            <name value="count"/>
+            <valueInteger value="1"/>
+          </part>
+        </parameter>
+      </Parameters>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="$pseudonymizePatient"/>
+    </request>
+  </entry>
+  <entry>
+    <resource>
+      <Parameters>
+        <id value="PseudonymizePatient-Bundle-request-example-1-Par2"/>
+        <parameter>
+          <name value="study"/>
+          <valueString value="MyStudy"/>
+        </parameter>
+        <parameter>
+          <name value="patient"/>
+          <resource>
+            <Patient>
+              <id value="bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e"/>
+              <identifier>
+                <type>
+                  <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                    <code value="MR"/>
+                  </coding>
+                </type>
+                <system value="http://my.fhir.domain.local/fhir/sid/patients"/>
+                <value value="0815"/>
+              </identifier>
+              <identifier>
+                <system value="http://fhir.de/sid/gkv/kvid-10"/>
+                <value value="Z987654321"/>
+              </identifier>
+              <name>
+                <family value="Hinterlist"/>
+                <given value="Herbert"/>
+              </name>
+            </Patient>
+          </resource>
+        </parameter>
+        <parameter>
+          <name value="context"/>
+          <part>
+            <name value="target"/>
+            <valueString value="NotMyStudy-Domain15"/>
+          </part>
+        </parameter>
+      </Parameters>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="$pseudonymizePatient"/>
+    </request>
+  </entry>
+</Bundle>

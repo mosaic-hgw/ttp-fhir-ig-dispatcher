@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ConsentPolicyActionCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ConsentPolicyActionCS</b></p><a name="ConsentPolicyActionCS"> </a><a name="hcConsentPolicyActionCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyAction</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">provide<a name="ConsentPolicyActionCS-provide"> </a></td></tr><tr><td style="white-space:nowrap">transfer_ownership<a name="ConsentPolicyActionCS-transfer_ownership"> </a></td></tr><tr><td style="white-space:nowrap">view<a name="ConsentPolicyActionCS-view"> </a></td></tr><tr><td style="white-space:nowrap">collect<a name="ConsentPolicyActionCS-collect"> </a></td></tr><tr><td style="white-space:nowrap">analyse_genetic<a name="ConsentPolicyActionCS-analyse_genetic"> </a></td></tr><tr><td style="white-space:nowrap">inform<a name="ConsentPolicyActionCS-inform"> </a></td></tr><tr><td style="white-space:nowrap">store_process<a name="ConsentPolicyActionCS-store_process"> </a></td></tr><tr><td style="white-space:nowrap">contact<a name="ConsentPolicyActionCS-contact"> </a></td></tr><tr><td style="white-space:nowrap">use<a name="ConsentPolicyActionCS-use"> </a></td></tr><tr><td style="white-space:nowrap">process<a name="ConsentPolicyActionCS-process"> </a></td></tr><tr><td style="white-space:nowrap">merge<a name="ConsentPolicyActionCS-merge"> </a></td></tr><tr><td style="white-space:nowrap">query<a name="ConsentPolicyActionCS-query"> </a></td></tr><tr><td style="white-space:nowrap">supplement<a name="ConsentPolicyActionCS-supplement"> </a></td></tr><tr><td style="white-space:nowrap">link<a name="ConsentPolicyActionCS-link"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>provide</td><td>bereitstellen</td><td>transfer of [CLASS]</td></tr><tr><td>transfer_ownership</td><td>uebertragen_eigentum</td><td>transfer the ownership of [CLASS] from the participant to the controller/data processor/carrier of the biobank.</td></tr><tr><td>view</td><td>einsehen</td><td>insight into [CLASS]</td></tr><tr><td>collect</td><td>entnehmen; erheben</td><td>collection of new [CLASS]</td></tr><tr><td>analyse_genetic</td><td>analysieren_genetisch</td><td>obtaining genetic data from [CLASS]</td></tr><tr><td>inform</td><td>informieren</td><td>information </td></tr><tr><td>store_process</td><td>lagern_verarbeiten; speichern_verarbeiten</td><td>storage and processing of [CLASS]</td></tr><tr><td>contact</td><td>rekontaktieren</td><td>contact participant (if necessary, regarding [ACTIVITY|KONTEXT])</td></tr><tr><td>use</td><td>nutzen</td><td>provision of [CLASS] for use / analyses / for evaluation purposes [PURPOSE].</td></tr><tr><td>process</td><td>verarbeiten</td><td>processing of [CLASS]</td></tr><tr><td>merge</td><td>zusammenfuehren</td><td>merging and, if necessary, transferring of [CLASS]</td></tr><tr><td>query</td><td>abfragen</td><td>query with/from [PURPOSE]</td></tr><tr><td>supplement</td><td>ergaenzen</td><td>supplementary / complementary collection of additional [CLASS] with / from [PURPOSE].</td></tr><tr><td>link</td><td>verknuepfen</td><td>linking data of the data subject to [PURPOSE]</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyAction"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentPolicyAction"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Extensible description of the permissible (data processing-) action resulting from consented module or policy."/>
+  <purpose value="Second axis 'action' of the 'Semantic Consent Code (SCC)' for use as Consent.provision.action"/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="14"/>
+  <concept>
+    <code value="provide"/>
+    <display value="provide"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Weitergabe von [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="bereitstellen"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="transfer of [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="transfer_ownership"/>
+    <display value="transfer_ownership"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Übertragung des Eigentums an [CLASS] vom Teilnehmer an den Verantwortlichen/Datenverarbeiter/Träger der Biobank"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="uebertragen_eigentum"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="transfer the ownership of [CLASS] from the participant to the controller/data processor/carrier of the biobank."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="view"/>
+    <display value="view"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Einsicht in [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="einsehen"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="insight into [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="collect"/>
+    <display value="collect"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Erhebung neuer [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="entnehmen; erheben"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="collection of new [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="analyse_genetic"/>
+    <display value="analyse_genetic"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Gewinnung von genetischen Daten aus [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="analysieren_genetisch"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="obtaining genetic data from [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="inform"/>
+    <display value="inform"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Information"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="informieren"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="information "/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="store_process"/>
+    <display value="store_process"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Speicherung und Verarbeitung von [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="lagern_verarbeiten; speichern_verarbeiten"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="storage and processing of [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="contact"/>
+    <display value="contact"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Rekontaktierung des Teilnehmers (ggf. in Bezug auf [TAETIGKEIT|KONTEXT])"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="rekontaktieren"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="contact participant (if necessary, regarding [ACTIVITY|KONTEXT])"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="use"/>
+    <display value="use"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Bereitstellung von [CLASS] für Nutzung / Analysen / zu Auswertezwecken [PURPOSE]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="nutzen"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="provision of [CLASS] for use / analyses / for evaluation purposes [PURPOSE]."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="process"/>
+    <display value="process"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Verarbeitung von [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="verarbeiten"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="processing of [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="merge"/>
+    <display value="merge"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Zusammenführung und ggf. überführen von [CLASS]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="zusammenfuehren"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="merging and, if necessary, transferring of [CLASS]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="query"/>
+    <display value="query"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Abfrage von [PURPOSE]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="abfragen"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="query with/from [PURPOSE]"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="supplement"/>
+    <display value="supplement"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Ergänzende / kompletttierende Erhebung zusätzlicher [CLASS] mit / aus [PURPOSE]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="ergaenzen"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="supplementary / complementary collection of additional [CLASS] with / from [PURPOSE]."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="link"/>
+    <display value="link"/>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="Verknüpfung von Daten der betroffenen Person mit [PURPOSE]"/>
+    </designation>
+    <designation>
+      <language value="de-DE"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="verknuepfen"/>
+    </designation>
+    <designation>
+      <language value="en-UK"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000003001"/>
+      </use>
+      <value value="linking data of the data subject to [PURPOSE]"/>
+    </designation>
+  </concept>
+</CodeSystem>

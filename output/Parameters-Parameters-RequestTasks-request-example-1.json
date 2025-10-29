@@ -1,0 +1,12 @@
+{
+  "resourceType" : "Parameters",
+  "id" : "Parameters-RequestTasks-request-example-1",
+  "parameter" : [{
+    "name" : "study",
+    "valueString" : "mii"
+  },
+  {
+    "name" : "target",
+    "valueString" : "eyematics"
+  }]
+}

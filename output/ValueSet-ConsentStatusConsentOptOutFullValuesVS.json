@@ -1,0 +1,56 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ConsentStatusConsentOptOutFullValuesVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentStatusConsentOptOutFullValuesVS</b></p><a name=\"ConsentStatusConsentOptOutFullValuesVS\"> </a><a name=\"hcConsentStatusConsentOptOutFullValuesVS\"> </a><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentStatusConsentOptOutFullValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED_OPT_OUT\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED_OPT_OUT\">ACCEPTED_OPT_OUT</a></td><td>Ja (Opt-Out)</td><td/></tr><tr><td><a name=\"ConsentStatusConsentOptOutFullValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-NOT_ASKED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-NOT_ASKED\">NOT_ASKED</a></td><td>Nicht gefragt</td><td/></tr><tr><td><a name=\"ConsentStatusConsentOptOutFullValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-NOT_CHOSEN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-NOT_CHOSEN\">NOT_CHOSEN</a></td><td>Nicht gefragt</td><td/></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutFullValues",
+  "version" : "2025.1.0",
+  "name" : "ConsentStatusConsentOptOutFullValues",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "compose" : {
+    "include" : [{
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "concept" : [{
+        "code" : "ACCEPTED_OPT_OUT"
+      },
+      {
+        "code" : "NOT_ASKED"
+      },
+      {
+        "code" : "NOT_CHOSEN"
+      }]
+    }]
+  },
+  "expansion" : {
+    "timestamp" : "2024-10-04T12:00:00Z",
+    "total" : 3,
+    "contains" : [{
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "code" : "ACCEPTED_OPT_OUT",
+      "display" : "Ja (Opt-Out)"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "code" : "NOT_ASKED",
+      "display" : "Nicht gefragt"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "code" : "NOT_CHOSEN",
+      "display" : "Nicht gefragt"
+    }]
+  }
+}

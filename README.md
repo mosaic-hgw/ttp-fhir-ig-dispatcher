@@ -1,2 +1,2 @@
-# ttp-fhir-ig-dispatcher
-Implementation Guide TTP-FHIR Gateway for workflow-driven use cases (fTTP, dispatcher) based on IG Publisher
+# ttp-fhir-ig-publisher
+IG Publisher Version des FHIR IG (ehemals simplifier)

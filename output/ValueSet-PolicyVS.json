@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PolicyVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet PolicyVS</b></p><a name=\"PolicyVS\"> </a><a name=\"hcPolicyVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-PolicyCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/gics/Policy</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2025.1.0</span></li></ul></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/Policy",
+  "version" : "2025.1.0",
+  "name" : "Policy",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "compose" : {
+    "include" : [{
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy"
+    }]
+  }
+}

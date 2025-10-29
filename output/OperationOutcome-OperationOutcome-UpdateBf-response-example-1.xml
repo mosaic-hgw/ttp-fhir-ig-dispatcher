@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationOutcome xmlns="http://hl7.org/fhir">
+  <id value="OperationOutcome-UpdateBf-response-example-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationOutcome OperationOutcome-UpdateBf-response-example-1</b></p><a name="OperationOutcome-UpdateBf-response-example-1"> </a><a name="hcOperationOutcome-UpdateBf-response-example-1"> </a><h3>Issues</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Severity</b></td><td><b>Code</b></td><td><b>Details</b></td><td><b>Diagnostics</b></td></tr><tr><td style="display: none">*</td><td>Information</td><td>Informational Note</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/operation-outcome MSG_UPDATED}">existing resource updated</span></td><td>Bloomfilter updated.</td></tr></table></div>
+  </text>
+  <issue>
+    <severity value="information"/>
+    <code value="informational"/>
+    <details>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/operation-outcome"/>
+        <code value="MSG_UPDATED"/>
+      </coding>
+    </details>
+    <diagnostics value="Bloomfilter updated."/>
+  </issue>
+</OperationOutcome>

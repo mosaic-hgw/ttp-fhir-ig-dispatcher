@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ConsentStatusConsentOptOutShortValuesVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ConsentStatusConsentOptOutShortValuesVS</b></p><a name="ConsentStatusConsentOptOutShortValuesVS"> </a><a name="hcConsentStatusConsentOptOutShortValuesVS"> </a><p>This value set contains 1 concepts</p><table class="codes"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ConsentStatusConsentOptOutShortValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED_OPT_OUT"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style="white-space:nowrap">  <a href="CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED_OPT_OUT">ACCEPTED_OPT_OUT</a></td><td>Ja (Opt-Out)</td><td/></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutShortValues"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentStatusConsentOptOutShortValues"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <compose>
+    <include>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"/>
+      <concept>
+        <code value="ACCEPTED_OPT_OUT"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2024-10-04T12:00:00Z"/>
+    <total value="1"/>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"/>
+      <code value="ACCEPTED_OPT_OUT"/>
+      <display value="Ja (Opt-Out)"/>
+    </contains>
+  </expansion>
+</ValueSet>

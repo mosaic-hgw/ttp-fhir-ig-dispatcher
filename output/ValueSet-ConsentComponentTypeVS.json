@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ConsentComponentTypeVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentComponentTypeVS</b></p><a name=\"ConsentComponentTypeVS\"> </a><a name=\"hcConsentComponentTypeVS\"> </a><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-TemplateModule\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0TemplateModule</td><td>Template-Module</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-TemplateFrame\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0TemplateFrame</td><td>Template-Frame</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-QuestionnaireComposed\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0QuestionnaireComposed</td><td>Composed Questionnaire</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentPolicy\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentPolicy\">ConsentPolicy</a></td><td>Consent-Policy</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentModule\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentModule\">ConsentModule</a></td><td>Consent-Module</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentTemplate\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentTemplate\">ConsentTemplate</a></td><td>Consent-Template</td><td/></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType",
+  "version" : "2025.1.0",
+  "name" : "ConsentComponentType",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"
+    }]
+  },
+  "expansion" : {
+    "timestamp" : "2021-04-12T12:00:00Z",
+    "total" : 6,
+    "contains" : [{
+      "system" : "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents",
+      "code" : "TemplateModule",
+      "display" : "Template-Module"
+    },
+    {
+      "system" : "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents",
+      "code" : "TemplateFrame",
+      "display" : "Template-Frame"
+    },
+    {
+      "system" : "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents",
+      "code" : "QuestionnaireComposed",
+      "display" : "Composed Questionnaire"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+      "code" : "ConsentPolicy",
+      "display" : "Consent-Policy"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+      "code" : "ConsentModule",
+      "display" : "Consent-Module"
+    },
+    {
+      "system" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+      "code" : "ConsentTemplate",
+      "display" : "Consent-Template"
+    }]
+  }
+}

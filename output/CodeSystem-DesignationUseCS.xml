@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="DesignationUseCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem DesignationUseCS</b></p><a name="DesignationUseCS"> </a><a name="hcDesignationUseCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">consent<a name="DesignationUseCS-consent"> </a></td></tr><tr><td style="white-space:nowrap">refusal<a name="DesignationUseCS-refusal"> </a></td></tr><tr><td style="white-space:nowrap">withdrawal<a name="DesignationUseCS-withdrawal"> </a></td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+  <version value="2025.1.0"/>
+  <name value="DesignationUse"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Use codes (contexts) for terminology designations"/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="consent"/>
+    <display value="consent"/>
+  </concept>
+  <concept>
+    <code value="refusal"/>
+    <display value="refusal"/>
+  </concept>
+  <concept>
+    <code value="withdrawal"/>
+    <display value="withdrawal"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,952 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ConsentPolicyPurposeCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentPolicyPurposeCS</b></p><a name=\"ConsentPolicyPurposeCS\"> </a><a name=\"hcConsentPolicyPurposeCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">health_state<a name=\"ConsentPolicyPurposeCS-health_state\"> </a></td><td>health_state</td></tr><tr><td style=\"white-space:nowrap\">general_practitioner<a name=\"ConsentPolicyPurposeCS-general_practitioner\"> </a></td><td>general_practitioner</td></tr><tr><td style=\"white-space:nowrap\">physician<a name=\"ConsentPolicyPurposeCS-physician\"> </a></td><td>physician</td></tr><tr><td style=\"white-space:nowrap\">CRO<a name=\"ConsentPolicyPurposeCS-CRO\"> </a></td><td>CRO</td></tr><tr><td style=\"white-space:nowrap\">third_parties<a name=\"ConsentPolicyPurposeCS-third_parties\"> </a></td><td>third_parties</td></tr><tr><td style=\"white-space:nowrap\">EU_GDPR_LEVEL<a name=\"ConsentPolicyPurposeCS-EU_GDPR_LEVEL\"> </a></td><td>EU_GDPR_LEVEL</td></tr><tr><td style=\"white-space:nowrap\">non_EU_GDPR_LEVEL<a name=\"ConsentPolicyPurposeCS-non_EU_GDPR_LEVEL\"> </a></td><td>non_EU_GDPR_LEVEL</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"ConsentPolicyPurposeCS-industry\"> </a></td><td>industry</td></tr><tr><td style=\"white-space:nowrap\">health_records<a name=\"ConsentPolicyPurposeCS-health_records\"> </a></td><td>health_records</td></tr><tr><td style=\"white-space:nowrap\">monitoring<a name=\"ConsentPolicyPurposeCS-monitoring\"> </a></td><td>monitoring</td></tr><tr><td style=\"white-space:nowrap\">non_profit<a name=\"ConsentPolicyPurposeCS-non_profit\"> </a></td><td>non_profit</td></tr><tr><td style=\"white-space:nowrap\">pharma<a name=\"ConsentPolicyPurposeCS-pharma\"> </a></td><td>pharma</td></tr><tr><td style=\"white-space:nowrap\">project_specific<a name=\"ConsentPolicyPurposeCS-project_specific\"> </a></td><td>project_specific</td></tr><tr><td style=\"white-space:nowrap\">project_participation<a name=\"ConsentPolicyPurposeCS-project_participation\"> </a></td><td>project_participation</td></tr><tr><td style=\"white-space:nowrap\">death<a name=\"ConsentPolicyPurposeCS-death\"> </a></td><td>death</td></tr><tr><td style=\"white-space:nowrap\">timely_unrestricted<a name=\"ConsentPolicyPurposeCS-timely_unrestricted\"> </a></td><td>timely_unrestricted </td></tr><tr><td style=\"white-space:nowrap\">timely_restricted<a name=\"ConsentPolicyPurposeCS-timely_restricted\"> </a></td><td>timely_restricted</td></tr><tr><td style=\"white-space:nowrap\">once<a name=\"ConsentPolicyPurposeCS-once\"> </a></td><td>once</td></tr><tr><td style=\"white-space:nowrap\">databases<a name=\"ConsentPolicyPurposeCS-databases\"> </a></td><td>databases</td></tr><tr><td style=\"white-space:nowrap\">additional_collection<a name=\"ConsentPolicyPurposeCS-additional_collection\"> </a></td><td>additional_collection</td></tr><tr><td style=\"white-space:nowrap\">additional_studies<a name=\"ConsentPolicyPurposeCS-additional_studies\"> </a></td><td>additional_studies</td></tr><tr><td style=\"white-space:nowrap\">additional_findings<a name=\"ConsentPolicyPurposeCS-additional_findings\"> </a></td><td>additional_findings</td></tr><tr><td style=\"white-space:nowrap\">HI<a name=\"ConsentPolicyPurposeCS-HI\"> </a></td><td>HI</td></tr><tr><td style=\"white-space:nowrap\">PI<a name=\"ConsentPolicyPurposeCS-PI\"> </a></td><td>PI</td></tr><tr><td style=\"white-space:nowrap\">results<a name=\"ConsentPolicyPurposeCS-results\"> </a></td><td>results</td></tr><tr><td style=\"white-space:nowrap\">significant<a name=\"ConsentPolicyPurposeCS-significant\"> </a></td><td>significant</td></tr><tr><td style=\"white-space:nowrap\">quality_assurance<a name=\"ConsentPolicyPurposeCS-quality_assurance\"> </a></td><td>quality_assurance </td></tr><tr><td style=\"white-space:nowrap\">scientific<a name=\"ConsentPolicyPurposeCS-scientific\"> </a></td><td>scientific</td></tr><tr><td style=\"white-space:nowrap\">highly_specific<a name=\"ConsentPolicyPurposeCS-highly_specific\"> </a></td><td>highly_specific</td></tr><tr><td style=\"white-space:nowrap\">legally_based_registry<a name=\"ConsentPolicyPurposeCS-legally_based_registry\"> </a></td><td>legally_based_registry</td></tr><tr><td style=\"white-space:nowrap\">laboratory<a name=\"ConsentPolicyPurposeCS-laboratory\"> </a></td><td>laboratory</td></tr><tr><td style=\"white-space:nowrap\">genetic<a name=\"ConsentPolicyPurposeCS-genetic\"> </a></td><td>genetic</td></tr><tr><td style=\"white-space:nowrap\">authority<a name=\"ConsentPolicyPurposeCS-authority\"> </a></td><td>authority</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>health_state</td><td>Gesundheitszustand</td><td>the state of health</td></tr><tr><td>general_practitioner</td><td>Arzt</td><td>from/to the general practitioner /family doctor</td></tr><tr><td>physician</td><td>Hausarzt</td><td>from/to the physician</td></tr><tr><td>CRO</td><td>CRO</td><td>from/to a clinical research organisation</td></tr><tr><td>third_parties</td><td>Dritte</td><td>from/to third parties /with third party research partner(s)</td></tr><tr><td>EU_GDPR_LEVEL</td><td>EU_DSGVO_NIVEAU</td><td>to countries with EU data protection level</td></tr><tr><td>non_EU_GDPR_LEVEL</td><td>non_EU_DSGVO_NIVEAU</td><td>to countries without EU data protection level</td></tr><tr><td>industry</td><td>Industrie</td><td>to partners from the industrial sector</td></tr><tr><td>health_records</td><td>Krankenunterlagen</td><td>by transfer to/from (electronic) health records</td></tr><tr><td>monitoring</td><td>Monitoring</td><td>as part of a monitoring</td></tr><tr><td>non_profit</td><td>non_profit</td><td>to partners from non-profit organisations</td></tr><tr><td>pharma</td><td>pharma</td><td>to a pharmaceutical company involved in the sponsorship</td></tr><tr><td>project_specific</td><td>Vorhaben_spezifisch</td><td>for a  specific research project or study</td></tr><tr><td>project_participation</td><td>Vorhaben_Teilnahme</td><td>on the participation of the data subject in the specific project or a specific study</td></tr><tr><td>death</td><td>Tod</td><td>in the event of the death of the person concerned</td></tr><tr><td>timely_unrestricted</td><td>uneingeschraenkt</td><td> without timely restriction</td></tr><tr><td>timely_restricted</td><td>zeitlich_eingeschraenkt</td><td>with timely restriction</td></tr><tr><td>once</td><td>einmalig</td><td>once</td></tr><tr><td>databases</td><td>Datenbanken</td><td>information from other databases</td></tr><tr><td>additional_collection</td><td>weitere_Erhebungen</td><td>collection of additional [CLASS]</td></tr><tr><td>additional_studies</td><td>weitere_Studien</td><td>information on new projects or studies</td></tr><tr><td>additional_findings</td><td>Zusatzbefund</td><td>notification of additional or incidental findings</td></tr><tr><td>HI</td><td>KV</td><td>from/to health insurances</td></tr><tr><td>PI</td><td>RV</td><td>from/to pension insurances</td></tr><tr><td>results</td><td>Ergebnisse</td><td>communication of research results</td></tr><tr><td>significant</td><td>Erhebliche_Bedeutung</td><td>[PURPOSE] with considerable significance</td></tr><tr><td>quality_assurance</td><td>qualitaetssicherung</td><td>for quality assurance purposes</td></tr><tr><td>scientific</td><td>wissenschaftlich</td><td>in a scientific context</td></tr><tr><td>highly_specific</td><td>hochspezifisch</td><td>in a relevant highly specific way</td></tr><tr><td>legally_based_registry</td><td>gesetzliches_register</td><td>within the framework of a register on a legal basis</td></tr><tr><td>laboratory</td><td>Labor</td><td>in a / of a laboratory</td></tr><tr><td>genetic</td><td>genetisch</td><td>genetic</td></tr><tr><td>authority</td><td>behörde</td><td>in / from / by an authority</td></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose",
+  "version" : "2025.1.0",
+  "name" : "ConsentPolicyPurpose",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Expandable specification of the application context and/or scope of a consent policy or module",
+  "purpose" : "Third axis 'purpose' of the 'Semantic Consent Code (SCC)' for use as Consent.provision.purpose",
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 33,
+  "concept" : [{
+    "code" : "health_state",
+    "display" : "health_state",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "des Gesundheitszustandes"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Gesundheitszustand"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "the state of health"
+    }]
+  },
+  {
+    "code" : "general_practitioner",
+    "display" : "general_practitioner",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "des Hausarztes"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Arzt"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "from/to the general practitioner /family doctor"
+    }]
+  },
+  {
+    "code" : "physician",
+    "display" : "physician",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "des Arztes"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Hausarzt"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "from/to the physician"
+    }]
+  },
+  {
+    "code" : "CRO",
+    "display" : "CRO",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "von/an eine Contract Research Organisation und oder eine klinische Koordinierungsstelle (KKS)"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CRO"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "from/to a clinical research organisation"
+    }]
+  },
+  {
+    "code" : "third_parties",
+    "display" : "third_parties",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "von/an/mit Dritte(n) Forschungspartner(n)"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Dritte"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "from/to third parties /with third party research partner(s)"
+    }]
+  },
+  {
+    "code" : "EU_GDPR_LEVEL",
+    "display" : "EU_GDPR_LEVEL",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "an Länder mit EU Datenschutzniveau"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "EU_DSGVO_NIVEAU"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "to countries with EU data protection level"
+    }]
+  },
+  {
+    "code" : "non_EU_GDPR_LEVEL",
+    "display" : "non_EU_GDPR_LEVEL",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "an Länder ohne EU Datenschutzniveau"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "non_EU_DSGVO_NIVEAU"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "to countries without EU data protection level"
+    }]
+  },
+  {
+    "code" : "industry",
+    "display" : "industry",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "an Partner aus dem Bereich der Industrie"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Industrie"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "to partners from the industrial sector"
+    }]
+  },
+  {
+    "code" : "health_records",
+    "display" : "health_records",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "durch Übertrag in/aus (elektronischen) Krankenunterlagen/Patientenakten"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Krankenunterlagen"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "by transfer to/from (electronic) health records"
+    }]
+  },
+  {
+    "code" : "monitoring",
+    "display" : "monitoring",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "im Rahmen eines Monitoring"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Monitoring"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "as part of a monitoring"
+    }]
+  },
+  {
+    "code" : "non_profit",
+    "display" : "non_profit",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "an Partner aus Non-Profit-Organisationen"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "non_profit"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "to partners from non-profit organisations"
+    }]
+  },
+  {
+    "code" : "pharma",
+    "display" : "pharma",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "an eine am Sponsoring beteiligte Pharmafirma"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "pharma"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "to a pharmaceutical company involved in the sponsorship"
+    }]
+  },
+  {
+    "code" : "project_specific",
+    "display" : "project_specific",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "im Rahmen des spezifischen Vorhabens/Projektes oder der spezifischen Studie"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Vorhaben_spezifisch"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "for a  specific research project or study"
+    }]
+  },
+  {
+    "code" : "project_participation",
+    "display" : "project_participation",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "über die Teilnahme der betroffenen Person am spezifischen Vorhaben/Projekt oder einer spezifischen Studie"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Vorhaben_Teilnahme"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "on the participation of the data subject in the specific project or a specific study"
+    }]
+  },
+  {
+    "code" : "death",
+    "display" : "death",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "im Falle des Todes der betroffenen Person"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Tod"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in the event of the death of the person concerned"
+    }]
+  },
+  {
+    "code" : "timely_unrestricted",
+    "display" : "timely_unrestricted ",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "ohne zeitliche Einschränkung"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "uneingeschraenkt"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : " without timely restriction"
+    }]
+  },
+  {
+    "code" : "timely_restricted",
+    "display" : "timely_restricted",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "mit zeitlicher Einschränkung"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "zeitlich_eingeschraenkt"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "with timely restriction"
+    }]
+  },
+  {
+    "code" : "once",
+    "display" : "once",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "einmalig"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "einmalig"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "once"
+    }]
+  },
+  {
+    "code" : "databases",
+    "display" : "databases",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "Informationen anderer Datenbanken"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Datenbanken"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "information from other databases"
+    }]
+  },
+  {
+    "code" : "additional_collection",
+    "display" : "additional_collection",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "Erhebung zusätzlicher [CLASS]"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "weitere_Erhebungen"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "collection of additional [CLASS]"
+    }]
+  },
+  {
+    "code" : "additional_studies",
+    "display" : "additional_studies",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "Informationen zu neuen Vorhaben/Projekten oder Studien"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "weitere_Studien"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "information on new projects or studies"
+    }]
+  },
+  {
+    "code" : "additional_findings",
+    "display" : "additional_findings",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "Mitteilung von Zusatz- oder Nebenbefunden"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Zusatzbefund"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "notification of additional or incidental findings"
+    }]
+  },
+  {
+    "code" : "HI",
+    "display" : "HI",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "von/an Krankenversicherungen"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "KV"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "from/to health insurances"
+    }]
+  },
+  {
+    "code" : "PI",
+    "display" : "PI",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "von/an Rentenversicherungen"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "RV"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "from/to pension insurances"
+    }]
+  },
+  {
+    "code" : "results",
+    "display" : "results",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "Mitteilung von Forschungsergebnissen"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ergebnisse"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "communication of research results"
+    }]
+  },
+  {
+    "code" : "significant",
+    "display" : "significant",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "[PURPOSE] mit erheblicher Bedeutung"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Erhebliche_Bedeutung"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "[PURPOSE] with considerable significance"
+    }]
+  },
+  {
+    "code" : "quality_assurance",
+    "display" : "quality_assurance ",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "zu Zwecken der Qualitätssicherung"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "qualitaetssicherung"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "for quality assurance purposes"
+    }]
+  },
+  {
+    "code" : "scientific",
+    "display" : "scientific",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "im wissenschaftlichen Kontext"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "wissenschaftlich"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in a scientific context"
+    }]
+  },
+  {
+    "code" : "highly_specific",
+    "display" : "highly_specific",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in einer relevanten und hochspezifischen Weise"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "hochspezifisch"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in a relevant highly specific way"
+    }]
+  },
+  {
+    "code" : "legally_based_registry",
+    "display" : "legally_based_registry",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "im Rahmen eines Registers auf gesetzlicher Grundlage"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "gesetzliches_register"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "within the framework of a register on a legal basis"
+    }]
+  },
+  {
+    "code" : "laboratory",
+    "display" : "laboratory",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in / aus einem Labor"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Labor"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in a / of a laboratory"
+    }]
+  },
+  {
+    "code" : "genetic",
+    "display" : "genetic",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "genetisch"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "genetisch"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "genetic"
+    }]
+  },
+  {
+    "code" : "authority",
+    "display" : "authority",
+    "designation" : [{
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in einer /von einer / durch eine Behörde"
+    },
+    {
+      "language" : "de-DE",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "behörde"
+    },
+    {
+      "language" : "en-UK",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000003001"
+      },
+      "value" : "in / from / by an authority"
+    }]
+  }]
+}

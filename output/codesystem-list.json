@@ -1,0 +1,108 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdatElements",
+      "title" : null,
+      "description" : "Element names for use in $requestTasks operation."
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "BloomfilterType",
+      "title" : null,
+      "description" : "Types of Bloomfilters."
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "MatchStatus",
+      "title" : null,
+      "description" : "Possible match statuses in the context of adding patient identities."
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "SaveAction",
+      "title" : null,
+      "description" : "Possible save actions in the context of adding patient identities."
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentComponentType",
+      "title" : null,
+      "description" : "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyAction",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyAction",
+      "title" : null,
+      "description" : "Extensible description of the permissible (data processing-) action resulting from consented module or policy."
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyActor",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyActor",
+      "title" : null,
+      "description" : "Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyClass",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyClass",
+      "title" : null,
+      "description" : "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyPurpose",
+      "title" : null,
+      "description" : "Expandable specification of the application context and/or scope of a consent policy or module"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatus",
+      "title" : null,
+      "description" : " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "DesignationUse",
+      "title" : null,
+      "description" : "Use codes (contexts) for terminology designations"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdMatchingType",
+      "title" : null,
+      "description" : "ID matching types used in consent management"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "Policy",
+      "title" : null,
+      "description" : "Policies used in consent management"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "PolicyCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem PolicyCS</b></p><a name=\"PolicyCS\"> </a><a name=\"hcPolicyCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/Policy</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IDAT_erheben<a name=\"PolicyCS-IDAT_erheben\"> </a></td><td>Erfassung neuer identifizierender Daten (IDAT)</td></tr><tr><td style=\"white-space:nowrap\">IDAT_erheben_Institutionen<a name=\"PolicyCS-IDAT_erheben_Institutionen\"> </a></td><td>Erfassung identifizierender Daten durch Anfrage bei Melderegister oder Krankenversicherung</td></tr><tr><td style=\"white-space:nowrap\">IDAT_speichern_verarbeiten<a name=\"PolicyCS-IDAT_speichern_verarbeiten\"> </a></td><td>Speicherung und Verarbeitung identifizierender Daten (IDAT) in der verantwortlichen Stelle</td></tr><tr><td style=\"white-space:nowrap\">IDAT_bereitstellen_Arzt<a name=\"PolicyCS-IDAT_bereitstellen_Arzt\"> </a></td><td>Weitergabe von identifizierenden Daten an beliebigen Arzt (inkl. Hausarzt)</td></tr><tr><td style=\"white-space:nowrap\">IDAT_bereitstellen_Hausarzt<a name=\"PolicyCS-IDAT_bereitstellen_Hausarzt\"> </a></td><td>Weitergabe von identifizierenden Daten an Hausarzt</td></tr><tr><td style=\"white-space:nowrap\">IDAT_bereitstellen_Institutionen<a name=\"PolicyCS-IDAT_bereitstellen_Institutionen\"> </a></td><td>Weitergabe von identifizierenden Daten an Melderegeister oder Krankenversicherung zum Zweck der Datenergänzung</td></tr><tr><td style=\"white-space:nowrap\">IDAT_bereitstellen_Institutionen_Tod<a name=\"PolicyCS-IDAT_bereitstellen_Institutionen_Tod\"> </a></td><td>Weitergabe von identifizierenden Daten an Melderegeister oder Krankenversicherung zum Zweck der Datenergänzung im Falle des Todes</td></tr><tr><td style=\"white-space:nowrap\">IDAT_bereitstellen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-IDAT_bereitstellen_EU_DSGVO_NIVEAU\"> </a></td><td>Herausgabe identifizierender Daten (IDAT) an verantwortliche Stelle zur weiteren Verarbeitung</td></tr><tr><td style=\"white-space:nowrap\">IDAT_Einsicht_Monitoring<a name=\"PolicyCS-IDAT_Einsicht_Monitoring\"> </a></td><td>Einsicht in identifizierende Daten im Rahmen des Monitoring</td></tr><tr><td style=\"white-space:nowrap\">IDAT_zusammenfuehren_Dritte<a name=\"PolicyCS-IDAT_zusammenfuehren_Dritte\"> </a></td><td>Zusammenführung identifizierender Daten (IDAT) mit Dritten Forschungspartnern</td></tr><tr><td style=\"white-space:nowrap\">MDAT_erheben<a name=\"PolicyCS-MDAT_erheben\"> </a></td><td>Erfassung medizinischer Daten</td></tr><tr><td style=\"white-space:nowrap\">MDAT_erheben_Arzt<a name=\"PolicyCS-MDAT_erheben_Arzt\"> </a></td><td>Erfassung medizinischer Daten durch Anfrage bei externem Arzt (inkl. Hausarzt)</td></tr><tr><td style=\"white-space:nowrap\">MDAT_erheben_Hausarzt<a name=\"PolicyCS-MDAT_erheben_Hausarzt\"> </a></td><td>Erfassung medizinischer Daten durch Anfrage beim Hausarzt</td></tr><tr><td style=\"white-space:nowrap\">MDAT_erheben_Institutionen<a name=\"PolicyCS-MDAT_erheben_Institutionen\"> </a></td><td>Erfassung medizinischer Daten durch Anfrage bei Institutionen, wie z.B. Gesundheitsamt, Kassenärztliche Vereinigung, Melderegister oder Krankenversicherung</td></tr><tr><td style=\"white-space:nowrap\">MDAT_erheben_Krankenunterlagen<a name=\"PolicyCS-MDAT_erheben_Krankenunterlagen\"> </a></td><td>Erfassung medizinischer Daten durch Übertrag aus Krankenunterlagen</td></tr><tr><td style=\"white-space:nowrap\">MDAT_erheben_Tod<a name=\"PolicyCS-MDAT_erheben_Tod\"> </a></td><td>Erfassung von medizinischen Daten zum Zwecke der Datenergänzung im Falle des Todes</td></tr><tr><td style=\"white-space:nowrap\">MDAT_speichern_verarbeiten<a name=\"PolicyCS-MDAT_speichern_verarbeiten\"> </a></td><td>Speicherung_Verarbeitung von medizinischen Daten innerhalb der verantwortlichen Stelle (MDAT)</td></tr><tr><td style=\"white-space:nowrap\">MDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-MDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU\"> </a></td><td>Bereitstellung medizinischer Daten (MDAT) für wissenschaftliche Nutzung</td></tr><tr><td style=\"white-space:nowrap\">MDAT_bereitstellen_studienintern<a name=\"PolicyCS-MDAT_bereitstellen_studienintern\"> </a></td><td>Weitergabe von medizinischen Daten innerhalb der Studie zu Auswertungszwecken</td></tr><tr><td style=\"white-space:nowrap\">MDAT_bereitstellen_intern<a name=\"PolicyCS-MDAT_bereitstellen_intern\"> </a></td><td>Weitergabe von medizinischen Daten innerhalb des Projektes (bspw. DZHK) zu Auswertungszwecken</td></tr><tr><td style=\"white-space:nowrap\">MDAT_bereitstellen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-MDAT_bereitstellen_EU_DSGVO_NIVEAU\"> </a></td><td>Weitergabe von medizinischen Daten an externe Wissenschaftler in DSGVO konformen Ländern</td></tr><tr><td style=\"white-space:nowrap\">MDAT_bereitstellen_non_EU_DSGVO_NIVEAU<a name=\"PolicyCS-MDAT_bereitstellen_non_EU_DSGVO_NIVEAU\"> </a></td><td>Weitergabe von medizinischen Daten an externe Wissenschaftler in nicht DSGVO konformen Ländern</td></tr><tr><td style=\"white-space:nowrap\">MDAT_bereitstellen_pharma<a name=\"PolicyCS-MDAT_bereitstellen_pharma\"> </a></td><td>Weitergabe von medizinischen Daten an eine am Sponsoring beteiligte Pharmafirma</td></tr><tr><td style=\"white-space:nowrap\">MDAT_bereitstellen_CRO<a name=\"PolicyCS-MDAT_bereitstellen_CRO\"> </a></td><td>Weitergabe von medizinischen Daten an eine Clinical Research Organisation</td></tr><tr><td style=\"white-space:nowrap\">MDAT_zusammenfuehren_Dritte<a name=\"PolicyCS-MDAT_zusammenfuehren_Dritte\"> </a></td><td>Zusammenführung medizinischer Daten (MDAT) mit Dritten Forschungspartnern</td></tr><tr><td style=\"white-space:nowrap\">MDAT_Einsicht_Monitoring<a name=\"PolicyCS-MDAT_Einsicht_Monitoring\"> </a></td><td>Einsicht in medizinische Daten im Rahmen des Monitoring</td></tr><tr><td style=\"white-space:nowrap\">MDAT_GECCO83_bereitstellen_NUM_CODEX<a name=\"PolicyCS-MDAT_GECCO83_bereitstellen_NUM_CODEX\"> </a></td><td>Medizinische Daten des GECCO83 Datensatz für wiss. Nutzung in NUM-CODEX Plattform bereitstellen</td></tr><tr><td style=\"white-space:nowrap\">MDAT_GECCO83_speichern_verarbeiten_NUM_CODEX<a name=\"PolicyCS-MDAT_GECCO83_speichern_verarbeiten_NUM_CODEX\"> </a></td><td>Medizinische Daten des GECCO83 Datensatz in NUM-CODEX Plattform speichern und verarbeiten</td></tr><tr><td style=\"white-space:nowrap\">MDAT_GECCO83_bereitstellen_NUM_CODEX_non_EU_DSGVO_NIVEAU<a name=\"PolicyCS-MDAT_GECCO83_bereitstellen_NUM_CODEX_non_EU_DSGVO_NIVEAU\"> </a></td><td>Medizinische Daten des GECCO83 Datensatz an Länder ohne EU Datenschutzniveau weitergeben</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_erheben<a name=\"PolicyCS-IMGDAT_erheben\"> </a></td><td>Erfassung von Bildern und Bilddaten</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_speichern_verarbeiten<a name=\"PolicyCS-IMGDAT_speichern_verarbeiten\"> </a></td><td>Langfristiges Speichern und Verarbeiten von Bildern und Bilddaten</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_bereitstellen_studienintern<a name=\"PolicyCS-IMGDAT_bereitstellen_studienintern\"> </a></td><td>Weitergabe von Bildern und Bilddaten innerhalb der Studie zu Auswertungszwecken</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_bereitstellen_intern<a name=\"PolicyCS-IMGDAT_bereitstellen_intern\"> </a></td><td>Weitergabe von Bildern und Bilddaten innerhalb des Projektes (bspw. DZHK) zu Auswertungszwecken</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_bereitstellen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-IMGDAT_bereitstellen_EU_DSGVO_NIVEAU\"> </a></td><td>Weitergabe von Bildern und Bilddaten an externe Wissenschaftler in DSGVO konformen Ländern</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_bereitstellen_non_EU_DSGVO_NIVEAU<a name=\"PolicyCS-IMGDAT_bereitstellen_non_EU_DSGVO_NIVEAU\"> </a></td><td>Weitergabe von Bildern und Bilddaten an externe Wissenschaftler in nicht DSGVO konformen Ländern</td></tr><tr><td style=\"white-space:nowrap\">IMGDAT_Einsicht_Monitoring<a name=\"PolicyCS-IMGDAT_Einsicht_Monitoring\"> </a></td><td>Einsicht in Bilder und Bilddaten im Rahmen des Monitoring</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_erheben<a name=\"PolicyCS-BIOMAT_erheben\"> </a></td><td>Gewinnung und/oder Entnahme von Biomaterialien und medizinischen Proben</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_erheben_studienintern<a name=\"PolicyCS-BIOMAT_erheben_studienintern\"> </a></td><td>Gewinnung von dem Studienbiomaterial zugeordneten medizinischen Proben ohne Veränderung</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_lagern_verarbeiten_studienintern<a name=\"PolicyCS-BIOMAT_lagern_verarbeiten_studienintern\"> </a></td><td>Langfristiges Ablegen von dem Studienbiomaterial zugeordneten medizinischen Proben</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_lagern_verarbeiten<a name=\"PolicyCS-BIOMAT_lagern_verarbeiten\"> </a></td><td>Lagerung und Verarbeitung von Biomaterialien innerhalb der verantwortlichen Stelle (BIOMAT)</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_bereitstellen_studienintern<a name=\"PolicyCS-BIOMAT_bereitstellen_studienintern\"> </a></td><td>Weitergabe von medizinischen Proben innerhalb der Studie zu Auswertungszwecken</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_bereitstellen_intern<a name=\"PolicyCS-BIOMAT_bereitstellen_intern\"> </a></td><td>Weitergabe von medizinischen Proben innerhalb des Projektes (bspw. DZHK) zu Auswertungszwecken</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_bereitstellen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-BIOMAT_bereitstellen_EU_DSGVO_NIVEAU\"> </a></td><td>Weitergabe von medizinischen Proben an externe Wissenschaftler in DSGVO konformen Ländern</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_bereitstellen_non_EU_DSGVO_NIVEAU<a name=\"PolicyCS-BIOMAT_bereitstellen_non_EU_DSGVO_NIVEAU\"> </a></td><td>Weitergabe von medizinischen Proben an externe Wissenschaftler in nicht DSGVO konformen Ländern</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_Eigentum_uebertragen<a name=\"PolicyCS-BIOMAT_Eigentum_uebertragen\"> </a></td><td>Eigentumsübertragung der BIOMAT an den Träger der Biobank</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-BIOMAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU\"> </a></td><td>Bereitstellung Biomaterialien (BIOMAT) für wissenschaftliche Nutzung und Analysen</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_Analysedaten_zusammenfuehren_Dritte<a name=\"PolicyCS-BIOMAT_Analysedaten_zusammenfuehren_Dritte\"> </a></td><td>Zusammenführen von auf Biomaterialien (BIOMAT) basierenden Analysedaten mit Analysedaten Dritter</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_Zusatzmengen_entnehmen<a name=\"PolicyCS-BIOMAT_Zusatzmengen_entnehmen\"> </a></td><td>Entnahme zusätzlicher Mengen von Biomaterialien (BIOMAT)</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_Einsicht_Monitoring<a name=\"PolicyCS-BIOMAT_Einsicht_Monitoring\"> </a></td><td>Einsicht in medizinische Proben im Rahmen des Monitoring</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_Genanalyse<a name=\"PolicyCS-BIOMAT_Genanalyse\"> </a></td><td>Gewinnung von genetischen Daten aus Biomaterialien</td></tr><tr><td style=\"white-space:nowrap\">KDAT_retro_uebertragen<a name=\"PolicyCS-KDAT_retro_uebertragen\"> </a></td><td>Krankenkassendaten (KDAT) für retrospektiv übertragen</td></tr><tr><td style=\"white-space:nowrap\">KDAT_retro_speichern_verarbeiten<a name=\"PolicyCS-KDAT_retro_speichern_verarbeiten\"> </a></td><td>Krankenkassendaten (KDAT) retrospektiv speichern_verarbeiten in der verantwortlichen Stelle</td></tr><tr><td style=\"white-space:nowrap\">KDAT_retro_wissenschaftlich_nutzen<a name=\"PolicyCS-KDAT_retro_wissenschaftlich_nutzen\"> </a></td><td>Krankenkassendaten (KDAT) retrospektiv wissenschaftlich nutzen</td></tr><tr><td style=\"white-space:nowrap\">KDAT_pro_uebertragen<a name=\"PolicyCS-KDAT_pro_uebertragen\"> </a></td><td>Krankenkassendaten (KDAT) prospektiv übertragen</td></tr><tr><td style=\"white-space:nowrap\">KDAT_pro_speichern_verarbeiten<a name=\"PolicyCS-KDAT_pro_speichern_verarbeiten\"> </a></td><td>Krankenkassendaten (KDAT) prospektiv speichern verarbeiten in der verantwortlichen Stelle</td></tr><tr><td style=\"white-space:nowrap\">KDAT_pro_wissenschaftlich_nutzen<a name=\"PolicyCS-KDAT_pro_wissenschaftlich_nutzen\"> </a></td><td>Krankenkassendaten (KDAT) prospektiv wissenschaftlich nutzen</td></tr><tr><td style=\"white-space:nowrap\">Rekontaktierung_Abfrage_Gesundheitszustand<a name=\"PolicyCS-Rekontaktierung_Abfrage_Gesundheitszustand\"> </a></td><td>Rekontaktierung des Teilnehmers zur Abfrage des Gesundheitszustandes</td></tr><tr><td style=\"white-space:nowrap\">Rekontaktierung_Verknuepfung_Datenbanken<a name=\"PolicyCS-Rekontaktierung_Verknuepfung_Datenbanken\"> </a></td><td>Rekontaktierung zur Verknüpfung von PatDat mit Info anderer Dbs</td></tr><tr><td style=\"white-space:nowrap\">Rekontaktierung_weitere_Studien<a name=\"PolicyCS-Rekontaktierung_weitere_Studien\"> </a></td><td>Rekontaktierung bezüglich Information zu neuen Forschungsvorhaben oder Studien</td></tr><tr><td style=\"white-space:nowrap\">Rekontaktierung_Zufallsbefund<a name=\"PolicyCS-Rekontaktierung_Zufallsbefund\"> </a></td><td>Rekontaktierung des Teilnehmers zur Mitteilung von Zufallsbefunden</td></tr><tr><td style=\"white-space:nowrap\">Rekontaktierung_weitere_Erhebung<a name=\"PolicyCS-Rekontaktierung_weitere_Erhebung\"> </a></td><td>Rekontaktierung bezüglich Erhebung zusätzlicher Daten</td></tr><tr><td style=\"white-space:nowrap\">Information_Hausarzt_Studienteilnahme<a name=\"PolicyCS-Information_Hausarzt_Studienteilnahme\"> </a></td><td>Information des Hausarztes über die Teilnahme des Patienten an der Studie</td></tr><tr><td style=\"white-space:nowrap\">Information_Arzt_Studienteilnahme<a name=\"PolicyCS-Information_Arzt_Studienteilnahme\"> </a></td><td>Information eines Facharztes des Patienten über die Teilnahme des Patienten an der Studie</td></tr><tr><td style=\"white-space:nowrap\">MDAT_retro_speichern_verarbeiten<a name=\"PolicyCS-MDAT_retro_speichern_verarbeiten\"> </a></td><td>Speicherung und retrospektive Verarbeitung von medizinischen Daten innerhalb der verantwortlichen Stelle (MDAT)</td></tr><tr><td style=\"white-space:nowrap\">MDAT_retro_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-MDAT_retro_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU\"> </a></td><td>Retrospektive Bereitstellung medizinischer Daten (MDAT) für wissenschaftliche Nutzung</td></tr><tr><td style=\"white-space:nowrap\">MDAT_retro_zusammenfuehren_Dritte<a name=\"PolicyCS-MDAT_retro_zusammenfuehren_Dritte\"> </a></td><td>Retrospektive Zusammenführung medizinischer Daten (MDAT) mit Dritten Forschungspartnern</td></tr><tr><td style=\"white-space:nowrap\">MDAT_wissenschaftlich_nutzen_non_EU_DSGVO_NIVEAU<a name=\"PolicyCS-MDAT_wissenschaftlich_nutzen_non_EU_DSGVO_NIVEAU\"> </a></td><td>Bereitstellung medizinische Daten (MDAT)  für wissenschaftliche Nutzung  und Analysen für Länder ohne EU DSGVO Niveau</td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_retro_lagern_verarbeiten<a name=\"PolicyCS-BIOMAT_retro_lagern_verarbeiten\"> </a></td><td>Retrospektive Lagerung und Verarbeitung von Biomaterialien innerhalb der verantwortlichen Stelle (BIOMAT) </td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_retro_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU<a name=\"PolicyCS-BIOMAT_retro_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU\"> </a></td><td>Retrospektive Bereitstellung Biomaterialien (BIOMAT) für wissenschaftliche Nutzung und Analysen</td></tr><tr><td style=\"white-space:nowrap\">SDAT_erheben_KV<a name=\"PolicyCS-SDAT_erheben_KV\"> </a></td><td>Erfassung Sozialversicherungsdaten von Krankenversicherungen (SDAT)</td></tr><tr><td style=\"white-space:nowrap\">SDAT_erheben_RV<a name=\"PolicyCS-SDAT_erheben_RV\"> </a></td><td>Erfassung Sozialversicherungsdaten von Rentenversicherungen (SDAT)</td></tr><tr><td style=\"white-space:nowrap\">SDAT_speichern_verarbeiten_KV<a name=\"PolicyCS-SDAT_speichern_verarbeiten_KV\"> </a></td><td>Speicherung und Verarbeitung von codierten Sozialversicherungsdaten von Krankenversicherungen zu Zwecken med. Forschung innerhalb der verantwortlichen Stelle (SDAT)</td></tr><tr><td style=\"white-space:nowrap\">SDAT_speichern_verarbeiten_RV<a name=\"PolicyCS-SDAT_speichern_verarbeiten_RV\"> </a></td><td>Speicherung und Verarbeitung von codierten Sozialversicherungsdaten von Rentenversicherungen zu Zwecken med. Forschung innerhalb der verantwortlichen Stelle (SDAT)</td></tr><tr><td style=\"white-space:nowrap\">SDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU_KV<a name=\"PolicyCS-SDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU_KV\"> </a></td><td>Bereitstellung umcodierter Sozialversicherungsdaten von Krankenversicherungen für wissenschaftliche Nutzung zu Zwecken med. Forschung an externe Forscher</td></tr><tr><td style=\"white-space:nowrap\">SDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU_RV<a name=\"PolicyCS-SDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU_RV\"> </a></td><td>Bereitstellung umcodierter Sozialversicherungsdaten von Rentenversicherungen für wissenschaftliche Nutzung zu Zwecken med. Forschung an externe Forscher</td></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy",
+  "version" : "2025.1.0",
+  "name" : "Policy",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Policies used in consent management",
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 75,
+  "concept" : [{
+    "code" : "IDAT_erheben",
+    "display" : "Erfassung neuer identifizierender Daten (IDAT)"
+  },
+  {
+    "code" : "IDAT_erheben_Institutionen",
+    "display" : "Erfassung identifizierender Daten durch Anfrage bei Melderegister oder Krankenversicherung"
+  },
+  {
+    "code" : "IDAT_speichern_verarbeiten",
+    "display" : "Speicherung und Verarbeitung identifizierender Daten (IDAT) in der verantwortlichen Stelle"
+  },
+  {
+    "code" : "IDAT_bereitstellen_Arzt",
+    "display" : "Weitergabe von identifizierenden Daten an beliebigen Arzt (inkl. Hausarzt)"
+  },
+  {
+    "code" : "IDAT_bereitstellen_Hausarzt",
+    "display" : "Weitergabe von identifizierenden Daten an Hausarzt"
+  },
+  {
+    "code" : "IDAT_bereitstellen_Institutionen",
+    "display" : "Weitergabe von identifizierenden Daten an Melderegeister oder Krankenversicherung zum Zweck der Datenergänzung"
+  },
+  {
+    "code" : "IDAT_bereitstellen_Institutionen_Tod",
+    "display" : "Weitergabe von identifizierenden Daten an Melderegeister oder Krankenversicherung zum Zweck der Datenergänzung im Falle des Todes"
+  },
+  {
+    "code" : "IDAT_bereitstellen_EU_DSGVO_NIVEAU",
+    "display" : "Herausgabe identifizierender Daten (IDAT) an verantwortliche Stelle zur weiteren Verarbeitung"
+  },
+  {
+    "code" : "IDAT_Einsicht_Monitoring",
+    "display" : "Einsicht in identifizierende Daten im Rahmen des Monitoring"
+  },
+  {
+    "code" : "IDAT_zusammenfuehren_Dritte",
+    "display" : "Zusammenführung identifizierender Daten (IDAT) mit Dritten Forschungspartnern"
+  },
+  {
+    "code" : "MDAT_erheben",
+    "display" : "Erfassung medizinischer Daten"
+  },
+  {
+    "code" : "MDAT_erheben_Arzt",
+    "display" : "Erfassung medizinischer Daten durch Anfrage bei externem Arzt (inkl. Hausarzt)"
+  },
+  {
+    "code" : "MDAT_erheben_Hausarzt",
+    "display" : "Erfassung medizinischer Daten durch Anfrage beim Hausarzt"
+  },
+  {
+    "code" : "MDAT_erheben_Institutionen",
+    "display" : "Erfassung medizinischer Daten durch Anfrage bei Institutionen, wie z.B. Gesundheitsamt, Kassenärztliche Vereinigung, Melderegister oder Krankenversicherung"
+  },
+  {
+    "code" : "MDAT_erheben_Krankenunterlagen",
+    "display" : "Erfassung medizinischer Daten durch Übertrag aus Krankenunterlagen"
+  },
+  {
+    "code" : "MDAT_erheben_Tod",
+    "display" : "Erfassung von medizinischen Daten zum Zwecke der Datenergänzung im Falle des Todes"
+  },
+  {
+    "code" : "MDAT_speichern_verarbeiten",
+    "display" : "Speicherung_Verarbeitung von medizinischen Daten innerhalb der verantwortlichen Stelle (MDAT)"
+  },
+  {
+    "code" : "MDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU",
+    "display" : "Bereitstellung medizinischer Daten (MDAT) für wissenschaftliche Nutzung"
+  },
+  {
+    "code" : "MDAT_bereitstellen_studienintern",
+    "display" : "Weitergabe von medizinischen Daten innerhalb der Studie zu Auswertungszwecken"
+  },
+  {
+    "code" : "MDAT_bereitstellen_intern",
+    "display" : "Weitergabe von medizinischen Daten innerhalb des Projektes (bspw. DZHK) zu Auswertungszwecken"
+  },
+  {
+    "code" : "MDAT_bereitstellen_EU_DSGVO_NIVEAU",
+    "display" : "Weitergabe von medizinischen Daten an externe Wissenschaftler in DSGVO konformen Ländern"
+  },
+  {
+    "code" : "MDAT_bereitstellen_non_EU_DSGVO_NIVEAU",
+    "display" : "Weitergabe von medizinischen Daten an externe Wissenschaftler in nicht DSGVO konformen Ländern"
+  },
+  {
+    "code" : "MDAT_bereitstellen_pharma",
+    "display" : "Weitergabe von medizinischen Daten an eine am Sponsoring beteiligte Pharmafirma"
+  },
+  {
+    "code" : "MDAT_bereitstellen_CRO",
+    "display" : "Weitergabe von medizinischen Daten an eine Clinical Research Organisation"
+  },
+  {
+    "code" : "MDAT_zusammenfuehren_Dritte",
+    "display" : "Zusammenführung medizinischer Daten (MDAT) mit Dritten Forschungspartnern"
+  },
+  {
+    "code" : "MDAT_Einsicht_Monitoring",
+    "display" : "Einsicht in medizinische Daten im Rahmen des Monitoring"
+  },
+  {
+    "code" : "MDAT_GECCO83_bereitstellen_NUM_CODEX",
+    "display" : "Medizinische Daten des GECCO83 Datensatz für wiss. Nutzung in NUM-CODEX Plattform bereitstellen"
+  },
+  {
+    "code" : "MDAT_GECCO83_speichern_verarbeiten_NUM_CODEX",
+    "display" : "Medizinische Daten des GECCO83 Datensatz in NUM-CODEX Plattform speichern und verarbeiten"
+  },
+  {
+    "code" : "MDAT_GECCO83_bereitstellen_NUM_CODEX_non_EU_DSGVO_NIVEAU",
+    "display" : "Medizinische Daten des GECCO83 Datensatz an Länder ohne EU Datenschutzniveau weitergeben"
+  },
+  {
+    "code" : "IMGDAT_erheben",
+    "display" : "Erfassung von Bildern und Bilddaten"
+  },
+  {
+    "code" : "IMGDAT_speichern_verarbeiten",
+    "display" : "Langfristiges Speichern und Verarbeiten von Bildern und Bilddaten"
+  },
+  {
+    "code" : "IMGDAT_bereitstellen_studienintern",
+    "display" : "Weitergabe von Bildern und Bilddaten innerhalb der Studie zu Auswertungszwecken"
+  },
+  {
+    "code" : "IMGDAT_bereitstellen_intern",
+    "display" : "Weitergabe von Bildern und Bilddaten innerhalb des Projektes (bspw. DZHK) zu Auswertungszwecken"
+  },
+  {
+    "code" : "IMGDAT_bereitstellen_EU_DSGVO_NIVEAU",
+    "display" : "Weitergabe von Bildern und Bilddaten an externe Wissenschaftler in DSGVO konformen Ländern"
+  },
+  {
+    "code" : "IMGDAT_bereitstellen_non_EU_DSGVO_NIVEAU",
+    "display" : "Weitergabe von Bildern und Bilddaten an externe Wissenschaftler in nicht DSGVO konformen Ländern"
+  },
+  {
+    "code" : "IMGDAT_Einsicht_Monitoring",
+    "display" : "Einsicht in Bilder und Bilddaten im Rahmen des Monitoring"
+  },
+  {
+    "code" : "BIOMAT_erheben",
+    "display" : "Gewinnung und/oder Entnahme von Biomaterialien und medizinischen Proben"
+  },
+  {
+    "code" : "BIOMAT_erheben_studienintern",
+    "display" : "Gewinnung von dem Studienbiomaterial zugeordneten medizinischen Proben ohne Veränderung"
+  },
+  {
+    "code" : "BIOMAT_lagern_verarbeiten_studienintern",
+    "display" : "Langfristiges Ablegen von dem Studienbiomaterial zugeordneten medizinischen Proben"
+  },
+  {
+    "code" : "BIOMAT_lagern_verarbeiten",
+    "display" : "Lagerung und Verarbeitung von Biomaterialien innerhalb der verantwortlichen Stelle (BIOMAT)"
+  },
+  {
+    "code" : "BIOMAT_bereitstellen_studienintern",
+    "display" : "Weitergabe von medizinischen Proben innerhalb der Studie zu Auswertungszwecken"
+  },
+  {
+    "code" : "BIOMAT_bereitstellen_intern",
+    "display" : "Weitergabe von medizinischen Proben innerhalb des Projektes (bspw. DZHK) zu Auswertungszwecken"
+  },
+  {
+    "code" : "BIOMAT_bereitstellen_EU_DSGVO_NIVEAU",
+    "display" : "Weitergabe von medizinischen Proben an externe Wissenschaftler in DSGVO konformen Ländern"
+  },
+  {
+    "code" : "BIOMAT_bereitstellen_non_EU_DSGVO_NIVEAU",
+    "display" : "Weitergabe von medizinischen Proben an externe Wissenschaftler in nicht DSGVO konformen Ländern"
+  },
+  {
+    "code" : "BIOMAT_Eigentum_uebertragen",
+    "display" : "Eigentumsübertragung der BIOMAT an den Träger der Biobank"
+  },
+  {
+    "code" : "BIOMAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU",
+    "display" : "Bereitstellung Biomaterialien (BIOMAT) für wissenschaftliche Nutzung und Analysen"
+  },
+  {
+    "code" : "BIOMAT_Analysedaten_zusammenfuehren_Dritte",
+    "display" : "Zusammenführen von auf Biomaterialien (BIOMAT) basierenden Analysedaten mit Analysedaten Dritter"
+  },
+  {
+    "code" : "BIOMAT_Zusatzmengen_entnehmen",
+    "display" : "Entnahme zusätzlicher Mengen von Biomaterialien (BIOMAT)"
+  },
+  {
+    "code" : "BIOMAT_Einsicht_Monitoring",
+    "display" : "Einsicht in medizinische Proben im Rahmen des Monitoring"
+  },
+  {
+    "code" : "BIOMAT_Genanalyse",
+    "display" : "Gewinnung von genetischen Daten aus Biomaterialien"
+  },
+  {
+    "code" : "KDAT_retro_uebertragen",
+    "display" : "Krankenkassendaten (KDAT) für retrospektiv übertragen"
+  },
+  {
+    "code" : "KDAT_retro_speichern_verarbeiten",
+    "display" : "Krankenkassendaten (KDAT) retrospektiv speichern_verarbeiten in der verantwortlichen Stelle"
+  },
+  {
+    "code" : "KDAT_retro_wissenschaftlich_nutzen",
+    "display" : "Krankenkassendaten (KDAT) retrospektiv wissenschaftlich nutzen"
+  },
+  {
+    "code" : "KDAT_pro_uebertragen",
+    "display" : "Krankenkassendaten (KDAT) prospektiv übertragen"
+  },
+  {
+    "code" : "KDAT_pro_speichern_verarbeiten",
+    "display" : "Krankenkassendaten (KDAT) prospektiv speichern verarbeiten in der verantwortlichen Stelle"
+  },
+  {
+    "code" : "KDAT_pro_wissenschaftlich_nutzen",
+    "display" : "Krankenkassendaten (KDAT) prospektiv wissenschaftlich nutzen"
+  },
+  {
+    "code" : "Rekontaktierung_Abfrage_Gesundheitszustand",
+    "display" : "Rekontaktierung des Teilnehmers zur Abfrage des Gesundheitszustandes"
+  },
+  {
+    "code" : "Rekontaktierung_Verknuepfung_Datenbanken",
+    "display" : "Rekontaktierung zur Verknüpfung von PatDat mit Info anderer Dbs"
+  },
+  {
+    "code" : "Rekontaktierung_weitere_Studien",
+    "display" : "Rekontaktierung bezüglich Information zu neuen Forschungsvorhaben oder Studien"
+  },
+  {
+    "code" : "Rekontaktierung_Zufallsbefund",
+    "display" : "Rekontaktierung des Teilnehmers zur Mitteilung von Zufallsbefunden"
+  },
+  {
+    "code" : "Rekontaktierung_weitere_Erhebung",
+    "display" : "Rekontaktierung bezüglich Erhebung zusätzlicher Daten"
+  },
+  {
+    "code" : "Information_Hausarzt_Studienteilnahme",
+    "display" : "Information des Hausarztes über die Teilnahme des Patienten an der Studie"
+  },
+  {
+    "code" : "Information_Arzt_Studienteilnahme",
+    "display" : "Information eines Facharztes des Patienten über die Teilnahme des Patienten an der Studie"
+  },
+  {
+    "code" : "MDAT_retro_speichern_verarbeiten",
+    "display" : "Speicherung und retrospektive Verarbeitung von medizinischen Daten innerhalb der verantwortlichen Stelle (MDAT)"
+  },
+  {
+    "code" : "MDAT_retro_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU",
+    "display" : "Retrospektive Bereitstellung medizinischer Daten (MDAT) für wissenschaftliche Nutzung"
+  },
+  {
+    "code" : "MDAT_retro_zusammenfuehren_Dritte",
+    "display" : "Retrospektive Zusammenführung medizinischer Daten (MDAT) mit Dritten Forschungspartnern"
+  },
+  {
+    "code" : "MDAT_wissenschaftlich_nutzen_non_EU_DSGVO_NIVEAU",
+    "display" : "Bereitstellung medizinische Daten (MDAT)  für wissenschaftliche Nutzung  und Analysen für Länder ohne EU DSGVO Niveau"
+  },
+  {
+    "code" : "BIOMAT_retro_lagern_verarbeiten",
+    "display" : "Retrospektive Lagerung und Verarbeitung von Biomaterialien innerhalb der verantwortlichen Stelle (BIOMAT) "
+  },
+  {
+    "code" : "BIOMAT_retro_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU",
+    "display" : "Retrospektive Bereitstellung Biomaterialien (BIOMAT) für wissenschaftliche Nutzung und Analysen"
+  },
+  {
+    "code" : "SDAT_erheben_KV",
+    "display" : "Erfassung Sozialversicherungsdaten von Krankenversicherungen (SDAT)"
+  },
+  {
+    "code" : "SDAT_erheben_RV",
+    "display" : "Erfassung Sozialversicherungsdaten von Rentenversicherungen (SDAT)"
+  },
+  {
+    "code" : "SDAT_speichern_verarbeiten_KV",
+    "display" : "Speicherung und Verarbeitung von codierten Sozialversicherungsdaten von Krankenversicherungen zu Zwecken med. Forschung innerhalb der verantwortlichen Stelle (SDAT)"
+  },
+  {
+    "code" : "SDAT_speichern_verarbeiten_RV",
+    "display" : "Speicherung und Verarbeitung von codierten Sozialversicherungsdaten von Rentenversicherungen zu Zwecken med. Forschung innerhalb der verantwortlichen Stelle (SDAT)"
+  },
+  {
+    "code" : "SDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU_KV",
+    "display" : "Bereitstellung umcodierter Sozialversicherungsdaten von Krankenversicherungen für wissenschaftliche Nutzung zu Zwecken med. Forschung an externe Forscher"
+  },
+  {
+    "code" : "SDAT_wissenschaftlich_nutzen_EU_DSGVO_NIVEAU_RV",
+    "display" : "Bereitstellung umcodierter Sozialversicherungsdaten von Rentenversicherungen für wissenschaftliche Nutzung zu Zwecken med. Forschung an externe Forscher"
+  }]
+}

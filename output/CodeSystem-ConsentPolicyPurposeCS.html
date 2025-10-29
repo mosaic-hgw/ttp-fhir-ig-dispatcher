@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ConsentPolicyPurpose -  v2025.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/ttp-fhir-ig.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"8.36"}
+    h3,h4,h5,h6{--heading-prefix:"8.36"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<div id="hl7-nav"> 
+    <a id="hl7-logo" no-external="true" href="index.html">
+        <img alt="THS Greifswald" src="assets/images/Design-Logo-THS-deutsch-271-padding.png"/>
+    </a>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">2025.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Allgemeines
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Beschreibung.html">Beschreibung</a>
+      </li>
+      <li>
+        <a href="KontextUndKonzept.html">Kontext und Konzept</a>
+      </li>
+      <li>
+        <a href="TechnischeGrundlagen.html">Technische Grundlagen</a>
+      </li>
+      <li>
+        <a href="UbergreifendeSchnittstellen.html">Übergreifende Schnittstellen</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profile
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="StructureDefinition-Idat.html">IDAT</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Operationen
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="OperationDefinition-RequestPsnWorkflow.html">requestPsnWorkflow</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-RequestPsnFromBfWorkflow.html">requestPsnFromBfWorkflow</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-RequestTasks.html">requestTasks</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-ProvidePatientData.html">providePatientData</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-UpdateBf.html">updateBf</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-PseudonymizePatient.html">pseudonymizePatient</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ConsentPolicyPurpose</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewaybergreifendeSchnittstellen - Local Development build (v2025.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-ConsentPolicyPurposeCS.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-ConsentPolicyPurposeCS.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-ConsentPolicyPurposeCS.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: ConsentPolicyPurpose
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">2025.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose|2025.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2025-06-12
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ConsentPolicyPurpose</span></td>
+    </tr>
+
+
+
+
+    <tr>
+      <td colspan="5"><p><em>Copyright/Legal</em>: Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</p>
+</td>
+    </tr>
+
+  </table>
+
+<p>
+<p>Expandable specification of the application context and/or scope of a consent policy or module</p>
+
+</p>
+
+<p>
+<p>Third axis 'purpose' of the 'Semantic Consent Code (SCC)' for use as Consent.provision.purpose</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul><li>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</li></ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="ConsentPolicyPurposeCS"> </a><a name="hcConsentPolicyPurposeCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">health_state<a name="ConsentPolicyPurposeCS-health_state"> </a></td>
+<td>health_state</td></tr>
+<tr><td style="white-space:nowrap">general_practitioner<a name="ConsentPolicyPurposeCS-general_practitioner"> </a></td>
+<td>general_practitioner</td></tr>
+<tr><td style="white-space:nowrap">physician<a name="ConsentPolicyPurposeCS-physician"> </a></td>
+<td>physician</td></tr>
+<tr><td style="white-space:nowrap">CRO<a name="ConsentPolicyPurposeCS-CRO"> </a></td>
+<td>CRO</td></tr>
+<tr><td style="white-space:nowrap">third_parties<a name="ConsentPolicyPurposeCS-third_parties"> </a></td>
+<td>third_parties</td></tr>
+<tr><td style="white-space:nowrap">EU_GDPR_LEVEL<a name="ConsentPolicyPurposeCS-EU_GDPR_LEVEL"> </a></td>
+<td>EU_GDPR_LEVEL</td></tr>
+<tr><td style="white-space:nowrap">non_EU_GDPR_LEVEL<a name="ConsentPolicyPurposeCS-non_EU_GDPR_LEVEL"> </a></td>
+<td>non_EU_GDPR_LEVEL</td></tr>
+<tr><td style="white-space:nowrap">industry<a name="ConsentPolicyPurposeCS-industry"> </a></td>
+<td>industry</td></tr>
+<tr><td style="white-space:nowrap">health_records<a name="ConsentPolicyPurposeCS-health_records"> </a></td>
+<td>health_records</td></tr>
+<tr><td style="white-space:nowrap">monitoring<a name="ConsentPolicyPurposeCS-monitoring"> </a></td>
+<td>monitoring</td></tr>
+<tr><td style="white-space:nowrap">non_profit<a name="ConsentPolicyPurposeCS-non_profit"> </a></td>
+<td>non_profit</td></tr>
+<tr><td style="white-space:nowrap">pharma<a name="ConsentPolicyPurposeCS-pharma"> </a></td>
+<td>pharma</td></tr>
+<tr><td style="white-space:nowrap">project_specific<a name="ConsentPolicyPurposeCS-project_specific"> </a></td>
+<td>project_specific</td></tr>
+<tr><td style="white-space:nowrap">project_participation<a name="ConsentPolicyPurposeCS-project_participation"> </a></td>
+<td>project_participation</td></tr>
+<tr><td style="white-space:nowrap">death<a name="ConsentPolicyPurposeCS-death"> </a></td>
+<td>death</td></tr>
+<tr><td style="white-space:nowrap">timely_unrestricted<a name="ConsentPolicyPurposeCS-timely_unrestricted"> </a></td>
+<td>timely_unrestricted </td></tr>
+<tr><td style="white-space:nowrap">timely_restricted<a name="ConsentPolicyPurposeCS-timely_restricted"> </a></td>
+<td>timely_restricted</td></tr>
+<tr><td style="white-space:nowrap">once<a name="ConsentPolicyPurposeCS-once"> </a></td>
+<td>once</td></tr>
+<tr><td style="white-space:nowrap">databases<a name="ConsentPolicyPurposeCS-databases"> </a></td>
+<td>databases</td></tr>
+<tr><td style="white-space:nowrap">additional_collection<a name="ConsentPolicyPurposeCS-additional_collection"> </a></td>
+<td>additional_collection</td></tr>
+<tr><td style="white-space:nowrap">additional_studies<a name="ConsentPolicyPurposeCS-additional_studies"> </a></td>
+<td>additional_studies</td></tr>
+<tr><td style="white-space:nowrap">additional_findings<a name="ConsentPolicyPurposeCS-additional_findings"> </a></td>
+<td>additional_findings</td></tr>
+<tr><td style="white-space:nowrap">HI<a name="ConsentPolicyPurposeCS-HI"> </a></td>
+<td>HI</td></tr>
+<tr><td style="white-space:nowrap">PI<a name="ConsentPolicyPurposeCS-PI"> </a></td>
+<td>PI</td></tr>
+<tr><td style="white-space:nowrap">results<a name="ConsentPolicyPurposeCS-results"> </a></td>
+<td>results</td></tr>
+<tr><td style="white-space:nowrap">significant<a name="ConsentPolicyPurposeCS-significant"> </a></td>
+<td>significant</td></tr>
+<tr><td style="white-space:nowrap">quality_assurance<a name="ConsentPolicyPurposeCS-quality_assurance"> </a></td>
+<td>quality_assurance </td></tr>
+<tr><td style="white-space:nowrap">scientific<a name="ConsentPolicyPurposeCS-scientific"> </a></td>
+<td>scientific</td></tr>
+<tr><td style="white-space:nowrap">highly_specific<a name="ConsentPolicyPurposeCS-highly_specific"> </a></td>
+<td>highly_specific</td></tr>
+<tr><td style="white-space:nowrap">legally_based_registry<a name="ConsentPolicyPurposeCS-legally_based_registry"> </a></td>
+<td>legally_based_registry</td></tr>
+<tr><td style="white-space:nowrap">laboratory<a name="ConsentPolicyPurposeCS-laboratory"> </a></td>
+<td>laboratory</td></tr>
+<tr><td style="white-space:nowrap">genetic<a name="ConsentPolicyPurposeCS-genetic"> </a></td>
+<td>genetic</td></tr>
+<tr><td style="white-space:nowrap">authority<a name="ConsentPolicyPurposeCS-authority"> </a></td>
+<td>authority</td></tr></table><p><b>Additional Language Displays</b></p>
+<table class="codes" data-fhir="generated"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr>
+<tr><td>health_state</td>
+<td>Gesundheitszustand</td>
+<td>the state of health</td></tr>
+<tr><td>general_practitioner</td>
+<td>Arzt</td>
+<td>from/to the general practitioner /family doctor</td></tr>
+<tr><td>physician</td>
+<td>Hausarzt</td>
+<td>from/to the physician</td></tr>
+<tr><td>CRO</td>
+<td>CRO</td>
+<td>from/to a clinical research organisation</td></tr>
+<tr><td>third_parties</td>
+<td>Dritte</td>
+<td>from/to third parties /with third party research partner(s)</td></tr>
+<tr><td>EU_GDPR_LEVEL</td>
+<td>EU_DSGVO_NIVEAU</td>
+<td>to countries with EU data protection level</td></tr>
+<tr><td>non_EU_GDPR_LEVEL</td>
+<td>non_EU_DSGVO_NIVEAU</td>
+<td>to countries without EU data protection level</td></tr>
+<tr><td>industry</td>
+<td>Industrie</td>
+<td>to partners from the industrial sector</td></tr>
+<tr><td>health_records</td>
+<td>Krankenunterlagen</td>
+<td>by transfer to/from (electronic) health records</td></tr>
+<tr><td>monitoring</td>
+<td>Monitoring</td>
+<td>as part of a monitoring</td></tr>
+<tr><td>non_profit</td>
+<td>non_profit</td>
+<td>to partners from non-profit organisations</td></tr>
+<tr><td>pharma</td>
+<td>pharma</td>
+<td>to a pharmaceutical company involved in the sponsorship</td></tr>
+<tr><td>project_specific</td>
+<td>Vorhaben_spezifisch</td>
+<td>for a  specific research project or study</td></tr>
+<tr><td>project_participation</td>
+<td>Vorhaben_Teilnahme</td>
+<td>on the participation of the data subject in the specific project or a specific study</td></tr>
+<tr><td>death</td>
+<td>Tod</td>
+<td>in the event of the death of the person concerned</td></tr>
+<tr><td>timely_unrestricted</td>
+<td>uneingeschraenkt</td>
+<td> without timely restriction</td></tr>
+<tr><td>timely_restricted</td>
+<td>zeitlich_eingeschraenkt</td>
+<td>with timely restriction</td></tr>
+<tr><td>once</td>
+<td>einmalig</td>
+<td>once</td></tr>
+<tr><td>databases</td>
+<td>Datenbanken</td>
+<td>information from other databases</td></tr>
+<tr><td>additional_collection</td>
+<td>weitere_Erhebungen</td>
+<td>collection of additional [CLASS]</td></tr>
+<tr><td>additional_studies</td>
+<td>weitere_Studien</td>
+<td>information on new projects or studies</td></tr>
+<tr><td>additional_findings</td>
+<td>Zusatzbefund</td>
+<td>notification of additional or incidental findings</td></tr>
+<tr><td>HI</td>
+<td>KV</td>
+<td>from/to health insurances</td></tr>
+<tr><td>PI</td>
+<td>RV</td>
+<td>from/to pension insurances</td></tr>
+<tr><td>results</td>
+<td>Ergebnisse</td>
+<td>communication of research results</td></tr>
+<tr><td>significant</td>
+<td>Erhebliche_Bedeutung</td>
+<td>[PURPOSE] with considerable significance</td></tr>
+<tr><td>quality_assurance</td>
+<td>qualitaetssicherung</td>
+<td>for quality assurance purposes</td></tr>
+<tr><td>scientific</td>
+<td>wissenschaftlich</td>
+<td>in a scientific context</td></tr>
+<tr><td>highly_specific</td>
+<td>hochspezifisch</td>
+<td>in a relevant highly specific way</td></tr>
+<tr><td>legally_based_registry</td>
+<td>gesetzliches_register</td>
+<td>within the framework of a register on a legal basis</td></tr>
+<tr><td>laboratory</td>
+<td>Labor</td>
+<td>in a / of a laboratory</td></tr>
+<tr><td>genetic</td>
+<td>genetisch</td>
+<td>genetic</td></tr>
+<tr><td>authority</td>
+<td>behörde</td>
+<td>in / from / by an authority</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 29, 2025 12:10+0100">2025-10-29</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-RequestTasks-request-example-1"/>
+  <parameter>
+    <name value="study"/>
+    <valueString value="mii"/>
+  </parameter>
+  <parameter>
+    <name value="target"/>
+    <valueString value="eyematics"/>
+  </parameter>
+</Parameters>

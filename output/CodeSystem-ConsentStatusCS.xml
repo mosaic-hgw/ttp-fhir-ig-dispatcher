@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ConsentStatusCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ConsentStatusCS</b></p><a name="ConsentStatusCS"> </a><a name="hcConsentStatusCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ACCEPTED<a name="ConsentStatusCS-ACCEPTED"> </a></td><td>ACCEPTED</td></tr><tr><td style="white-space:nowrap">ACCEPTED_OPT_OUT<a name="ConsentStatusCS-ACCEPTED_OPT_OUT"> </a></td><td>ACCEPTED_OPT_OUT</td></tr><tr><td style="white-space:nowrap">DECLINED<a name="ConsentStatusCS-DECLINED"> </a></td><td>DECLINED</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="ConsentStatusCS-UNKNOWN"> </a></td><td>UNKNOWN</td></tr><tr><td style="white-space:nowrap">NOT_ASKED<a name="ConsentStatusCS-NOT_ASKED"> </a></td><td>NOT ASKED</td></tr><tr><td style="white-space:nowrap">NOT_CHOSEN<a name="ConsentStatusCS-NOT_CHOSEN"> </a></td><td>NOT CHOSEN</td></tr><tr><td style="white-space:nowrap">WITHDRAWN<a name="ConsentStatusCS-WITHDRAWN"> </a></td><td>WITHDRAWN</td></tr><tr><td style="white-space:nowrap">INVALIDATED<a name="ConsentStatusCS-INVALIDATED"> </a></td><td>INVALIDATED</td></tr><tr><td style="white-space:nowrap">REFUSED<a name="ConsentStatusCS-REFUSED"> </a></td><td>REFUSED</td></tr><tr><td style="white-space:nowrap">EXPIRED<a name="ConsentStatusCS-EXPIRED"> </a></td><td>EXPIRED</td></tr><tr><td style="white-space:nowrap">OBJECTED<a name="ConsentStatusCS-OBJECTED"> </a></td><td>OBJECTED</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentStatus"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value=" consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y"/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="ACCEPTED"/>
+    <display value="ACCEPTED"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="consent"/>
+      </use>
+      <value value="Ja"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="refusal"/>
+      </use>
+      <value value="Einwilligen"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="withdrawal"/>
+      </use>
+      <value value="Erneut einwilligen"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ACCEPTED_OPT_OUT"/>
+    <display value="ACCEPTED_OPT_OUT"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="consent"/>
+      </use>
+      <value value="Ja (Opt-Out)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DECLINED"/>
+    <display value="DECLINED"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="consent"/>
+      </use>
+      <value value="Nein"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="refusal"/>
+      </use>
+      <value value="Ja"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="UNKNOWN"/>
+    <display value="UNKNOWN"/>
+  </concept>
+  <concept>
+    <code value="NOT_ASKED"/>
+    <display value="NOT ASKED"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="consent"/>
+      </use>
+      <value value="Nicht gefragt"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="refusal"/>
+      </use>
+      <value value="Nicht gefragt"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="withdrawal"/>
+      </use>
+      <value value="Nicht gefragt"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NOT_CHOSEN"/>
+    <display value="NOT CHOSEN"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="consent"/>
+      </use>
+      <value value="Überspringen"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="refusal"/>
+      </use>
+      <value value="Nicht gefragt"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="withdrawal"/>
+      </use>
+      <value value="Nein"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="WITHDRAWN"/>
+    <display value="WITHDRAWN"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="withdrawal"/>
+      </use>
+      <value value="Ja"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="INVALIDATED"/>
+    <display value="INVALIDATED"/>
+  </concept>
+  <concept>
+    <code value="REFUSED"/>
+    <display value="REFUSED"/>
+  </concept>
+  <concept>
+    <code value="EXPIRED"/>
+    <display value="EXPIRED"/>
+  </concept>
+  <concept>
+    <code value="OBJECTED"/>
+    <display value="OBJECTED"/>
+    <designation>
+      <use>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse"/>
+        <code value="consent"/>
+      </use>
+      <value value="Widersprechen"/>
+    </designation>
+  </concept>
+</CodeSystem>

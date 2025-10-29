@@ -1,0 +1,253 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdatElements",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType",
+      "version" : "2025.1.0",
+      "status" : "draft",
+      "name" : "BloomfilterType",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/MatchStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "MatchStatus",
+      "title" : null,
+      "description" : "",
+      "systems" : ["https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus"]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/SaveAction",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "SaveAction",
+      "title" : null,
+      "description" : "",
+      "systems" : ["https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentComponentType",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents",
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyAction",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyAction",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyAction"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyActor",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyActor",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyActor"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyClass",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyClass",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyClass"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyPurpose",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentPolicyPurpose",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatus",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentFullValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusConsentFullValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutFullValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusConsentOptOutFullValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutShortValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusConsentOptOutShortValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentShortValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusConsentShortValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusObjectionFullValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusObjectionFullValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusObjectionShortValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusObjectionShortValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusRefusalFullValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusRefusalFullValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusRefusalShortValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusRefusalShortValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusWithdrawalFullValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusWithdrawalFullValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusWithdrawalShortValues",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatusWithdrawalShortValues",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/IdMatchingType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdMatchingType",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"
+      ]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/Policy",
+      "version" : "2025.1.0",
+      "status" : "draft",
+      "name" : "Policy",
+      "title" : null,
+      "description" : "",
+      "systems" : ["https://ths-greifswald.de/fhir/CodeSystem/gics/Policy"]
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/PolicyStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "PolicyStatus",
+      "title" : null,
+      "description" : "",
+      "systems" : [
+        "http://hl7.org/fhir/consent-provision-type",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ]
+    }
+  ]
+}

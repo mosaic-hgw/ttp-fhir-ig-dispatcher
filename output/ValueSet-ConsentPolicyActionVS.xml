@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ConsentPolicyActionVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ConsentPolicyActionVS</b></p><a name="ConsentPolicyActionVS"> </a><a name="hcConsentPolicyActionVS"> </a><ul><li>Include all codes defined in <code>https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyAction</code><span title="Version is not explicity stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyAction"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentPolicyAction"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <compose>
+    <include>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyAction"/>
+    </include>
+  </compose>
+</ValueSet>

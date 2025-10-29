@@ -1,0 +1,77 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "UpdateBf",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition UpdateBf</b></p><a name=\"UpdateBf\"> </a><a name=\"hcUpdateBf\"> </a><p>URL: [base]/$updateBf</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Studie</p>\n</div></td></tr><tr><td>IN</td><td>bloomfilter</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#base64Binary\">base64Binary</a></td><td/><td><div><p>der hinzu zu fügende Bloomfilter (base64-codiert)</p>\n</div></td></tr><tr><td>IN</td><td>source</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe des Bloomfilter sendenden Standorts (Quell-Domäne)</p>\n</div></td></tr><tr><td>IN</td><td>pseudonym</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Das Pseudonym, dessen Bloomfilter aktualisiert werden soll.</p>\n</div></td></tr><tr><td>IN</td><td>bfVersion</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Bloomfilter-Version.</p>\n</div></td></tr><tr><td>OUT</td><td>return</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/operationoutcome.html\">OperationOutcome</a></td><td/><td><div><p>Rückinformation.</p>\n</div></td></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/UpdateBf",
+  "version" : "2025.1.0",
+  "name" : "UpdateBf",
+  "title" : "updateBf",
+  "status" : "draft",
+  "kind" : "operation",
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Aktualisierung eines bestehenden Bloomfilters (z.B. bei geänderter Konfiguration oder vorheriger fehlerhafter Übermittlung) bezogen auf ein bereits bekanntes Pseudonym.",
+  "affectsState" : true,
+  "code" : "updateBf",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [{
+    "name" : "study",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Angabe der Studie",
+    "type" : "string"
+  },
+  {
+    "name" : "bloomfilter",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "der hinzu zu fügende Bloomfilter (base64-codiert)",
+    "type" : "base64Binary"
+  },
+  {
+    "name" : "source",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Angabe des Bloomfilter sendenden Standorts (Quell-Domäne)",
+    "type" : "string"
+  },
+  {
+    "name" : "pseudonym",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Das Pseudonym, dessen Bloomfilter aktualisiert werden soll.",
+    "type" : "string"
+  },
+  {
+    "name" : "bfVersion",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Bloomfilter-Version.",
+    "type" : "string"
+  },
+  {
+    "name" : "return",
+    "use" : "out",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Rückinformation.",
+    "type" : "OperationOutcome"
+  }]
+}

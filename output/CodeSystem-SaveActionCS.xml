@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SaveActionCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SaveActionCS</b></p><a name="SaveActionCS"> </a><a name="hcSaveActionCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">DONT_SAVE<a name="SaveActionCS-DONT_SAVE"> </a></td><td>don't save</td></tr><tr><td style="white-space:nowrap">DONT_SAVE_ON_PERFECT_MATCH<a name="SaveActionCS-DONT_SAVE_ON_PERFECT_MATCH"> </a></td><td>don't save on perfect match</td></tr><tr><td style="white-space:nowrap">DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS<a name="SaveActionCS-DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS"> </a></td><td>don't save on perfect match except contacts</td></tr><tr><td style="white-space:nowrap">SAVE_ALL<a name="SaveActionCS-SAVE_ALL"> </a></td><td>save all</td></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction"/>
+  <version value="2025.1.0"/>
+  <name value="SaveAction"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Possible save actions in the context of adding patient identities."/>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="DONT_SAVE"/>
+    <display value="don't save"/>
+  </concept>
+  <concept>
+    <code value="DONT_SAVE_ON_PERFECT_MATCH"/>
+    <display value="don't save on perfect match"/>
+  </concept>
+  <concept>
+    <code value="DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS"/>
+    <display value="don't save on perfect match except contacts"/>
+  </concept>
+  <concept>
+    <code value="SAVE_ALL"/>
+    <display value="save all"/>
+  </concept>
+</CodeSystem>

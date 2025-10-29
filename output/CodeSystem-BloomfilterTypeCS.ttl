@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/CodeSystem/BloomfilterTypeCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "BloomfilterTypeCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem BloomfilterTypeCS</b></p><a name=\"BloomfilterTypeCS\"> </a><a name=\"hcBloomfilterTypeCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"BloomfilterTypeCS-A\"> </a></td><td>Dummy-Bloomfilter A</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"BloomfilterTypeCS-B\"> </a></td><td>Dummy-Bloomfilter B</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "2025.1.0"] ; # 
+  fhir:name [ fhir:v "BloomfilterType"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-06-12"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.ths-greifswald.de/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types of Bloomfilters."] ; # 
+  fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "Dummy-Bloomfilter A" ]
+  ] [
+     fhir:code [ fhir:v "B" ] ;
+     fhir:display [ fhir:v "Dummy-Bloomfilter B" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

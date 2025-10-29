@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-UpdateBf-request-example-1"/>
+  <parameter>
+    <name value="study"/>
+    <valueString value="mii"/>
+  </parameter>
+  <parameter>
+    <name value="bloomfilter"/>
+    <valueBase64Binary value="SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="/>
+  </parameter>
+  <parameter>
+    <name value="source"/>
+    <valueString value="dic_muenster"/>
+  </parameter>
+  <parameter>
+    <name value="pseudonym"/>
+    <valueString value="dic_2Q42E"/>
+  </parameter>
+  <parameter>
+    <name value="bfVersion"/>
+    <valueString value="2"/>
+  </parameter>
+</Parameters>

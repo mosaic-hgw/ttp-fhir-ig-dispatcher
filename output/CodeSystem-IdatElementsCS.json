@@ -1,0 +1,87 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "IdatElementsCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem IdatElementsCS</b></p><a name=\"IdatElementsCS\"> </a><a name=\"hcIdatElementsCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">given<a name=\"IdatElementsCS-given\"> </a></td><td>Vorname</td></tr><tr><td style=\"white-space:nowrap\">family<a name=\"IdatElementsCS-family\"> </a></td><td>Nachname</td></tr><tr><td style=\"white-space:nowrap\">prefix<a name=\"IdatElementsCS-prefix\"> </a></td><td>Namens-Präfix</td></tr><tr><td style=\"white-space:nowrap\">suffix<a name=\"IdatElementsCS-suffix\"> </a></td><td>Namens-Suffix</td></tr><tr><td style=\"white-space:nowrap\">birthdate<a name=\"IdatElementsCS-birthdate\"> </a></td><td>Geburtsdatum</td></tr><tr><td style=\"white-space:nowrap\">gender<a name=\"IdatElementsCS-gender\"> </a></td><td>Geschlecht</td></tr><tr><td style=\"white-space:nowrap\">address-line<a name=\"IdatElementsCS-address-line\"> </a></td><td>Straße, Hausnummer, Postfach</td></tr><tr><td style=\"white-space:nowrap\">address-city<a name=\"IdatElementsCS-address-city\"> </a></td><td>Ort</td></tr><tr><td style=\"white-space:nowrap\">address-postalcode<a name=\"IdatElementsCS-address-postalcode\"> </a></td><td>Postleitzahl</td></tr><tr><td style=\"white-space:nowrap\">birthplace<a name=\"IdatElementsCS-birthplace\"> </a></td><td>Geburtsort</td></tr><tr><td style=\"white-space:nowrap\">maidenname<a name=\"IdatElementsCS-maidenname\"> </a></td><td>Geburtsname</td></tr><tr><td style=\"white-space:nowrap\">degree<a name=\"IdatElementsCS-degree\"> </a></td><td>akademischer Titel</td></tr><tr><td style=\"white-space:nowrap\">language<a name=\"IdatElementsCS-language\"> </a></td><td>(Mutter-)Sprache</td></tr><tr><td style=\"white-space:nowrap\">nationality<a name=\"IdatElementsCS-nationality\"> </a></td><td>Staatsangehörigkeit</td></tr><tr><td style=\"white-space:nowrap\">maritalstatus<a name=\"IdatElementsCS-maritalstatus\"> </a></td><td>Familienstand</td></tr></table></div>"
+  },
+  "url" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+  "version" : "2025.1.0",
+  "name" : "IdatElements",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [{
+    "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ths-greifswald.de/"
+    }]
+  }],
+  "description" : "Element names for use in $requestTasks operation.",
+  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 15,
+  "concept" : [{
+    "code" : "given",
+    "display" : "Vorname"
+  },
+  {
+    "code" : "family",
+    "display" : "Nachname"
+  },
+  {
+    "code" : "prefix",
+    "display" : "Namens-Präfix"
+  },
+  {
+    "code" : "suffix",
+    "display" : "Namens-Suffix"
+  },
+  {
+    "code" : "birthdate",
+    "display" : "Geburtsdatum"
+  },
+  {
+    "code" : "gender",
+    "display" : "Geschlecht"
+  },
+  {
+    "code" : "address-line",
+    "display" : "Straße, Hausnummer, Postfach"
+  },
+  {
+    "code" : "address-city",
+    "display" : "Ort"
+  },
+  {
+    "code" : "address-postalcode",
+    "display" : "Postleitzahl"
+  },
+  {
+    "code" : "birthplace",
+    "display" : "Geburtsort"
+  },
+  {
+    "code" : "maidenname",
+    "display" : "Geburtsname"
+  },
+  {
+    "code" : "degree",
+    "display" : "akademischer Titel"
+  },
+  {
+    "code" : "language",
+    "display" : "(Mutter-)Sprache"
+  },
+  {
+    "code" : "nationality",
+    "display" : "Staatsangehörigkeit"
+  },
+  {
+    "code" : "maritalstatus",
+    "display" : "Familienstand"
+  }]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-RequestPsnFromBfWorkflow-request-example-1"/>
+  <parameter>
+    <name value="study"/>
+    <valueString value="mii"/>
+  </parameter>
+  <parameter>
+    <name value="bloomfilter"/>
+    <valueBase64Binary value="SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="/>
+  </parameter>
+  <parameter>
+    <name value="target"/>
+    <valueString value="dic_muenster"/>
+  </parameter>
+</Parameters>

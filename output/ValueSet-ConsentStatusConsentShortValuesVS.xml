@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ConsentStatusConsentShortValuesVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ConsentStatusConsentShortValuesVS</b></p><a name="ConsentStatusConsentShortValuesVS"> </a><a name="hcConsentStatusConsentShortValuesVS"> </a><p>This value set contains 2 concepts</p><table class="codes"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ConsentStatusConsentShortValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style="white-space:nowrap">  <a href="CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED">ACCEPTED</a></td><td>Ja</td><td/></tr><tr><td><a name="ConsentStatusConsentShortValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-DECLINED"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style="white-space:nowrap">  <a href="CodeSystem-ConsentStatusCS.html#ConsentStatusCS-DECLINED">DECLINED</a></td><td>Nein</td><td/></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentShortValues"/>
+  <version value="2025.1.0"/>
+  <name value="ConsentStatusConsentShortValues"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <compose>
+    <include>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"/>
+      <concept>
+        <code value="ACCEPTED"/>
+      </concept>
+      <concept>
+        <code value="DECLINED"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2021-04-12T12:00:00Z"/>
+    <total value="2"/>
+    <parameter>
+      <name value="designation"/>
+      <valueCode value="consent"/>
+    </parameter>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"/>
+      <code value="ACCEPTED"/>
+      <display value="Ja"/>
+    </contains>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"/>
+      <code value="DECLINED"/>
+      <display value="Nein"/>
+    </contains>
+  </expansion>
+</ValueSet>

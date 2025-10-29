@@ -1,0 +1,151 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "MaritalStatus",
+      "title" : "MaritalStatus",
+      "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+      "oids" : ["2.16.840.1.113883.5.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "ValueSet-PolicyStatusVS.html" : "PolicyStatus"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdatElements",
+      "title" : null,
+      "description" : "Element names for use in $requestTasks operation.",
+      "uses" : {
+      },
+      "ValueSet-IdatElementsVS.html" : "IdatElements"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "BloomfilterType",
+      "title" : null,
+      "description" : "Types of Bloomfilters.",
+      "uses" : {
+      },
+      "ValueSet-BloomfilterTypeVS.html" : "BloomfilterType"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "MatchStatus",
+      "title" : null,
+      "description" : "Possible match statuses in the context of adding patient identities.",
+      "uses" : {
+      },
+      "ValueSet-MatchStatusVS.html" : "MatchStatus"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "SaveAction",
+      "title" : null,
+      "description" : "Possible save actions in the context of adding patient identities.",
+      "uses" : {
+      },
+      "ValueSet-SaveActionVS.html" : "SaveAction"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentComponentType",
+      "title" : null,
+      "description" : "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium",
+      "uses" : {
+      },
+      "ValueSet-ConsentComponentTypeVS.html" : "ConsentComponentType"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "ConsentStatus",
+      "title" : null,
+      "description" : " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
+      "uses" : {
+      },
+      "ValueSet-ConsentStatusConsentFullValuesVS.html" : "ConsentStatusConsentFullValues",
+      "ValueSet-ConsentStatusConsentOptOutFullValuesVS.html" : "ConsentStatusConsentOptOutFullValues",
+      "ValueSet-ConsentStatusConsentOptOutShortValuesVS.html" : "ConsentStatusConsentOptOutShortValues",
+      "ValueSet-ConsentStatusWithdrawalFullValuesVS.html" : "ConsentStatusWithdrawalFullValues",
+      "ValueSet-ConsentStatusVS.html" : "ConsentStatus",
+      "ValueSet-ConsentStatusObjectionFullValuesVS.html" : "ConsentStatusObjectionFullValues",
+      "ValueSet-ConsentStatusConsentShortValuesVS.html" : "ConsentStatusConsentShortValues",
+      "ValueSet-ConsentStatusRefusalShortValuesVS.html" : "ConsentStatusRefusalShortValues",
+      "ValueSet-ConsentStatusRefusalFullValuesVS.html" : "ConsentStatusRefusalFullValues",
+      "ValueSet-ConsentStatusWithdrawalShortValuesVS.html" : "ConsentStatusWithdrawalShortValues",
+      "ValueSet-ConsentStatusObjectionShortValuesVS.html" : "ConsentStatusObjectionShortValues"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "IdMatchingType",
+      "title" : null,
+      "description" : "ID matching types used in consent management",
+      "uses" : {
+      },
+      "ValueSet-IdMatchingTypeVS.html" : "IdMatchingType"
+    },
+    {
+      "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy",
+      "version" : "2025.1.0",
+      "status" : "active",
+      "name" : "Policy",
+      "title" : null,
+      "description" : "Policies used in consent management",
+      "uses" : {
+      },
+      "ValueSet-PolicyVS.html" : "Policy"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    },
+    {
+      "url" : "urn:iso:std:iso:3166",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ISO3166Part1",
+      "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+      "description" : "ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations.",
+      "oids" : ["1.0.3166.1"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-iso3166-1-2.html" : "Iso 3166 Part 1: 2 Letter Codes"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "resourceType": "Bundle",
+  "id": "PseudonymizePatient-Bundle-response-example-1",
+  "entry": [
+    {
+      "response": {
+        "status": "200",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "id": "PseudonymizePatient-Bundle-response-example-1-Par1OpO",
+          "issue": [
+            {
+              "severity": "information",
+              "code": "informational",
+              "diagnostics": "Operation completed successfully."
+            }
+          ]
+        }
+      },
+      "resource": {
+        "resourceType": "Parameters",
+        "id": "PseudonymizePatient-Bundle-response-example-1-Par1",
+        "parameter": [
+          {
+            "name": "externalPatientId",
+            "valueId": "aaaaaaaa-8a1e-4442-af99-50abc27d6f52"
+          },
+          {
+            "part": [
+              {
+                "valueIdentifier": {
+                  "system": "http://my.fhir.domain.local/fhir/sid/domains",
+                  "value": "MyStudy-Domain1"
+                },
+                "name": "target"
+              },
+              {
+                "valueIdentifier": {
+                  "system": "http://my.fhir.domain.local/fhir/sid/pseudonyms",
+                  "value": "56464986521"
+                },
+                "name": "value"
+              }
+            ],
+            "name": "pseudonym"
+          },
+          {
+            "part": [
+              {
+                "valueIdentifier": {
+                  "system": "http://my.fhir.domain.local/fhir/sid/domains",
+                  "value": "MyStudy-Domain2"
+                },
+                "name": "target"
+              },
+              {
+                "valueIdentifier": {
+                  "system": "http://my.fhir.domain.local/fhir/sid/pseudonyms",
+                  "value": "8976834765347"
+                },
+                "name": "value"
+              }
+            ],
+            "name": "pseudonym"
+          }
+        ]
+      }
+    },
+    {
+      "response": {
+        "status": "404",
+        "outcome": {
+          "resourceType": "OperationOutcome",
+          "id": "PseudonymizePatient-Bundle-response-example-1-Par2OpO",
+          "issue": [
+            {
+              "severity": "fatal",
+              "code": "security",
+              "diagnostics": "Target domain 'NotMyStudy-Domain15' not found."
+            }
+          ]
+        }
+      },
+      "resource": {
+        "resourceType": "Parameters",
+        "id": "PseudonymizePatient-Bundle-response-example-1-Par2",
+        "parameter": [
+          {
+            "name": "externalPatientId",
+            "valueId": "bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e"
+          },
+          {
+            "part": [
+              {
+                "valueIdentifier": {
+                  "system": "http://my.fhir.domain.local/fhir/sid/domains",
+                  "value": "MyStudy-Domain15"
+                },
+                "name": "target"
+              },
+              {
+                "valueIdentifier": {
+                  "system": "http://my.fhir.domain.local/fhir/sid/pseudonyms",
+                  "value": "8976834765347"
+                },
+                "name": "value"
+              }
+            ],
+            "name": "pseudonym"
+          }
+        ]
+      }
+    }
+  ],
+  "type": "batch-response"
+}

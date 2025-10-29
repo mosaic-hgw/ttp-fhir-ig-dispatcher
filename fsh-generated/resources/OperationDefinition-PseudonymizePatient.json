@@ -1,0 +1,107 @@
+{
+  "resourceType": "OperationDefinition",
+  "id": "PseudonymizePatient",
+  "url": "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.ths-greifswald.de/",
+          "use": "work"
+        }
+      ],
+      "name": "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"
+    }
+  ],
+  "parameter": [
+    {
+      "name": "study",
+      "use": "in",
+      "min": 1,
+      "max": "1",
+      "type": "string",
+      "documentation": "Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden"
+    },
+    {
+      "name": "patient",
+      "use": "in",
+      "min": 1,
+      "max": "1",
+      "type": "Patient",
+      "documentation": "Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen"
+    },
+    {
+      "part": [
+        {
+          "name": "target",
+          "use": "in",
+          "min": 1,
+          "max": "1",
+          "type": "string",
+          "documentation": "Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen."
+        },
+        {
+          "name": "count",
+          "use": "in",
+          "min": 0,
+          "max": "1",
+          "type": "integer",
+          "documentation": "Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1."
+        }
+      ],
+      "name": "context",
+      "use": "in",
+      "min": 1,
+      "max": "*",
+      "documentation": "Kontext der zu generierenden oder zu suchenden Pseudonyme."
+    },
+    {
+      "name": "externalPatientId",
+      "use": "out",
+      "min": 1,
+      "max": "1",
+      "type": "string",
+      "documentation": "ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation."
+    },
+    {
+      "part": [
+        {
+          "name": "target",
+          "use": "out",
+          "min": 1,
+          "max": "1",
+          "type": "Identifier",
+          "documentation": "Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung"
+        },
+        {
+          "name": "value",
+          "use": "out",
+          "min": 0,
+          "max": "*",
+          "type": "Identifier",
+          "documentation": "Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt)."
+        }
+      ],
+      "name": "pseudonym",
+      "use": "out",
+      "min": 1,
+      "max": "*",
+      "documentation": "Gruppierung der domänenspezifischen Pseudonyme."
+    }
+  ],
+  "version": "2025.1.0",
+  "status": "active",
+  "date": "2025-06-12",
+  "publisher": "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "name": "PseudonymizePatient",
+  "title": "pseudonymizePatient",
+  "kind": "operation",
+  "description": "",
+  "affectsState": true,
+  "code": "pseudonymizePatient",
+  "comment": "Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen.",
+  "system": true,
+  "type": false,
+  "instance": false
+}

@@ -1,0 +1,53 @@
+{
+  "resourceType": "Parameters",
+  "id": "Parameters-RequestPsnFromBfWorkflow-response-example-1",
+  "parameter": [
+    {
+      "part": [
+        {
+          "name": "bloomfilter",
+          "valueBase64Binary": "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="
+        },
+        {
+          "valueIdentifier": {
+            "system": "https://ths-greifswald.de/gpas",
+            "value": "dic_muenster"
+          },
+          "name": "target"
+        },
+        {
+          "valueIdentifier": {
+            "system": "https://ths-greifswald.de/gpas",
+            "value": "dic_1H51T"
+          },
+          "name": "pseudonym"
+        }
+      ],
+      "name": "pseudonym-bf"
+    },
+    {
+      "part": [
+        {
+          "name": "bloomfilter",
+          "valueBase64Binary": "ZHVtbXk="
+        },
+        {
+          "valueIdentifier": {
+            "system": "https://ths-greifswald.de/gpas",
+            "value": "dic_muenster"
+          },
+          "name": "target"
+        },
+        {
+          "name": "error-code",
+          "valueCoding": {
+            "code": "not-found",
+            "system": "http://hl7.org/fhir/issue-type",
+            "display": "Not Found"
+          }
+        }
+      ],
+      "name": "error"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="IdMatchingTypeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet IdMatchingTypeVS</b></p><a name="IdMatchingTypeVS"> </a><a name="hcIdMatchingTypeVS"> </a><p>This value set contains 3 concepts</p><table class="codes"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="IdMatchingTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType-AT_LEAST_ALL"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType</code></td><td style="white-space:nowrap">  <a href="CodeSystem-IdMatchingTypeCS.html#IdMatchingTypeCS-AT_LEAST_ALL">AT_LEAST_ALL</a></td><td>at least all</td><td/></tr><tr><td><a name="IdMatchingTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType-AT_LEAST_ONE"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType</code></td><td style="white-space:nowrap">  <a href="CodeSystem-IdMatchingTypeCS.html#IdMatchingTypeCS-AT_LEAST_ONE">AT_LEAST_ONE</a></td><td>at least one</td><td/></tr><tr><td><a name="IdMatchingTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType-EXACT"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType</code></td><td style="white-space:nowrap">  <a href="CodeSystem-IdMatchingTypeCS.html#IdMatchingTypeCS-EXACT">EXACT</a></td><td>exact</td><td/></tr></table></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/ValueSet/gics/IdMatchingType"/>
+  <version value="2025.1.0"/>
+  <name value="IdMatchingType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <compose>
+    <include>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"/>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2021-05-19T10:23:00+00:00"/>
+    <total value="3"/>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"/>
+      <code value="AT_LEAST_ALL"/>
+      <display value="at least all"/>
+    </contains>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"/>
+      <code value="AT_LEAST_ONE"/>
+      <display value="at least one"/>
+    </contains>
+    <contains>
+      <system value="https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType"/>
+      <code value="EXACT"/>
+      <display value="exact"/>
+    </contains>
+  </expansion>
+</ValueSet>

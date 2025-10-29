@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-RequestTasks-response-example-1"/>
+  <parameter>
+    <name value="dic_psn_available"/>
+    <part>
+      <name value="bloomfilter"/>
+      <valueBase64Binary value="SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="/>
+    </part>
+    <part>
+      <name value="target"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="eyematics"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="pseudonym"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="mii_6348Q7"/>
+      </valueIdentifier>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="send_idat"/>
+    <part>
+      <name value="expires"/>
+      <valueInstant value="2021-05-28T13:00:00.00+02:00"/>
+    </part>
+    <part>
+      <name value="taskId"/>
+      <valueId value="064ddebf-b20e-468a-97fd-88097bcdbc11"/>
+    </part>
+    <part>
+      <name value="pseudonym"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="mii_1244Q2"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="element"/>
+      <valueCoding>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"/>
+        <code value="given"/>
+      </valueCoding>
+    </part>
+    <part>
+      <name value="element"/>
+      <valueCoding>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"/>
+        <code value="family"/>
+      </valueCoding>
+    </part>
+    <part>
+      <name value="element"/>
+      <valueCoding>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"/>
+        <code value="birthdate"/>
+      </valueCoding>
+    </part>
+    <part>
+      <name value="element"/>
+      <valueCoding>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"/>
+        <code value="gender"/>
+      </valueCoding>
+    </part>
+    <part>
+      <name value="element"/>
+      <valueCoding>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"/>
+        <code value="birthplace"/>
+      </valueCoding>
+    </part>
+    <part>
+      <name value="element"/>
+      <valueCoding>
+        <system value="https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"/>
+        <code value="degree"/>
+      </valueCoding>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="repeat_request"/>
+    <part>
+      <name value="study"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="mii"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="bloomfilter"/>
+      <valueBase64Binary value="SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="/>
+    </part>
+    <part>
+      <name value="target"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="eyematics"/>
+      </valueIdentifier>
+    </part>
+  </parameter>
+</Parameters>
