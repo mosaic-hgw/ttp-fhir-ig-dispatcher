@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="PolicyVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet PolicyVS</b></p><a name="PolicyVS"> </a><a name="hcPolicyVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-PolicyCS.html"><code>https://ths-greifswald.de/fhir/CodeSystem/gics/Policy</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2025.1.0</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet PolicyVS</b></p><a name="PolicyVS"> </a><a name="hcPolicyVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-PolicyCS.html"><code>https://ths-greifswald.de/fhir/CodeSystem/gics/Policy</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2025.2.0</span></li></ul></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/ValueSet/gics/Policy"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="Policy"/>
   <status value="draft"/>
   <experimental value="false"/>

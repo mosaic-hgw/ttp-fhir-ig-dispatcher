@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentStatusConsentOptOutShortValuesVS</b></p><a name=\"ConsentStatusConsentOptOutShortValuesVS\"> </a><a name=\"hcConsentStatusConsentOptOutShortValuesVS\"> </a><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentStatusConsentOptOutShortValuesVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED_OPT_OUT\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED_OPT_OUT\">ACCEPTED_OPT_OUT</a></td><td>Ja (Opt-Out)</td><td/></tr></table></div>"
   },
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutShortValues",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentStatusConsentOptOutShortValues",
   "status" : "active",
   "experimental" : false,

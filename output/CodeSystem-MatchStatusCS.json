@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem MatchStatusCS</b></p><a name=\"MatchStatusCS\"> </a><a name=\"hcMatchStatusCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">EXTERNAL_MATCH<a name=\"MatchStatusCS-EXTERNAL_MATCH\"> </a></td><td>external match</td></tr><tr><td style=\"white-space:nowrap\">MATCH<a name=\"MatchStatusCS-MATCH\"> </a></td><td>match</td></tr><tr><td style=\"white-space:nowrap\">MATCH_ERROR<a name=\"MatchStatusCS-MATCH_ERROR\"> </a></td><td>match error</td></tr><tr><td style=\"white-space:nowrap\">MULTIPLE_MATCH<a name=\"MatchStatusCS-MULTIPLE_MATCH\"> </a></td><td>multiple match</td></tr><tr><td style=\"white-space:nowrap\">NO_MATCH<a name=\"MatchStatusCS-NO_MATCH\"> </a></td><td>no match</td></tr><tr><td style=\"white-space:nowrap\">PERFECT_MATCH<a name=\"MatchStatusCS-PERFECT_MATCH\"> </a></td><td>perfect match</td></tr><tr><td style=\"white-space:nowrap\">PERFECT_MATCH_WITH_UPDATE<a name=\"MatchStatusCS-PERFECT_MATCH_WITH_UPDATE\"> </a></td><td>perfect match with update</td></tr><tr><td style=\"white-space:nowrap\">POSSIBLE_MATCH<a name=\"MatchStatusCS-POSSIBLE_MATCH\"> </a></td><td>possible match</td></tr></table></div>"
   },
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/MatchStatus",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "MatchStatus",
   "status" : "active",
   "experimental" : false,

@@ -1,4 +1,4 @@
-# requestTasks - v2025.1.0
+# requestTasks - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "OperationDefinition",
   "id" : "RequestTasks",
   "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestTasks",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "RequestTasks",
   "title" : "requestTasks",
   "status" : "active",

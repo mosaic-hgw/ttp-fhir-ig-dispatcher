@@ -1,4 +1,4 @@
-# MatchStatus - v2025.1.0
+# MatchStatus - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "MatchStatusVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/MatchStatus",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "MatchStatus",
   "status" : "active",
   "experimental" : false,

@@ -1,4 +1,4 @@
-# Policy - v2025.1.0
+# Policy - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "CodeSystem",
   "id" : "PolicyCS",
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "Policy",
   "status" : "active",
   "experimental" : false,

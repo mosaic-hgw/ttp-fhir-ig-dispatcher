@@ -1,4 +1,4 @@
-# ConsentStatusConsentOptOutShortValues - v2025.1.0
+# ConsentStatusConsentOptOutShortValues - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "ConsentStatusConsentOptOutShortValuesVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutShortValues",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentStatusConsentOptOutShortValues",
   "status" : "active",
   "experimental" : false,

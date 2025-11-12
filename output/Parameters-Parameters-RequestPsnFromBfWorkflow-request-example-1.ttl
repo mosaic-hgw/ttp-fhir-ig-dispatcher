@@ -12,19 +12,19 @@
   fhir:parameter ( [
      fhir:name [ fhir:v "study" ] ;
      fhir:value [
-       a fhir:string ;
+       a fhir:String ;
        fhir:v "mii"
      ]
   ] [
      fhir:name [ fhir:v "bloomfilter" ] ;
      fhir:value [
-       a fhir:base64Binary ;
+       a fhir:Base64Binary ;
        fhir:v "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary
      ]
   ] [
      fhir:name [ fhir:v "target" ] ;
      fhir:value [
-       a fhir:string ;
+       a fhir:String ;
        fhir:v "dic_muenster"
      ]
   ] ) . # 

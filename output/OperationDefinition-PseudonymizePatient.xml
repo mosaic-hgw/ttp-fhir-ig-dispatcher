@@ -16,7 +16,7 @@
 </div></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="PseudonymizePatient"/>
   <title value="pseudonymizePatient"/>
   <status value="active"/>

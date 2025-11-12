@@ -1,4 +1,4 @@
-# BloomfilterType - v2025.1.0
+# BloomfilterType - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "CodeSystem",
   "id" : "BloomfilterTypeCS",
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "BloomfilterType",
   "status" : "active",
   "experimental" : false,

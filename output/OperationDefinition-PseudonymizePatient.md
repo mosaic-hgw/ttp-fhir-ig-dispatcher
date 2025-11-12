@@ -1,4 +1,4 @@
-# pseudonymizePatient - v2025.1.0
+# pseudonymizePatient - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "OperationDefinition",
   "id" : "PseudonymizePatient",
   "url" : "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "PseudonymizePatient",
   "title" : "pseudonymizePatient",
   "status" : "active",

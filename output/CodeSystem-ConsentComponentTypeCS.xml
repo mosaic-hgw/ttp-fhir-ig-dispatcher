@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ConsentComponentTypeCS</b></p><a name="ConsentComponentTypeCS"> </a><a name="hcConsentComponentTypeCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ConsentPolicy<a name="ConsentComponentTypeCS-ConsentPolicy"> </a></td><td>Consent-Policy</td></tr><tr><td style="white-space:nowrap">ConsentModule<a name="ConsentComponentTypeCS-ConsentModule"> </a></td><td>Consent-Module</td></tr><tr><td style="white-space:nowrap">ConsentTemplate<a name="ConsentComponentTypeCS-ConsentTemplate"> </a></td><td>Consent-Template</td></tr></table></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="ConsentComponentType"/>
   <status value="active"/>
   <experimental value="false"/>

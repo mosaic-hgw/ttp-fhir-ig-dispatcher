@@ -1,6 +1,6 @@
 {
   "package": "ths-greifswald.ttp-fhir-gw.dispatcher",
-  "version": "2025.1.0",
+  "version": "2025.2.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {

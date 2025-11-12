@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "IdatElements",
       "title" : null,
@@ -13,7 +13,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "draft",
       "name" : "BloomfilterType",
       "title" : null,
@@ -24,7 +24,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/MatchStatus",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "MatchStatus",
       "title" : null,
@@ -33,7 +33,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/SaveAction",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "SaveAction",
       "title" : null,
@@ -42,7 +42,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentComponentType",
       "title" : null,
@@ -54,7 +54,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyAction",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentPolicyAction",
       "title" : null,
@@ -65,7 +65,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyActor",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentPolicyActor",
       "title" : null,
@@ -76,7 +76,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyClass",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentPolicyClass",
       "title" : null,
@@ -87,7 +87,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyPurpose",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentPolicyPurpose",
       "title" : null,
@@ -98,7 +98,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatus",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatus",
       "title" : null,
@@ -109,7 +109,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentFullValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusConsentFullValues",
       "title" : null,
@@ -120,7 +120,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutFullValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusConsentOptOutFullValues",
       "title" : null,
@@ -131,7 +131,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentOptOutShortValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusConsentOptOutShortValues",
       "title" : null,
@@ -142,7 +142,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentShortValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusConsentShortValues",
       "title" : null,
@@ -153,7 +153,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusObjectionFullValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusObjectionFullValues",
       "title" : null,
@@ -164,7 +164,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusObjectionShortValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusObjectionShortValues",
       "title" : null,
@@ -175,7 +175,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusRefusalFullValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusRefusalFullValues",
       "title" : null,
@@ -186,7 +186,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusRefusalShortValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusRefusalShortValues",
       "title" : null,
@@ -197,7 +197,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusWithdrawalFullValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusWithdrawalFullValues",
       "title" : null,
@@ -208,7 +208,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusWithdrawalShortValues",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "ConsentStatusWithdrawalShortValues",
       "title" : null,
@@ -219,7 +219,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/IdMatchingType",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "IdMatchingType",
       "title" : null,
@@ -230,7 +230,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/Policy",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "draft",
       "name" : "Policy",
       "title" : null,
@@ -239,7 +239,7 @@
     },
     {
       "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/PolicyStatus",
-      "version" : "2025.1.0",
+      "version" : "2025.2.0",
       "status" : "active",
       "name" : "PolicyStatus",
       "title" : null,

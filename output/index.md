@@ -1,4 +1,4 @@
-# Home - v2025.1.0
+# Implementation Guide Übergreifende Schnittstellen - v2025.2.0
 
 
 
@@ -9,10 +9,10 @@
   "resourceType" : "ImplementationGuide",
   "id" : "ths-greifswald.ttp-fhir-gw.dispatcher",
   "url" : "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "IGTTPFHIRGatewaybergreifendeSchnittstellen",
   "status" : "active",
-  "date" : "2025-10-29T12:09:50+01:00",
+  "date" : "2025-11-12T12:30:27+01:00",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {
@@ -1462,22 +1462,11 @@
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "Beschreibung.html"
+              "valueUrl" : "Allgemein.html"
             }
           ],
-          "nameUrl" : "Beschreibung.html",
-          "title" : "Beschreibung",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "BeschreibungBallotFttp.html"
-            }
-          ],
-          "nameUrl" : "BeschreibungBallotFttp.html",
-          "title" : "Beschreibung Ballot Fttp",
+          "nameUrl" : "Allgemein.html",
+          "title" : "Allgemein",
           "generation" : "markdown"
         },
         {
@@ -1488,51 +1477,7 @@
             }
           ],
           "nameUrl" : "index.html",
-          "title" : "Home",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "KontextUndKonzept.html"
-            }
-          ],
-          "nameUrl" : "KontextUndKonzept.html",
-          "title" : "Kontext und Konzept",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "TechnischeGrundlagen.html"
-            }
-          ],
-          "nameUrl" : "TechnischeGrundlagen.html",
-          "title" : "Technische Grundlagen",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "UbergreifendeSchnittstellen.html"
-            }
-          ],
-          "nameUrl" : "UbergreifendeSchnittstellen.html",
-          "title" : "Übergreifende Schnittstellen",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "Vorgehen.html"
-            }
-          ],
-          "nameUrl" : "Vorgehen.html",
-          "title" : "Vorgehen",
+          "title" : "Implementation Guide Übergreifende Schnittstellen",
           "generation" : "markdown"
         }
       ]

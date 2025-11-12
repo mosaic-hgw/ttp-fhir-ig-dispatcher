@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "ths-greifswald.ttp-fhir-gw.dispatcher",
   "url": "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher",
-  "version": "2025.1.0",
+  "version": "2025.2.0",
   "name": "IGTTPFHIRGatewaybergreifendeSchnittstellen",
   "status": "active",
   "publisher": "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
@@ -435,38 +435,13 @@
       "generation": "html",
       "page": [
         {
-          "nameUrl": "Beschreibung.html",
-          "title": "Beschreibung",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "BeschreibungBallotFttp.html",
-          "title": "Beschreibung Ballot Fttp",
+          "nameUrl": "Allgemein.html",
+          "title": "Allgemein",
           "generation": "markdown"
         },
         {
           "nameUrl": "index.html",
-          "title": "Home",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "KontextUndKonzept.html",
-          "title": "Kontext und Konzept",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "TechnischeGrundlagen.html",
-          "title": "Technische Grundlagen",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "UbergreifendeSchnittstellen.html",
-          "title": "Übergreifende Schnittstellen",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "Vorgehen.html",
-          "title": "Vorgehen",
+          "title": "Implementation Guide Übergreifende Schnittstellen",
           "generation": "markdown"
         }
       ]

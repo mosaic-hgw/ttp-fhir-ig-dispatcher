@@ -1,4 +1,4 @@
-# ConsentComponentType - v2025.1.0
+# ConsentComponentType - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "ConsentComponentTypeVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentComponentType",
   "status" : "active",
   "experimental" : false,

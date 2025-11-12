@@ -1,4 +1,4 @@
-# ConsentStatusWithdrawalShortValues - v2025.1.0
+# ConsentStatusWithdrawalShortValues - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "ConsentStatusWithdrawalShortValuesVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusWithdrawalShortValues",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentStatusWithdrawalShortValues",
   "status" : "active",
   "experimental" : false,

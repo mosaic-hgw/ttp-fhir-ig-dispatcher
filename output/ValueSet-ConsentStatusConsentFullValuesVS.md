@@ -1,4 +1,4 @@
-# ConsentStatusConsentFullValues - v2025.1.0
+# ConsentStatusConsentFullValues - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "ConsentStatusConsentFullValuesVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusConsentFullValues",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentStatusConsentFullValues",
   "status" : "active",
   "experimental" : false,

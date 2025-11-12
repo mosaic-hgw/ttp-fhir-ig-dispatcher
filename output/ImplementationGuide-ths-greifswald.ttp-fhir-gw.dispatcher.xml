@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ths-greifswald.ttp-fhir-gw.dispatcher</b></p><a name="ths-greifswald.ttp-fhir-gw.dispatcher"> </a><a name="hcths-greifswald.ttp-fhir-gw.dispatcher"> </a><h2>IGTTPFHIRGatewaybergreifendeSchnittstellen</h2><p>The official URL for this implementation guide is: </p><pre>https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher</pre></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="IGTTPFHIRGatewaybergreifendeSchnittstellen"/>
   <status value="active"/>
-  <date value="2025-10-29T12:09:50+01:00"/>
+  <date value="2025-11-12T12:30:27+01:00"/>
   <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <contact>
     <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
@@ -1019,18 +1019,10 @@
       <generation value="html"/>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="Beschreibung.html"/>
+          <valueUrl value="Allgemein.html"/>
         </extension>
-        <nameUrl value="Beschreibung.html"/>
-        <title value="Beschreibung"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="BeschreibungBallotFttp.html"/>
-        </extension>
-        <nameUrl value="BeschreibungBallotFttp.html"/>
-        <title value="Beschreibung Ballot Fttp"/>
+        <nameUrl value="Allgemein.html"/>
+        <title value="Allgemein"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -1038,39 +1030,7 @@
           <valueUrl value="index.html"/>
         </extension>
         <nameUrl value="index.html"/>
-        <title value="Home"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="KontextUndKonzept.html"/>
-        </extension>
-        <nameUrl value="KontextUndKonzept.html"/>
-        <title value="Kontext und Konzept"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="TechnischeGrundlagen.html"/>
-        </extension>
-        <nameUrl value="TechnischeGrundlagen.html"/>
-        <title value="Technische Grundlagen"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="UbergreifendeSchnittstellen.html"/>
-        </extension>
-        <nameUrl value="UbergreifendeSchnittstellen.html"/>
-        <title value="Übergreifende Schnittstellen"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="Vorgehen.html"/>
-        </extension>
-        <nameUrl value="Vorgehen.html"/>
-        <title value="Vorgehen"/>
+        <title value="Implementation Guide Übergreifende Schnittstellen"/>
         <generation value="markdown"/>
       </page>
     </page>

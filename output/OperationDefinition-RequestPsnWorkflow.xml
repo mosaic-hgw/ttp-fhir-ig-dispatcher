@@ -20,7 +20,7 @@
 </div></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnWorkflow"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="RequestPsnWorkflow"/>
   <title value="requestPsnWorkflow"/>
   <status value="active"/>

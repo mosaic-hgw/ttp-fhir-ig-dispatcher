@@ -1,4 +1,4 @@
-# ConsentStatusRefusalShortValues - v2025.1.0
+# ConsentStatusRefusalShortValues - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "ConsentStatusRefusalShortValuesVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatusRefusalShortValues",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentStatusRefusalShortValues",
   "status" : "active",
   "experimental" : false,

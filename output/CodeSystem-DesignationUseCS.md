@@ -1,4 +1,4 @@
-# DesignationUse - v2025.1.0
+# DesignationUse - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "CodeSystem",
   "id" : "DesignationUseCS",
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/DesignationUse",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "DesignationUse",
   "status" : "active",
   "experimental" : false,

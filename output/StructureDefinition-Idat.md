@@ -1,4 +1,4 @@
-# IDAT - v2025.1.0
+# IDAT - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "StructureDefinition",
   "id" : "Idat",
   "url" : "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "Idat",
   "title" : "IDAT",
   "status" : "active",

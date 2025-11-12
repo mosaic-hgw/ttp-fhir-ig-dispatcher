@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentPolicyClassVS</b></p><a name=\"ConsentPolicyClassVS\"> </a><a name=\"hcConsentPolicyClassVS\"> </a><ul><li>Include all codes defined in <code>https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyClass</code><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"
   },
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyClass",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentPolicyClass",
   "status" : "active",
   "experimental" : false,

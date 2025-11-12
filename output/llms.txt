@@ -1,15 +1,10 @@
-# ths-greifswald.ttp-fhir-gw.dispatcher#2025.1.0: null
+# ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0: null
 
 ## Pages
 
-* [Home](index.md)
-* [Übergreifende Schnittstellen](UbergreifendeSchnittstellen.md)
-* [Beschreibung](Beschreibung.md)
-* [Kontext und Konzept](KontextUndKonzept.md)
-* [Beschreibung Ballot Fttp](BeschreibungBallotFttp.md)
+* [Implementation Guide Übergreifende Schnittstellen](index.md)
+* [Allgemein](Allgemein.md)
 * [Artifacts Summary](artifacts.md)
-* [Vorgehen](Vorgehen.md)
-* [Technische Grundlagen](TechnischeGrundlagen.md)
 
 ## Resources
 

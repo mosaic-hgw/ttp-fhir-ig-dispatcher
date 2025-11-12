@@ -1,4 +1,4 @@
-# BloomfilterType - v2025.1.0
+# BloomfilterType - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "BloomfilterTypeVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "BloomfilterType",
   "status" : "draft",
   "experimental" : false,

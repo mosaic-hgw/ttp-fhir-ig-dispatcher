@@ -25,7 +25,7 @@
 </div></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestTasks"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="RequestTasks"/>
   <title value="requestTasks"/>
   <status value="active"/>

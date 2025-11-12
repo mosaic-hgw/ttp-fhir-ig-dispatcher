@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SaveActionCS</b></p><a name=\"SaveActionCS\"> </a><a name=\"hcSaveActionCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">DONT_SAVE<a name=\"SaveActionCS-DONT_SAVE\"> </a></td><td>don't save</td></tr><tr><td style=\"white-space:nowrap\">DONT_SAVE_ON_PERFECT_MATCH<a name=\"SaveActionCS-DONT_SAVE_ON_PERFECT_MATCH\"> </a></td><td>don't save on perfect match</td></tr><tr><td style=\"white-space:nowrap\">DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS<a name=\"SaveActionCS-DONT_SAVE_ON_PERFECT_MATCH_EXCEPT_CONTACTS\"> </a></td><td>don't save on perfect match except contacts</td></tr><tr><td style=\"white-space:nowrap\">SAVE_ALL<a name=\"SaveActionCS-SAVE_ALL\"> </a></td><td>save all</td></tr></table></div>"
   },
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "SaveAction",
   "status" : "active",
   "experimental" : false,

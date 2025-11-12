@@ -1,4 +1,4 @@
-# requestPsnWorkflow - v2025.1.0
+# requestPsnWorkflow - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "OperationDefinition",
   "id" : "RequestPsnWorkflow",
   "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnWorkflow",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "RequestPsnWorkflow",
   "title" : "requestPsnWorkflow",
   "status" : "active",

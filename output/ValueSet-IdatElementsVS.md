@@ -1,4 +1,4 @@
-# IdatElements - v2025.1.0
+# IdatElements - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "IdatElementsVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "IdatElements",
   "status" : "active",
   "experimental" : false,

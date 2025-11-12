@@ -3,10 +3,10 @@
   "id" : "BloomfilterTypeVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BloomfilterTypeVS</b></p><a name=\"BloomfilterTypeVS\"> </a><a name=\"hcBloomfilterTypeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-BloomfilterTypeCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2025.1.0</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BloomfilterTypeVS</b></p><a name=\"BloomfilterTypeVS\"> </a><a name=\"hcBloomfilterTypeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-BloomfilterTypeCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2025.2.0</span></li></ul></div>"
   },
   "url" : "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "BloomfilterType",
   "status" : "draft",
   "experimental" : false,

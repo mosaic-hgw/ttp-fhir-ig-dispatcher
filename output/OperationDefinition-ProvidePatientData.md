@@ -1,4 +1,4 @@
-# providePatientData - v2025.1.0
+# providePatientData - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "OperationDefinition",
   "id" : "ProvidePatientData",
   "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/providePatientData",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ProvidePatientData",
   "title" : "providePatientData",
   "status" : "active",

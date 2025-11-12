@@ -1,6 +1,6 @@
 {
-  "version" : "2025.1.0",
-  "date" : "20251029120950",
+  "version" : "2025.2.0",
+  "date" : "20251112123027",
   "notForPublication" : true,
   "name" : "ths-greifswald.ttp-fhir-gw.dispatcher.r4"
 }

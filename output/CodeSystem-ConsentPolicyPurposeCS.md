@@ -1,4 +1,4 @@
-# ConsentPolicyPurpose - v2025.1.0
+# ConsentPolicyPurpose - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "CodeSystem",
   "id" : "ConsentPolicyPurposeCS",
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentPolicyPurpose",
   "status" : "active",
   "experimental" : false,

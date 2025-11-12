@@ -1,4 +1,4 @@
-# SaveAction - v2025.1.0
+# SaveAction - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "CodeSystem",
   "id" : "SaveActionCS",
   "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/SaveAction",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "SaveAction",
   "status" : "active",
   "experimental" : false,

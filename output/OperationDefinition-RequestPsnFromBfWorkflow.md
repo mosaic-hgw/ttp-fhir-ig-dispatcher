@@ -1,4 +1,4 @@
-# requestPsnFromBfWorkflow - v2025.1.0
+# requestPsnFromBfWorkflow - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "OperationDefinition",
   "id" : "RequestPsnFromBfWorkflow",
   "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnFromBfWorkflow",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "RequestPsnFromBfWorkflow",
   "title" : "requestPsnFromBfWorkflow",
   "status" : "active",

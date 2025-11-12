@@ -11,10 +11,13 @@
   fhir:id [ fhir:v "ConsentPolicyPurposeVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentPolicyPurposeVS</b></p><a name=\"ConsentPolicyPurposeVS\"> </a><a name=\"hcConsentPolicyPurposeVS\"> </a><ul><li>Include all codes defined in <code>https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose</code><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentPolicyPurposeVS</b></p><a name=\"ConsentPolicyPurposeVS\"> </a><a name=\"hcConsentPolicyPurposeVS\"> </a><ul><li>Include all codes defined in <code>https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose</code><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyPurpose"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2025.1.0"] ; # 
+  fhir:url [
+     fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyPurpose"^^xsd:anyURI ;
+     fhir:l <https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyPurpose>
+  ] ; # 
+  fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "ConsentPolicyPurpose"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
@@ -30,7 +33,10 @@
   fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose"^^xsd:anyURI ;
+         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/ConsentPolicyPurpose>
+       ]
      ] )
   ] . # 
 

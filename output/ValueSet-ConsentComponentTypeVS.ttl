@@ -11,10 +11,13 @@
   fhir:id [ fhir:v "ConsentComponentTypeVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentComponentTypeVS</b></p><a name=\"ConsentComponentTypeVS\"> </a><a name=\"hcConsentComponentTypeVS\"> </a><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-TemplateModule\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">  TemplateModule</td><td>Template-Module</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-TemplateFrame\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">  TemplateFrame</td><td>Template-Frame</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-QuestionnaireComposed\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">  QuestionnaireComposed</td><td>Composed Questionnaire</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentPolicy\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentPolicy\">ConsentPolicy</a></td><td>Consent-Policy</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentModule\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentModule\">ConsentModule</a></td><td>Consent-Module</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentTemplate\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentTemplate\">ConsentTemplate</a></td><td>Consent-Template</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentComponentTypeVS</b></p><a name=\"ConsentComponentTypeVS\"> </a><a name=\"hcConsentComponentTypeVS\"> </a><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-TemplateModule\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">  TemplateModule</td><td>Template-Module</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-TemplateFrame\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">  TemplateFrame</td><td>Template-Frame</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents-QuestionnaireComposed\"> </a><code>http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents</code></td><td style=\"white-space:nowrap\">  QuestionnaireComposed</td><td>Composed Questionnaire</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentPolicy\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentPolicy\">ConsentPolicy</a></td><td>Consent-Policy</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentModule\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentModule\">ConsentModule</a></td><td>Consent-Module</td><td/></tr><tr><td><a name=\"ConsentComponentTypeVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType-ConsentTemplate\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentComponentTypeCS.html#ConsentComponentTypeCS-ConsentTemplate\">ConsentTemplate</a></td><td>Consent-Template</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "2025.1.0"] ; # 
+  fhir:url [
+     fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType"^^xsd:anyURI ;
+     fhir:l <https://ths-greifswald.de/fhir/ValueSet/gics/ConsentComponentType>
+  ] ; # 
+  fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "ConsentComponentType"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
@@ -30,36 +33,60 @@
   fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ;
+         fhir:l <http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents>
+       ]
      ] [
-       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ]
+       fhir:system [
+         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ;
+         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType>
+       ]
      ] )
   ] ; # 
   fhir:expansion [
      fhir:timestamp [ fhir:v "2021-04-12T12:00:00Z"^^xsd:dateTime ] ;
      fhir:total [ fhir:v 6 ] ;
      fhir:contains ( [
-       fhir:system [ fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ;
+         fhir:l <http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents>
+       ] ;
        fhir:code [ fhir:v "TemplateModule" ] ;
        fhir:display [ fhir:v "Template-Module" ]
      ] [
-       fhir:system [ fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ;
+         fhir:l <http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents>
+       ] ;
        fhir:code [ fhir:v "TemplateFrame" ] ;
        fhir:display [ fhir:v "Template-Frame" ]
      ] [
-       fhir:system [ fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents"^^xsd:anyURI ;
+         fhir:l <http://fhir.de/ConsentManagement/CodeSystem/QuestionnaireComponents>
+       ] ;
        fhir:code [ fhir:v "QuestionnaireComposed" ] ;
        fhir:display [ fhir:v "Composed Questionnaire" ]
      ] [
-       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ;
+         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType>
+       ] ;
        fhir:code [ fhir:v "ConsentPolicy" ] ;
        fhir:display [ fhir:v "Consent-Policy" ]
      ] [
-       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ;
+         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType>
+       ] ;
        fhir:code [ fhir:v "ConsentModule" ] ;
        fhir:display [ fhir:v "Consent-Module" ]
      ] [
-       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType"^^xsd:anyURI ;
+         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentComponentType>
+       ] ;
        fhir:code [ fhir:v "ConsentTemplate" ] ;
        fhir:display [ fhir:v "Consent-Template" ]
      ] )

@@ -1,4 +1,4 @@
-# ConsentPolicyAction - v2025.1.0
+# ConsentPolicyAction - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "ValueSet",
   "id" : "ConsentPolicyActionVS",
   "url" : "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentPolicyAction",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "ConsentPolicyAction",
   "status" : "active",
   "experimental" : false,

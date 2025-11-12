@@ -1,4 +1,4 @@
-# updateBf - v2025.1.0
+# updateBf - v2025.2.0
 
 
 
@@ -9,7 +9,7 @@
   "resourceType" : "OperationDefinition",
   "id" : "UpdateBf",
   "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/UpdateBf",
-  "version" : "2025.1.0",
+  "version" : "2025.2.0",
   "name" : "UpdateBf",
   "title" : "updateBf",
   "status" : "draft",

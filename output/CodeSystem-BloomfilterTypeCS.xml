@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem BloomfilterTypeCS</b></p><a name="BloomfilterTypeCS"> </a><a name="hcBloomfilterTypeCS"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">A<a name="BloomfilterTypeCS-A"> </a></td><td>Dummy-Bloomfilter A</td></tr><tr><td style="white-space:nowrap">B<a name="BloomfilterTypeCS-B"> </a></td><td>Dummy-Bloomfilter B</td></tr></table></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"/>
-  <version value="2025.1.0"/>
+  <version value="2025.2.0"/>
   <name value="BloomfilterType"/>
   <status value="active"/>
   <experimental value="false"/>
