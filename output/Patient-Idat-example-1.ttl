@@ -12,43 +12,31 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat"^^xsd:anyURI ;
-       fhir:l <https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat>
+       fhir:link <https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient Idat-example-1</b></p><a name=\"Idat-example-1\"> </a><a name=\"hcIdat-example-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Idat.html\">IDAT</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Martin Mustermann  Male, DoB: 1965-12-03</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 DE}\">Germany</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.\"><a href=\"http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-patient-birthPlace.html\">Patient Birth Place</a></td><td colspan=\"3\">Musterhausen </td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient Idat-example-1</b></p><a name=\"Idat-example-1\"> </a><a name=\"hcIdat-example-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Idat.html\">IDAT</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Martin Mustermann  Male, DoB: 1965-12-03</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient.\">Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 DE}\">Germany</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements.\"><a href=\"http://hl7.org/fhir/extensions/5.2.0/StructureDefinition-patient-birthPlace.html\">Patient Birth Place</a></td><td colspan=\"3\">Musterhausen </td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/patient-birthPlace>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Address ;
        fhir:city [ fhir:v "Musterhausen" ]
      ]
   ] [
      fhir:extension ( [
-       fhir:url [
-         fhir:v "code"^^xsd:anyURI ;
-         fhir:l fhir:code
-       ] ;
+       fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:CodeableConcept ;
          fhir:coding ( [
-           fhir:system [
-             fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-             fhir:l <urn:iso:std:iso:3166>
-           ] ;
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "DE" ]
          ] )
        ]
      ] ) ;
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/patient-nationality"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/patient-nationality>
-     ]
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/patient-nationality"^^xsd:anyURI ]
   ] ) ; # 
   fhir:name ( [
      fhir:family [ fhir:v "Mustermann" ] ;
@@ -56,12 +44,9 @@
      fhir:prefix ( [
        fhir:v "Dr. med." ;
        fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier>
-         ] ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ] ;
          fhir:value [
-           a fhir:Code ;
+           a fhir:code ;
            fhir:v "AC"
          ]
        ] )

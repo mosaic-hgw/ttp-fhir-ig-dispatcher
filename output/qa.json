@@ -6,8 +6,8 @@
   "status" : "active",
   "package-id" : "ths-greifswald.ttp-fhir-gw.dispatcher",
   "ig-ver" : "2025.2.0",
-  "date" : "Wed, 12 Nov, 2025 12:30:27 +0100",
-  "dateISO8601" : "2025-11-12T12:30:27+01:00",
+  "date" : "Tue, 25 Nov, 2025 13:35:46 +0100",
+  "dateISO8601" : "2025-11-25T13:35:46+01:00",
   "errs" : 92,
   "warnings" : 149,
   "hints" : 76,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 947724640
+  "maxMemory" : 1116260392
 }

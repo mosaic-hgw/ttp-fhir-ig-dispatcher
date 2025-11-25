@@ -17,7 +17,7 @@
        fhir:parameter ( [
          fhir:name [ fhir:v "study" ] ;
          fhir:value [
-           a fhir:String ;
+           a fhir:string ;
            fhir:v "MyStudy"
          ]
        ] [
@@ -28,38 +28,23 @@
            fhir:identifier ( [
              fhir:type [
                fhir:coding ( [
-                 fhir:system [
-                   fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-                   fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
-                 ] ;
+                 fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
                  fhir:code [ fhir:v "MR" ]
                ] )
              ] ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/patients"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/patients>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/patients"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "1337" ]
            ] [
-             fhir:system [
-               fhir:v "http://fhir.de/sid/gkv/kvid-10"^^xsd:anyURI ;
-               fhir:l <http://fhir.de/sid/gkv/kvid-10>
-             ] ;
+             fhir:system [ fhir:v "http://fhir.de/sid/gkv/kvid-10"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "A123456789" ]
            ] [
              fhir:type [
                fhir:coding ( [
-                 fhir:system [
-                   fhir:v "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"^^xsd:anyURI ;
-                   fhir:l <https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType>
-                 ] ;
+                 fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"^^xsd:anyURI ] ;
                  fhir:code [ fhir:v "A" ]
                ] )
              ] ;
-             fhir:system [
-               fhir:v "https://ths-greifswald.de/fhir/sid/epix/bloomfilter"^^xsd:anyURI ;
-               fhir:l <https://ths-greifswald.de/fhir/sid/epix/bloomfilter>
-             ] ;
+             fhir:system [ fhir:v "https://ths-greifswald.de/fhir/sid/epix/bloomfilter"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg==" ]
            ] )
          ] )
@@ -68,13 +53,13 @@
          fhir:part ( [
            fhir:name [ fhir:v "target" ] ;
            fhir:value [
-             a fhir:String ;
+             a fhir:string ;
              fhir:v "MyStudy-Domain1"
            ]
          ] [
            fhir:name [ fhir:v "count" ] ;
            fhir:value [
-             a fhir:Integer ;
+             a fhir:integer ;
              fhir:v 1
            ]
          ] )
@@ -83,13 +68,13 @@
          fhir:part ( [
            fhir:name [ fhir:v "target" ] ;
            fhir:value [
-             a fhir:String ;
+             a fhir:string ;
              fhir:v "MyStudy-Domain2"
            ]
          ] [
            fhir:name [ fhir:v "count" ] ;
            fhir:value [
-             a fhir:Integer ;
+             a fhir:integer ;
              fhir:v 1
            ]
          ] )
@@ -97,10 +82,7 @@
      ] ) ;
      fhir:request [
        fhir:method [ fhir:v "POST" ] ;
-       fhir:url [
-         fhir:v "$pseudonymizePatient"^^xsd:anyURI ;
-         fhir:l fhir:$pseudonymizePatient
-       ]
+       fhir:url [ fhir:v "$pseudonymizePatient"^^xsd:anyURI ]
      ]
   ] [
      fhir:resource ( [
@@ -109,7 +91,7 @@
        fhir:parameter ( [
          fhir:name [ fhir:v "study" ] ;
          fhir:value [
-           a fhir:String ;
+           a fhir:string ;
            fhir:v "MyStudy"
          ]
        ] [
@@ -120,23 +102,14 @@
            fhir:identifier ( [
              fhir:type [
                fhir:coding ( [
-                 fhir:system [
-                   fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
-                   fhir:l <http://terminology.hl7.org/CodeSystem/v2-0203>
-                 ] ;
+                 fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
                  fhir:code [ fhir:v "MR" ]
                ] )
              ] ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/patients"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/patients>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/patients"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "0815" ]
            ] [
-             fhir:system [
-               fhir:v "http://fhir.de/sid/gkv/kvid-10"^^xsd:anyURI ;
-               fhir:l <http://fhir.de/sid/gkv/kvid-10>
-             ] ;
+             fhir:system [ fhir:v "http://fhir.de/sid/gkv/kvid-10"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "Z987654321" ]
            ] ) ;
            fhir:name ( [
@@ -149,7 +122,7 @@
          fhir:part ( [
            fhir:name [ fhir:v "target" ] ;
            fhir:value [
-             a fhir:String ;
+             a fhir:string ;
              fhir:v "NotMyStudy-Domain15"
            ]
          ] )
@@ -157,10 +130,7 @@
      ] ) ;
      fhir:request [
        fhir:method [ fhir:v "POST" ] ;
-       fhir:url [
-         fhir:v "$pseudonymizePatient"^^xsd:anyURI ;
-         fhir:l fhir:$pseudonymizePatient
-       ]
+       fhir:url [ fhir:v "$pseudonymizePatient"^^xsd:anyURI ]
      ]
   ] ) . # 
 

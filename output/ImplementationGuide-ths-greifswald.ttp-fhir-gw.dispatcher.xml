@@ -9,7 +9,7 @@
   <version value="2025.2.0"/>
   <name value="IGTTPFHIRGatewaybergreifendeSchnittstellen"/>
   <status value="active"/>
-  <date value="2025-11-12T12:30:27+01:00"/>
+  <date value="2025-11-25T13:35:25+01:00"/>
   <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <contact>
     <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
@@ -27,7 +27,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.5.0"/>
+    <version value="7.0.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">

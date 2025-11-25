@@ -22,8 +22,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
-      "ValueSet-PolicyStatusVS.html" : "PolicyStatus"
+      "ValueSet-PolicyStatusVS.html" : "PolicyStatus",
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
     },
     {
       "url" : "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements",
@@ -89,17 +89,17 @@
       "description" : " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
       "uses" : {
       },
+      "ValueSet-ConsentStatusObjectionFullValuesVS.html" : "ConsentStatusObjectionFullValues",
       "ValueSet-ConsentStatusObjectionShortValuesVS.html" : "ConsentStatusObjectionShortValues",
-      "ValueSet-ConsentStatusWithdrawalShortValuesVS.html" : "ConsentStatusWithdrawalShortValues",
-      "ValueSet-ConsentStatusVS.html" : "ConsentStatus",
+      "ValueSet-ConsentStatusConsentShortValuesVS.html" : "ConsentStatusConsentShortValues",
       "ValueSet-ConsentStatusWithdrawalFullValuesVS.html" : "ConsentStatusWithdrawalFullValues",
-      "ValueSet-ConsentStatusConsentOptOutFullValuesVS.html" : "ConsentStatusConsentOptOutFullValues",
       "ValueSet-ConsentStatusRefusalShortValuesVS.html" : "ConsentStatusRefusalShortValues",
+      "ValueSet-ConsentStatusRefusalFullValuesVS.html" : "ConsentStatusRefusalFullValues",
+      "ValueSet-ConsentStatusWithdrawalShortValuesVS.html" : "ConsentStatusWithdrawalShortValues",
       "ValueSet-ConsentStatusConsentFullValuesVS.html" : "ConsentStatusConsentFullValues",
       "ValueSet-ConsentStatusConsentOptOutShortValuesVS.html" : "ConsentStatusConsentOptOutShortValues",
-      "ValueSet-ConsentStatusConsentShortValuesVS.html" : "ConsentStatusConsentShortValues",
-      "ValueSet-ConsentStatusObjectionFullValuesVS.html" : "ConsentStatusObjectionFullValues",
-      "ValueSet-ConsentStatusRefusalFullValuesVS.html" : "ConsentStatusRefusalFullValues"
+      "ValueSet-ConsentStatusVS.html" : "ConsentStatus",
+      "ValueSet-ConsentStatusConsentOptOutFullValuesVS.html" : "ConsentStatusConsentOptOutFullValues"
     },
     {
       "url" : "https://ths-greifswald.de/fhir/CodeSystem/gics/IdMatchingType",
@@ -122,30 +122,6 @@
       "uses" : {
       },
       "ValueSet-PolicyVS.html" : "Policy"
-    },
-    {
-      "url" : "urn:ietf:bcp:47",
-      "version" : "2.0.1",
-      "status" : "active",
-      "name" : "Ietf3066",
-      "title" : "Tags for the Identification of Languages",
-      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
-      "oids" : ["2.16.840.1.113883.6.121"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
-    },
-    {
-      "url" : "urn:iso:std:iso:3166",
-      "version" : "1.0.1",
-      "status" : "active",
-      "name" : "ISO3166Part1",
-      "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
-      "description" : "ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations.",
-      "oids" : ["1.0.3166.1"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-iso3166-1-2.html" : "Iso 3166 Part 1: 2 Letter Codes"
     }
   ]
 }

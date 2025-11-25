@@ -12,7 +12,7 @@
   "version" : "2025.2.0",
   "name" : "IGTTPFHIRGatewaybergreifendeSchnittstellen",
   "status" : "active",
-  "date" : "2025-11-12T12:30:27+01:00",
+  "date" : "2025-11-25T13:35:25+01:00",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {
@@ -39,7 +39,7 @@
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "6.5.0"
+      "version" : "7.0.0"
     },
     {
       "id" : "hl7ext",

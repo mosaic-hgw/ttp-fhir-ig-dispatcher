@@ -11,12 +11,9 @@
   fhir:id [ fhir:v "PolicyVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet PolicyVS</b></p><a name=\"PolicyVS\"> </a><a name=\"hcPolicyVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-PolicyCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/gics/Policy</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.2.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet PolicyVS</b></p><a name=\"PolicyVS\"> </a><a name=\"hcPolicyVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-PolicyCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/gics/Policy</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.2.0</span></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [
-     fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/Policy"^^xsd:anyURI ;
-     fhir:l <https://ths-greifswald.de/fhir/ValueSet/gics/Policy>
-  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/Policy"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "Policy"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
@@ -33,10 +30,7 @@
   fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/Policy>
-       ]
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/Policy"^^xsd:anyURI ]
      ] )
   ] . # 
 

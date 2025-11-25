@@ -230,7 +230,7 @@
       ( <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">fhir:parameter</a> [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;study&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MyStudy&quot;         ]       ] [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;patient&quot; ] ;
         ( <a href="http://hl7.org/fhir/R4/patient.html#Patient">fhir:Parameters.parameter.resource</a> [
@@ -239,53 +239,41 @@
           ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:identifier</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:type</a> [
               ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/v2-0203&gt;                 ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MR&quot; ]               ] )             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://my.fhir.domain.local/fhir/sid/patients&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://my.fhir.domain.local/fhir/sid/patients&gt;             ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://my.fhir.domain.local/fhir/sid/patients&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1337&quot; ]           ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.de/sid/gkv/kvid-10&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://fhir.de/sid/gkv/kvid-10&gt;             ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.de/sid/gkv/kvid-10&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;A123456789&quot; ]           ] [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:type</a> [
               ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType&gt;                 ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;A&quot; ]               ] )             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://ths-greifswald.de/fhir/sid/epix/bloomfilter&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://ths-greifswald.de/fhir/sid/epix/bloomfilter&gt;             ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://ths-greifswald.de/fhir/sid/epix/bloomfilter&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg==&quot; ]           ] )         ] )       ] [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;context&quot; ] ;
         ( <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.part">fhir:part</a> [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;target&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MyStudy-Domain1&quot;           ]         ] [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;count&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#integer">a</a> fhir:Integer ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#integer">a</a> fhir:integer ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 1           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;context&quot; ] ;
         ( <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.part">fhir:part</a> [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;target&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MyStudy-Domain2&quot;           ]         ] [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;count&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#integer">a</a> fhir:Integer ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#integer">a</a> fhir:integer ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 1           ]         ] )       ] )     ] ) ;
 <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request">fhir:request</a> [
 <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.method">fhir:method</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;POST&quot; ] ;
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;$pseudonymizePatient&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> fhir:$pseudonymizePatient       ]     ]
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;$pseudonymizePatient&quot;^^xsd:anyURI ]     ]
   ] [
     ( <a href="http://hl7.org/fhir/R4/parameters.html#Parameters">fhir:resource</a> [
 <a href="http://hl7.org/fhir/R4/parameters.html">a</a> fhir:Parameters ;
@@ -293,7 +281,7 @@
       ( <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter">fhir:parameter</a> [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;study&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MyStudy&quot;         ]       ] [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;patient&quot; ] ;
         ( <a href="http://hl7.org/fhir/R4/patient.html#Patient">fhir:Parameters.parameter.resource</a> [
@@ -302,17 +290,11 @@
           ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:identifier</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:type</a> [
               ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/v2-0203&gt;                 ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MR&quot; ]               ] )             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://my.fhir.domain.local/fhir/sid/patients&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://my.fhir.domain.local/fhir/sid/patients&gt;             ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://my.fhir.domain.local/fhir/sid/patients&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0815&quot; ]           ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.de/sid/gkv/kvid-10&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://fhir.de/sid/gkv/kvid-10&gt;             ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.de/sid/gkv/kvid-10&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Z987654321&quot; ]           ] ) ;
           ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.name">fhir:name</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hinterlist&quot; ] ;
@@ -321,13 +303,11 @@
         ( <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.part">fhir:part</a> [
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;target&quot; ] ;
 <a href="http://hl7.org/fhir/R4/parameters.html#Parameters.parameter.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NotMyStudy-Domain15&quot;           ]         ] )       ] )     ] ) ;
 <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request">fhir:request</a> [
 <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.method">fhir:method</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;POST&quot; ] ;
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;$pseudonymizePatient&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> fhir:$pseudonymizePatient       ]     ]
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;$pseudonymizePatient&quot;^^xsd:anyURI ]     ]
   ] ) . # 
 
 </code></pre>
@@ -355,7 +335,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 12, 2025 12:30+0100">2025-11-12</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 25, 2025 13:35+0100">2025-11-25</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

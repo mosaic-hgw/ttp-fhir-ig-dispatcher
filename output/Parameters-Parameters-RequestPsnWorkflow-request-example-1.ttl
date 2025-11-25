@@ -12,31 +12,31 @@
   fhir:parameter ( [
      fhir:name [ fhir:v "study" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "mii"
      ]
   ] [
      fhir:name [ fhir:v "original" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "dic_1H51T"
      ]
   ] [
      fhir:name [ fhir:v "source" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "dic_muenster"
      ]
   ] [
      fhir:name [ fhir:v "target" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "eyematics"
      ]
   ] [
      fhir:name [ fhir:v "event" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "fttp.getMiiPsn_eyematics"
      ]
   ] ) . # 

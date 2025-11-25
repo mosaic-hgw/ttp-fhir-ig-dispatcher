@@ -12,13 +12,13 @@
   fhir:parameter ( [
      fhir:name [ fhir:v "study" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "mii"
      ]
   ] [
      fhir:name [ fhir:v "target" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "eyematics"
      ]
   ] ) . # 
