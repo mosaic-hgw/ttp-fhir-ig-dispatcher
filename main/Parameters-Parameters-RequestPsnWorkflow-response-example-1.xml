@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-RequestPsnWorkflow-response-example-1"/>
+  <parameter>
+    <name value="pseudonym"/>
+    <part>
+      <name value="original"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="dic_1H51T"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="target"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="eyematics"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="pseudonym"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="eyematics_6348Q7"/>
+      </valueIdentifier>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="error"/>
+    <part>
+      <name value="original"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="dic_2Q42E"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="target"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="eyematics"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="error-code"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/issue-type"/>
+        <code value="not-found"/>
+        <display value="Not Found"/>
+      </valueCoding>
+    </part>
+  </parameter>
+</Parameters>

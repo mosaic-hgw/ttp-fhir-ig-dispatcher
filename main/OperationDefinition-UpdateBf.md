@@ -1,0 +1,88 @@
+# updateBf - v2025.2.0
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "UpdateBf",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/UpdateBf",
+  "version" : "2025.2.0",
+  "name" : "UpdateBf",
+  "title" : "updateBf",
+  "status" : "draft",
+  "kind" : "operation",
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [
+    {
+      "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "https://www.ths-greifswald.de/"
+        }
+      ]
+    }
+  ],
+  "description" : "Aktualisierung eines bestehenden Bloomfilters (z.B. bei geänderter Konfiguration oder vorheriger fehlerhafter Übermittlung) bezogen auf ein bereits bekanntes Pseudonym.",
+  "affectsState" : true,
+  "code" : "updateBf",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [
+    {
+      "name" : "study",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe der Studie",
+      "type" : "string"
+    },
+    {
+      "name" : "bloomfilter",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "der hinzu zu fügende Bloomfilter (base64-codiert)",
+      "type" : "base64Binary"
+    },
+    {
+      "name" : "source",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe des Bloomfilter sendenden Standorts (Quell-Domäne)",
+      "type" : "string"
+    },
+    {
+      "name" : "pseudonym",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Das Pseudonym, dessen Bloomfilter aktualisiert werden soll.",
+      "type" : "string"
+    },
+    {
+      "name" : "bfVersion",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Bloomfilter-Version.",
+      "type" : "string"
+    },
+    {
+      "name" : "return",
+      "use" : "out",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Rückinformation.",
+      "type" : "OperationOutcome"
+    }
+  ]
+}
+
+```

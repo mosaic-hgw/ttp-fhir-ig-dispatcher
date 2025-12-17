@@ -1,0 +1,133 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/Bundle/PseudonymizePatient-Bundle-response-example-1> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PseudonymizePatient-Bundle-response-example-1"] ; # 
+  fhir:type [ fhir:v "batch-response"] ; # 
+  fhir:entry ( [
+     fhir:resource ( [
+       a fhir:Parameters ;
+       fhir:id [ fhir:v "PseudonymizePatient-Bundle-response-example-1-Par1" ] ;
+       fhir:parameter ( [
+         fhir:name [ fhir:v "externalPatientId" ] ;
+         fhir:value [
+           a fhir:Id ;
+           fhir:v "aaaaaaaa-8a1e-4442-af99-50abc27d6f52"
+         ]
+       ] [
+         fhir:name [ fhir:v "pseudonym" ] ;
+         fhir:part ( [
+           fhir:name [ fhir:v "target" ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:system [
+               fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ;
+               fhir:l <http://my.fhir.domain.local/fhir/sid/domains>
+             ] ;
+             fhir:value [ fhir:v "MyStudy-Domain1" ]
+           ]
+         ] [
+           fhir:name [ fhir:v "value" ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:system [
+               fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ;
+               fhir:l <http://my.fhir.domain.local/fhir/sid/pseudonyms>
+             ] ;
+             fhir:value [ fhir:v "56464986521" ]
+           ]
+         ] )
+       ] [
+         fhir:name [ fhir:v "pseudonym" ] ;
+         fhir:part ( [
+           fhir:name [ fhir:v "target" ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:system [
+               fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ;
+               fhir:l <http://my.fhir.domain.local/fhir/sid/domains>
+             ] ;
+             fhir:value [ fhir:v "MyStudy-Domain2" ]
+           ]
+         ] [
+           fhir:name [ fhir:v "value" ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:system [
+               fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ;
+               fhir:l <http://my.fhir.domain.local/fhir/sid/pseudonyms>
+             ] ;
+             fhir:value [ fhir:v "8976834765347" ]
+           ]
+         ] )
+       ] )
+     ] ) ;
+     fhir:response [
+       fhir:status [ fhir:v "200" ] ;
+       fhir:outcome ( [
+         a fhir:OperationOutcome ;
+         fhir:id [ fhir:v "PseudonymizePatient-Bundle-response-example-1-Par1OpO" ] ;
+         fhir:issue ( [
+           fhir:severity [ fhir:v "information" ] ;
+           fhir:code [ fhir:v "informational" ] ;
+           fhir:diagnostics [ fhir:v "Operation completed successfully." ]
+         ] )
+       ] )
+     ]
+  ] [
+     fhir:resource ( [
+       a fhir:Parameters ;
+       fhir:id [ fhir:v "PseudonymizePatient-Bundle-response-example-1-Par2" ] ;
+       fhir:parameter ( [
+         fhir:name [ fhir:v "externalPatientId" ] ;
+         fhir:value [
+           a fhir:Id ;
+           fhir:v "bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e"
+         ]
+       ] [
+         fhir:name [ fhir:v "pseudonym" ] ;
+         fhir:part ( [
+           fhir:name [ fhir:v "target" ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:system [
+               fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ;
+               fhir:l <http://my.fhir.domain.local/fhir/sid/domains>
+             ] ;
+             fhir:value [ fhir:v "MyStudy-Domain15" ]
+           ]
+         ] [
+           fhir:name [ fhir:v "value" ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:system [
+               fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ;
+               fhir:l <http://my.fhir.domain.local/fhir/sid/pseudonyms>
+             ] ;
+             fhir:value [ fhir:v "8976834765347" ]
+           ]
+         ] )
+       ] )
+     ] ) ;
+     fhir:response [
+       fhir:status [ fhir:v "404" ] ;
+       fhir:outcome ( [
+         a fhir:OperationOutcome ;
+         fhir:id [ fhir:v "PseudonymizePatient-Bundle-response-example-1-Par2OpO" ] ;
+         fhir:issue ( [
+           fhir:severity [ fhir:v "fatal" ] ;
+           fhir:code [ fhir:v "security" ] ;
+           fhir:diagnostics [ fhir:v "Target domain 'NotMyStudy-Domain15' not found." ]
+         ] )
+       ] )
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

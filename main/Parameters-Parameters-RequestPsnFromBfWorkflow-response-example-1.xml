@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-RequestPsnFromBfWorkflow-response-example-1"/>
+  <parameter>
+    <name value="pseudonym-bf"/>
+    <part>
+      <name value="bloomfilter"/>
+      <valueBase64Binary value="SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="/>
+    </part>
+    <part>
+      <name value="target"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="dic_muenster"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="pseudonym"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="dic_1H51T"/>
+      </valueIdentifier>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="error"/>
+    <part>
+      <name value="bloomfilter"/>
+      <valueBase64Binary value="ZHVtbXk="/>
+    </part>
+    <part>
+      <name value="target"/>
+      <valueIdentifier>
+        <system value="https://ths-greifswald.de/gpas"/>
+        <value value="dic_muenster"/>
+      </valueIdentifier>
+    </part>
+    <part>
+      <name value="error-code"/>
+      <valueCoding>
+        <system value="http://hl7.org/fhir/issue-type"/>
+        <code value="not-found"/>
+        <display value="Not Found"/>
+      </valueCoding>
+    </part>
+  </parameter>
+</Parameters>

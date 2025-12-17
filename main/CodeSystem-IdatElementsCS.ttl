@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/CodeSystem/IdatElementsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "IdatElementsCS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem IdatElementsCS</b></p><a name=\"IdatElementsCS\"> </a><a name=\"hcIdatElementsCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">given<a name=\"IdatElementsCS-given\"> </a></td><td>Vorname</td></tr><tr><td style=\"white-space:nowrap\">family<a name=\"IdatElementsCS-family\"> </a></td><td>Nachname</td></tr><tr><td style=\"white-space:nowrap\">prefix<a name=\"IdatElementsCS-prefix\"> </a></td><td>Namens-Präfix</td></tr><tr><td style=\"white-space:nowrap\">suffix<a name=\"IdatElementsCS-suffix\"> </a></td><td>Namens-Suffix</td></tr><tr><td style=\"white-space:nowrap\">birthdate<a name=\"IdatElementsCS-birthdate\"> </a></td><td>Geburtsdatum</td></tr><tr><td style=\"white-space:nowrap\">gender<a name=\"IdatElementsCS-gender\"> </a></td><td>Geschlecht</td></tr><tr><td style=\"white-space:nowrap\">address-line<a name=\"IdatElementsCS-address-line\"> </a></td><td>Straße, Hausnummer, Postfach</td></tr><tr><td style=\"white-space:nowrap\">address-city<a name=\"IdatElementsCS-address-city\"> </a></td><td>Ort</td></tr><tr><td style=\"white-space:nowrap\">address-postalcode<a name=\"IdatElementsCS-address-postalcode\"> </a></td><td>Postleitzahl</td></tr><tr><td style=\"white-space:nowrap\">birthplace<a name=\"IdatElementsCS-birthplace\"> </a></td><td>Geburtsort</td></tr><tr><td style=\"white-space:nowrap\">maidenname<a name=\"IdatElementsCS-maidenname\"> </a></td><td>Geburtsname</td></tr><tr><td style=\"white-space:nowrap\">degree<a name=\"IdatElementsCS-degree\"> </a></td><td>akademischer Titel</td></tr><tr><td style=\"white-space:nowrap\">language<a name=\"IdatElementsCS-language\"> </a></td><td>(Mutter-)Sprache</td></tr><tr><td style=\"white-space:nowrap\">nationality<a name=\"IdatElementsCS-nationality\"> </a></td><td>Staatsangehörigkeit</td></tr><tr><td style=\"white-space:nowrap\">maritalstatus<a name=\"IdatElementsCS-maritalstatus\"> </a></td><td>Familienstand</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
+     fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
+  ] ; # 
+  fhir:version [ fhir:v "2025.2.0"] ; # 
+  fhir:name [ fhir:v "IdatElements"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-06-12"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.ths-greifswald.de/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Element names for use in $requestTasks operation."] ; # 
+  fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "15"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "given" ] ;
+     fhir:display [ fhir:v "Vorname" ]
+  ] [
+     fhir:code [ fhir:v "family" ] ;
+     fhir:display [ fhir:v "Nachname" ]
+  ] [
+     fhir:code [ fhir:v "prefix" ] ;
+     fhir:display [ fhir:v "Namens-Präfix" ]
+  ] [
+     fhir:code [ fhir:v "suffix" ] ;
+     fhir:display [ fhir:v "Namens-Suffix" ]
+  ] [
+     fhir:code [ fhir:v "birthdate" ] ;
+     fhir:display [ fhir:v "Geburtsdatum" ]
+  ] [
+     fhir:code [ fhir:v "gender" ] ;
+     fhir:display [ fhir:v "Geschlecht" ]
+  ] [
+     fhir:code [ fhir:v "address-line" ] ;
+     fhir:display [ fhir:v "Straße, Hausnummer, Postfach" ]
+  ] [
+     fhir:code [ fhir:v "address-city" ] ;
+     fhir:display [ fhir:v "Ort" ]
+  ] [
+     fhir:code [ fhir:v "address-postalcode" ] ;
+     fhir:display [ fhir:v "Postleitzahl" ]
+  ] [
+     fhir:code [ fhir:v "birthplace" ] ;
+     fhir:display [ fhir:v "Geburtsort" ]
+  ] [
+     fhir:code [ fhir:v "maidenname" ] ;
+     fhir:display [ fhir:v "Geburtsname" ]
+  ] [
+     fhir:code [ fhir:v "degree" ] ;
+     fhir:display [ fhir:v "akademischer Titel" ]
+  ] [
+     fhir:code [ fhir:v "language" ] ;
+     fhir:display [ fhir:v "(Mutter-)Sprache" ]
+  ] [
+     fhir:code [ fhir:v "nationality" ] ;
+     fhir:display [ fhir:v "Staatsangehörigkeit" ]
+  ] [
+     fhir:code [ fhir:v "maritalstatus" ] ;
+     fhir:display [ fhir:v "Familienstand" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

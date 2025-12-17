@@ -1,0 +1,73 @@
+# providePatientData - v2025.2.0
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "ProvidePatientData",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/providePatientData",
+  "version" : "2025.2.0",
+  "name" : "ProvidePatientData",
+  "title" : "providePatientData",
+  "status" : "active",
+  "kind" : "operation",
+  "date" : "2025-06-12",
+  "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "contact" : [
+    {
+      "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "https://www.ths-greifswald.de/"
+        }
+      ]
+    }
+  ],
+  "description" : "Identifizierende Daten (IDAT) werden für einen Clearing-Prozess an die föderierte Treuhandstelle (fTTP) übertragen. Die darin enthaltenen Attribute (z.B. Vorname, Nachname, usw.) dienen für ein konventionelles Record Linkage und werden danach in der fTTP unwiederbringlich gelöscht.",
+  "affectsState" : true,
+  "code" : "providePatientData",
+  "comment" : "Identifizierende Daten (IDAT) werden für einen Clearing-Prozess an die föderierte Treuhandstelle (fTTP) übertragen. Die darin enthaltenen Attribute (z.B. Vorname, Nachname, usw.) dienen für ein konventionelles Record Linkage und werden danach in der fTTP unwiederbringlich gelöscht.",
+  "system" : true,
+  "type" : false,
+  "instance" : false,
+  "parameter" : [
+    {
+      "name" : "taskId",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Identifikator der Aufgabe; Rückreferenzierung auf die aus der providePatientData Operation erhaltene Aufgabe.",
+      "type" : "id"
+    },
+    {
+      "name" : "target",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Angabe der Ziel-Domäne bzw. des abrufenden Standorts",
+      "type" : "string"
+    },
+    {
+      "name" : "patient",
+      "use" : "in",
+      "min" : 1,
+      "max" : "1",
+      "documentation" : "Patient-Ressource die, soweit bekannt, die in der der taskId assoziierten Aufgabe definierten identifizierenden Datenelemente eines Patienten enthält.",
+      "type" : "Patient"
+    },
+    {
+      "name" : "return",
+      "use" : "out",
+      "min" : 0,
+      "max" : "1",
+      "documentation" : "Bundle mit den beschriebenen Inhalten",
+      "type" : "Bundle"
+    }
+  ]
+}
+
+```

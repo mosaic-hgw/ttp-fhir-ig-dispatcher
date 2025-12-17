@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-ProvidePatientData-request-example-1> a fhir:Parameters ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Parameters-ProvidePatientData-request-example-1"] ; # 
+  fhir:parameter ( [
+     fhir:name [ fhir:v "taskId" ] ;
+     fhir:value [
+       a fhir:Id ;
+       fhir:v "064ddebf-b20e-468a-97fd-88097bcdbc11"
+     ]
+  ] [
+     fhir:name [ fhir:v "target" ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "eyematics"
+     ]
+  ] [
+     fhir:name [ fhir:v "patient" ] ;
+     fhir:Parameters.parameter.resource ( [
+       a fhir:Patient ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/patient-birthPlace>
+         ] ;
+         fhir:value [
+           a fhir:Address ;
+           fhir:city [ fhir:v "Musterhausen" ]
+         ]
+       ] ) ;
+       fhir:name ( [
+         fhir:family [ fhir:v "Mustermann" ] ;
+         fhir:given ( [ fhir:v "Martin" ] ) ;
+         fhir:prefix ( [
+           fhir:v "Dr. med." ;
+           fhir:extension ( [
+             fhir:url [
+               fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ;
+               fhir:l <http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier>
+             ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "AC"
+             ]
+           ] )
+         ] )
+       ] ) ;
+       fhir:gender [ fhir:v "male" ] ;
+       fhir:birthDate [ fhir:v "1965-12-03"^^xsd:date ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

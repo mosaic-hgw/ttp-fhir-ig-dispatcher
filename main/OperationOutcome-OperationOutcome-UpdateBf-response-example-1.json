@@ -1,0 +1,19 @@
+{
+  "resourceType" : "OperationOutcome",
+  "id" : "OperationOutcome-UpdateBf-response-example-1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationOutcome OperationOutcome-UpdateBf-response-example-1</b></p><a name=\"OperationOutcome-UpdateBf-response-example-1\"> </a><a name=\"hcOperationOutcome-UpdateBf-response-example-1\"> </a><h3>Issues</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Severity</b></td><td><b>Code</b></td><td><b>Details</b></td><td><b>Diagnostics</b></td></tr><tr><td style=\"display: none\">*</td><td>Information</td><td>Informational Note</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/operation-outcome MSG_UPDATED}\">existing resource updated</span></td><td>Bloomfilter updated.</td></tr></table></div>"
+  },
+  "issue" : [{
+    "severity" : "information",
+    "code" : "informational",
+    "details" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/operation-outcome",
+        "code" : "MSG_UPDATED"
+      }]
+    },
+    "diagnostics" : "Bloomfilter updated."
+  }]
+}

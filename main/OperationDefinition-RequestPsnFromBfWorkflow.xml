@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="RequestPsnFromBfWorkflow"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition RequestPsnFromBfWorkflow</b></p><a name="RequestPsnFromBfWorkflow"> </a><a name="hcRequestPsnFromBfWorkflow"> </a><p>URL: [base]/$requestPsnFromBfWorkflow</p><h3>Parameters</h3><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>Angabe der Studie</p>
+</div></td></tr><tr><td>IN</td><td>bloomfilter</td><td/><td>1..*</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#base64Binary">base64Binary</a></td><td/><td><div><p>Liste studien- und standortspezifischer Bloomfilter (base64-codiert)</p>
+</div></td></tr><tr><td>IN</td><td>target</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>Angabe des Bloomfilter sendenden Standorts (Ziel-Domäne)</p>
+</div></td></tr><tr><td>OUT</td><td>pseudonym-bf</td><td/><td>0..*</td><td/><td/><td><div><p>Ermitteltes bzw. generiertes studien- und standort-spezifisches Pseudonym</p>
+</div></td></tr><tr><td>OUT</td><td>pseudonym-bf.bloomfilter</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#base64Binary">base64Binary</a></td><td/><td><div><p>Bloomfilter</p>
+</div></td></tr><tr><td>OUT</td><td>pseudonym-bf.target</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td/><td><div><p>die verwendete Ziel-Domäne (im Request übergeben)</p>
+</div></td></tr><tr><td>OUT</td><td>pseudonym-bf.pseudonym</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td/><td><div><p>das in der Ziel-Domäne erzeugte Pseudonym.</p>
+</div></td></tr><tr><td>OUT</td><td>error</td><td/><td>0..*</td><td/><td/><td><div><p>Fehlerrückgabe bei Teil-Fehlern</p>
+</div></td></tr><tr><td>OUT</td><td>error.bloomfilter</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#base64Binary">base64Binary</a></td><td/><td><div><p>Bloomfilter</p>
+</div></td></tr><tr><td>OUT</td><td>error.target</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td/><td><div><p>die verwendete Ziel-Domäne (im Request übergeben)</p>
+</div></td></tr><tr><td>OUT</td><td>error.error-code</td><td/><td>1..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td/><td><div><p>Fehlercode</p>
+</div></td></tr></table><div><p>Personenregistrierung und Privacy-Preserving Record Linkage (PPRL) auf Basis von Bloomfiltern (BF) innerhalb eines Geltungsbereiches (Studie, Standort). Die Erzeugung eines standortspezifischen Pseudonyms erfolgt innerhalb der angegebenen Ziel-Domäne. Diese wird automatisch erzeugt, sofern noch nicht vorhanden. Die Rückgabe eines standortspezifischen Pseudonyms (z.B. DIZPseudonym) erfolgt als Parameter.</p>
+</div></div>
+  </text>
+  <url value="https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnFromBfWorkflow"/>
+  <version value="2025.2.0"/>
+  <name value="RequestPsnFromBfWorkflow"/>
+  <title value="requestPsnFromBfWorkflow"/>
+  <status value="active"/>
+  <kind value="operation"/>
+  <date value="2025-06-12"/>
+  <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <contact>
+    <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ths-greifswald.de/"/>
+    </telecom>
+  </contact>
+  <description value="Personenregistrierung und Privacy-Preserving Record Linkage (PPRL) auf Basis von Bloomfiltern (BF) innerhalb eines Geltungsbereiches (Studie, Standort). Die Erzeugung eines standortspezifischen Pseudonyms erfolgt innerhalb der angegebenen Ziel-Domäne. Diese wird automatisch erzeugt, sofern noch nicht vorhanden. Die Rückgabe eines standortspezifischen Pseudonyms (z.B. DIZPseudonym) erfolgt als Parameter."/>
+  <purpose value="Teil des FHIR Gateway für Dispatcher und gPAS. Weitere Infos unter https://ths-greifswald.de"/>
+  <code value="requestPsnFromBfWorkflow"/>
+  <comment value="Personenregistrierung und Privacy-Preserving Record Linkage (PPRL) auf Basis von Bloomfiltern (BF) innerhalb eines Geltungsbereiches (Studie, Standort). Die Erzeugung eines standortspezifischen Pseudonyms erfolgt innerhalb der angegebenen Ziel-Domäne. Diese wird automatisch erzeugt, sofern noch nicht vorhanden. Die Rückgabe eines standortspezifischen Pseudonyms (z.B. DIZPseudonym) erfolgt als Parameter."/>
+  <system value="true"/>
+  <type value="false"/>
+  <instance value="false"/>
+  <parameter>
+    <name value="study"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Angabe der Studie"/>
+    <type value="string"/>
+  </parameter>
+  <parameter>
+    <name value="bloomfilter"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="*"/>
+    <documentation value="Liste studien- und standortspezifischer Bloomfilter (base64-codiert)"/>
+    <type value="base64Binary"/>
+    <part>
+      <name value="bloomfilter"/>
+      <use value="out"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="Bloomfilter"/>
+    </part>
+    <part>
+      <name value="version"/>
+      <use value="out"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="Version des Bloomfilters"/>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="target"/>
+    <use value="in"/>
+    <min value="1"/>
+    <max value="1"/>
+    <documentation value="Angabe des Bloomfilter sendenden Standorts (Ziel-Domäne)"/>
+    <type value="string"/>
+  </parameter>
+  <parameter>
+    <name value="pseudonym-bf"/>
+    <use value="out"/>
+    <min value="0"/>
+    <max value="*"/>
+    <documentation value="Ermitteltes bzw. generiertes studien- und standort-spezifisches Pseudonym"/>
+    <part>
+      <name value="bloomfilter"/>
+      <use value="out"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="Bloomfilter"/>
+      <type value="base64Binary"/>
+    </part>
+    <part>
+      <name value="target"/>
+      <use value="out"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="die verwendete Ziel-Domäne (im Request übergeben)"/>
+      <type value="Identifier"/>
+    </part>
+    <part>
+      <name value="pseudonym"/>
+      <use value="out"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="das in der Ziel-Domäne erzeugte Pseudonym."/>
+      <type value="Identifier"/>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="error"/>
+    <use value="out"/>
+    <min value="0"/>
+    <max value="*"/>
+    <documentation value="Fehlerrückgabe bei Teil-Fehlern"/>
+    <part>
+      <name value="bloomfilter"/>
+      <use value="out"/>
+      <min value="0"/>
+      <max value="1"/>
+      <documentation value="Bloomfilter"/>
+      <type value="base64Binary"/>
+    </part>
+    <part>
+      <name value="target"/>
+      <use value="out"/>
+      <min value="0"/>
+      <max value="1"/>
+      <documentation value="die verwendete Ziel-Domäne (im Request übergeben)"/>
+      <type value="Identifier"/>
+    </part>
+    <part>
+      <name value="error-code"/>
+      <use value="out"/>
+      <min value="1"/>
+      <max value="1"/>
+      <documentation value="Fehlercode"/>
+      <type value="Coding"/>
+    </part>
+  </parameter>
+</OperationDefinition>

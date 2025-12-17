@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="Parameters-RequestPsnWorkflow-request-example-1"/>
+  <parameter>
+    <name value="study"/>
+    <valueString value="mii"/>
+  </parameter>
+  <parameter>
+    <name value="original"/>
+    <valueString value="dic_1H51T"/>
+  </parameter>
+  <parameter>
+    <name value="source"/>
+    <valueString value="dic_muenster"/>
+  </parameter>
+  <parameter>
+    <name value="target"/>
+    <valueString value="eyematics"/>
+  </parameter>
+  <parameter>
+    <name value="event"/>
+    <valueString value="fttp.getMiiPsn_eyematics"/>
+  </parameter>
+</Parameters>

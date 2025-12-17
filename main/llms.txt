@@ -1,0 +1,83 @@
+# ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0: null
+
+## Pages
+
+* [Implementation Guide Übergreifende Schnittstellen](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Allgemein](Allgemein.md)
+
+## Resources
+
+### CodeSystems
+
+* [BloomfilterType](CodeSystem-BloomfilterTypeCS.md)
+* [ConsentComponentType](CodeSystem-ConsentComponentTypeCS.md)
+* [ConsentPolicyAction](CodeSystem-ConsentPolicyActionCS.md)
+* [ConsentPolicyActor](CodeSystem-ConsentPolicyActorCS.md)
+* [ConsentPolicyClass](CodeSystem-ConsentPolicyClassCS.md)
+* [ConsentPolicyPurpose](CodeSystem-ConsentPolicyPurposeCS.md)
+* [ConsentStatus](CodeSystem-ConsentStatusCS.md)
+* [DesignationUse](CodeSystem-DesignationUseCS.md)
+* [IdMatchingType](CodeSystem-IdMatchingTypeCS.md)
+* [IdatElements](CodeSystem-IdatElementsCS.md)
+* [MatchStatus](CodeSystem-MatchStatusCS.md)
+* [Policy](CodeSystem-PolicyCS.md)
+* [SaveAction](CodeSystem-SaveActionCS.md)
+
+### ValueSets
+
+* [BloomfilterType](ValueSet-BloomfilterTypeVS.md)
+* [ConsentComponentType](ValueSet-ConsentComponentTypeVS.md)
+* [ConsentPolicyAction](ValueSet-ConsentPolicyActionVS.md)
+* [ConsentPolicyActor](ValueSet-ConsentPolicyActorVS.md)
+* [ConsentPolicyClass](ValueSet-ConsentPolicyClassVS.md)
+* [ConsentPolicyPurpose](ValueSet-ConsentPolicyPurposeVS.md)
+* [ConsentStatusConsentFullValues](ValueSet-ConsentStatusConsentFullValuesVS.md)
+* [ConsentStatusConsentOptOutFullValues](ValueSet-ConsentStatusConsentOptOutFullValuesVS.md)
+* [ConsentStatusConsentOptOutShortValues](ValueSet-ConsentStatusConsentOptOutShortValuesVS.md)
+* [ConsentStatusConsentShortValues](ValueSet-ConsentStatusConsentShortValuesVS.md)
+* [ConsentStatusObjectionFullValues](ValueSet-ConsentStatusObjectionFullValuesVS.md)
+* [ConsentStatusObjectionShortValues](ValueSet-ConsentStatusObjectionShortValuesVS.md)
+* [ConsentStatusRefusalFullValues](ValueSet-ConsentStatusRefusalFullValuesVS.md)
+* [ConsentStatusRefusalShortValues](ValueSet-ConsentStatusRefusalShortValuesVS.md)
+* [ConsentStatus](ValueSet-ConsentStatusVS.md)
+* [ConsentStatusWithdrawalFullValues](ValueSet-ConsentStatusWithdrawalFullValuesVS.md)
+* [ConsentStatusWithdrawalShortValues](ValueSet-ConsentStatusWithdrawalShortValuesVS.md)
+* [IdMatchingType](ValueSet-IdMatchingTypeVS.md)
+* [IdatElements](ValueSet-IdatElementsVS.md)
+* [MatchStatus](ValueSet-MatchStatusVS.md)
+* [PolicyStatus](ValueSet-PolicyStatusVS.md)
+* [Policy](ValueSet-PolicyVS.md)
+* [SaveAction](ValueSet-SaveActionVS.md)
+
+### Resource Profiles
+
+* [IDAT](StructureDefinition-Idat.md)
+
+### ImplementationGuides
+
+* [IGTTPFHIRGatewaybergreifendeSchnittstellen](index.md)
+
+### OperationDefinitions
+
+* [providePatientData](OperationDefinition-ProvidePatientData.md)
+* [pseudonymizePatient](OperationDefinition-PseudonymizePatient.md)
+* [requestPsnFromBfWorkflow](OperationDefinition-RequestPsnFromBfWorkflow.md)
+* [requestPsnWorkflow](OperationDefinition-RequestPsnWorkflow.md)
+* [requestTasks](OperationDefinition-RequestTasks.md)
+* [updateBf](OperationDefinition-UpdateBf.md)
+
+### Examples
+
+* [PseudonymizePatient-Bundle-request-example-1 (Bundle)](Bundle-PseudonymizePatient-Bundle-request-example-1.md)
+* [PseudonymizePatient-Bundle-response-example-1 (Bundle)](Bundle-PseudonymizePatient-Bundle-response-example-1.md)
+* [OperationOutcome-UpdateBf-response-example-1 (OperationOutcome)](OperationOutcome-OperationOutcome-UpdateBf-response-example-1.md)
+* [Parameters-ProvidePatientData-request-example-1 (Parameters)](Parameters-Parameters-ProvidePatientData-request-example-1.md)
+* [Parameters-RequestPsnFromBfWorkflow-request-example-1 (Parameters)](Parameters-Parameters-RequestPsnFromBfWorkflow-request-example-1.md)
+* [Parameters-RequestPsnFromBfWorkflow-response-example-1 (Parameters)](Parameters-Parameters-RequestPsnFromBfWorkflow-response-example-1.md)
+* [Parameters-RequestPsnWorkflow-request-example-1 (Parameters)](Parameters-Parameters-RequestPsnWorkflow-request-example-1.md)
+* [Parameters-RequestPsnWorkflow-response-example-1 (Parameters)](Parameters-Parameters-RequestPsnWorkflow-response-example-1.md)
+* [Parameters-RequestTasks-request-example-1 (Parameters)](Parameters-Parameters-RequestTasks-request-example-1.md)
+* [Parameters-RequestTasks-response-example-1 (Parameters)](Parameters-Parameters-RequestTasks-response-example-1.md)
+* [Parameters-UpdateBf-request-example-1 (Parameters)](Parameters-Parameters-UpdateBf-request-example-1.md)
+* [Idat-example-1 (Patient)](Patient-Idat-example-1.md)
