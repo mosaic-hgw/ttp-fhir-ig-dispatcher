@@ -325,4 +325,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /workspace/fsh-generated/resources/ValueSet-SaveActionVS.json: line 0, col 0, Error - URL Mismatch https://ths-greifswald.de/fhir/dispatcher/ValueSet/SaveActionVS vs https://ths-greifswald.de/fhir/ValueSet/epix/SaveAction (BUSINESSRULE)
 
 err = 92, warn = 149, info = 73
-IG Publisher Version: 2.0.28
+IG Publisher Version: 2.0.29
