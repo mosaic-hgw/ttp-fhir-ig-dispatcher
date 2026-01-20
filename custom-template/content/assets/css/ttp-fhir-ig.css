@@ -81,3 +81,12 @@ body, h1, h2, h3, h4 {
 td p {
   width: initial !important;
 }
+
+
+div.col-12 p, div.col-12 pre {
+  width: 100%;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  white-space: pre-wrap;
+}
