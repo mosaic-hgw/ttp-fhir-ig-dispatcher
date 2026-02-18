@@ -1,0 +1,1 @@
+Erforderliche CodeSysteme und ValueSets werden im ergänzenden [IG Terminology](https://mosaic-hgw.github.io/ttp-fhir-ig-terminology/main/index.html) beschrieben.

@@ -29,3 +29,63 @@ div.markdown-toc {
 #segment-footer {
     background-color: #f5f5f5;
 }
+
+div.col-12 p, div.col-12 pre {
+    width: 1100px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+
+.inner-wrapper {
+	padding: 0 12px;
+}
+
+#publish-box {
+	width: 100%;
+}
+
+.markdown-toc {
+	margin: 0;
+}
+
+h1:before, h2:before, h3:before, h4:before {
+	color: inherit;
+}
+
+.navbar {
+	background-color: initial;
+	padding: 0 2px;
+	border-bottom: 3px solid var(--ig-header-color);
+}
+
+.navbar-nav > li {
+	font-size: 15px;
+}
+
+.breadcrumb {
+	background-color: initial;
+}
+
+body, h1, h2, h3, h4 {
+	color: #333;
+}
+
+td p {
+  width: initial !important;
+}
+
+div.col-12 p, div.col-12 pre {
+  width: 100%;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  white-space: pre-wrap;
+}

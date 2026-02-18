@@ -1,4 +1,4 @@
-#### Aufruf und Rückgabe
+## Aufruf und Rückgabe
 Die bereitgestellte Funktionalität kann per POST-Request aufgerufen werden. Die erforderlichen Angaben werden per POST-BODY in Form von [FHIR Parameters](https://www.hl7.org/fhir/parameters.html) übermittelt.
 
 `<HOST>:<PORT>/ttp-fhir/fhir/dispatcher/$requestPsnFromBfWorkflow`
@@ -15,10 +15,10 @@ Ist der Request gänzlich ungültig, wird einer der folgenden HTTP Statuscodes i
 * 404: Parameter mit unbekanntem Inhalt.
 * 422: Fehlende oder falsche Patienten-Attribute.
 
-#### Hinweis zu zukünftigen Änderungen
+## Hinweis zu zukünftigen Änderungen
 Das Pseudonym wird künftig nur dann geliefert, wenn kein Clearing-Prozess angestoßen wird. Ist dieser erforderlich, muss dieser zunächst vollständig abgeschlossen sein und das Pseudonym kann über [die Operation $requestTasks](OperationDefinition-RequestTasks.html) abgerufen werden.
 
-#### Beispiel
+## Beispiel
 
 * [Request-Body](Parameters-Parameters-RequestPsnFromBfWorkflow-request-example-1.html)
 * [Rückmeldung](Parameters-Parameters-RequestPsnFromBfWorkflow-response-example-1.html)

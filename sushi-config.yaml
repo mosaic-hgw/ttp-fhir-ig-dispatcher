@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ths-greifswald.ttp-fhir-gw.dispatcher
 canonical: https://ths-greifswald.de/fhir/dispatcher
-name: IG TTP-FHIR Gateway Übergreifende Schnittstellen
+name: IG TTP-FHIR Gateway Uebergreifende Schnittstellen
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: active # draft | active | retired | unknown
@@ -37,9 +37,10 @@ dependencies:
 # sub-pages.
 #
 pages:
-  Allgemein.md:
   index.md:
     title: Implementation Guide Übergreifende Schnittstellen
+  Allgemein.md:
+  Terminologie.md:
   ### automatisch generierte Pages müssen hier nicht gelistet werden
 
 
@@ -76,12 +77,14 @@ menu:
     IDAT: StructureDefinition-Idat.html
   ##### Operationen ############################################################
   Operationen:
-    requestPsnWorkflow: OperationDefinition-RequestPsnWorkflow.html
-    requestPsnFromBfWorkflow: OperationDefinition-RequestPsnFromBfWorkflow.html
-    requestTasks: OperationDefinition-RequestTasks.html
     providePatientData: OperationDefinition-ProvidePatientData.html
-    updateBf: OperationDefinition-UpdateBf.html
     pseudonymizePatient: OperationDefinition-PseudonymizePatient.html
+    requestPsnFromBfWorkflow: OperationDefinition-RequestPsnFromBfWorkflow.html
+    requestPsnWorkflow: OperationDefinition-RequestPsnWorkflow.html
+    requestTasks: OperationDefinition-RequestTasks.html
+    updateBf: OperationDefinition-UpdateBf.html
+  ##### Terminologie ############################################################
+  Terminologie: Terminologie.html
 
 
 

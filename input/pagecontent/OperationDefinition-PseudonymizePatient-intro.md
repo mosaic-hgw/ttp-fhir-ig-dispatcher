@@ -1,4 +1,4 @@
-#### Zweck
+## Zweck
 
 Durchführung eines Record Linkage auf Basis von (reduzierten) Patient-Ressourcen und Abfrage/Erzeugung von entsprechenden Pseudonymen.
 
@@ -8,7 +8,7 @@ Im Ergebnis wird System-intern eine eineindeutige Personenkennung (Master Person
 Anschließend werden entsprechend der gewünschten Anzahl Pseudonyme (Parameter _count_) erzeugt und in einem Ergebnis-Bundle zurückgegeben.
 Die Zuordnung von eingehender Patienten-Ressource und Ergebnis-Pseudonym(en) erfolgt über die eingehende _Patient.id_.
 
-#### Voraussetzung
+## Voraussetzung
 - API-Key: Der spezifizierte API-Key muss valide und zum Aufruf der Methode autorisiert sein. Der API-KEY wird im Request-Header übermittelt.
 - Die Patient-Ressource muss den Profilvorgaben _PseudonymizePatient_ entsprechen.
 - Die angegebene Pseudonym-Domäne muss konfiguriert sein.
