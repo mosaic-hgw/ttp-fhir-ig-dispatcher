@@ -11,12 +11,9 @@
   fhir:id [ fhir:v "BloomfilterTypeVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BloomfilterTypeVS</b></p><a name=\"BloomfilterTypeVS\"> </a><a name=\"hcBloomfilterTypeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-BloomfilterTypeCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.2.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet BloomfilterTypeVS</b></p><a name=\"BloomfilterTypeVS\"> </a><a name=\"hcBloomfilterTypeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-BloomfilterTypeCS.html\"><code>https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?2025.2.0</span></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [
-     fhir:v "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType"^^xsd:anyURI ;
-     fhir:l <https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType>
-  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "BloomfilterType"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
@@ -33,10 +30,7 @@
   fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType>
-       ]
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType"^^xsd:anyURI ]
      ] )
   ] . # 
 

@@ -12,12 +12,9 @@
   fhir:id [ fhir:v "ConsentPolicyClassCS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentPolicyClassCS</b></p><a name=\"ConsentPolicyClassCS\"> </a><a name=\"hcConsentPolicyClassCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyClass</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT<a name=\"ConsentPolicyClassCS-BIOMAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_analysed_data<a name=\"ConsentPolicyClassCS-BIOMAT_analysed_data\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_retrospective<a name=\"ConsentPolicyClassCS-BIOMAT_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_analysed_data_retrospective<a name=\"ConsentPolicyClassCS-BIOMAT_analysed_data_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_additional_sampling<a name=\"ConsentPolicyClassCS-BIOMAT_additional_sampling\"> </a></td></tr><tr><td style=\"white-space:nowrap\">PII<a name=\"ConsentPolicyClassCS-PII\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IMGDAT<a name=\"ConsentPolicyClassCS-IMGDAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">HIDAT<a name=\"ConsentPolicyClassCS-HIDAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">HIDAT_HIPN<a name=\"ConsentPolicyClassCS-HIDAT_HIPN\"> </a></td></tr><tr><td style=\"white-space:nowrap\">HIDAT_retrospective<a name=\"ConsentPolicyClassCS-HIDAT_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">MDAT<a name=\"ConsentPolicyClassCS-MDAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">MDAT_GECCO83<a name=\"ConsentPolicyClassCS-MDAT_GECCO83\"> </a></td></tr><tr><td style=\"white-space:nowrap\">MDAT_retrospective<a name=\"ConsentPolicyClassCS-MDAT_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_metadata<a name=\"ConsentPolicyClassCS-BIOMAT_metadata\"> </a></td></tr><tr><td style=\"white-space:nowrap\">PIDAT<a name=\"ConsentPolicyClassCS-PIDAT\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>BIOMAT</td><td>Biomaterialien</td><td>biosamples</td></tr><tr><td>BIOMAT_analysed_data</td><td>BIOMAT_Analysedaten</td><td>analysed data based on biosamples</td></tr><tr><td>BIOMAT_retrospective</td><td>BIOMAT_retrospektiv</td><td>retrospective biosamples</td></tr><tr><td>BIOMAT_analysed_data_retrospective</td><td>BIOMAT_Analysedaten_retrospektiv</td><td>analysed data based on retrospective biosamples</td></tr><tr><td>BIOMAT_additional_sampling</td><td>BIOMAT_Zusatzmengen</td><td>biosamples, specifically additional sampling</td></tr><tr><td>PII</td><td>IDAT</td><td>personal identifying information</td></tr><tr><td>IMGDAT</td><td>IMGDAT</td><td>images and image data</td></tr><tr><td>HIDAT</td><td>KDAT</td><td>health insurance data</td></tr><tr><td>HIDAT_HIPN</td><td>KDAT_KVNR</td><td>health insurance data, specifically the health insurance member ID or policy number</td></tr><tr><td>HIDAT_retrospective</td><td>KDAT_retrospektiv</td><td>retrospective health insurance data</td></tr><tr><td>MDAT</td><td>MDAT</td><td>medical data</td></tr><tr><td>MDAT_GECCO83</td><td>MDAT_GECCO83</td><td>medical data, specifically the GECCO83 data set</td></tr><tr><td>MDAT_retrospective</td><td>MDAT_retrospektiv</td><td>retrospective medical data</td></tr><tr><td>BIOMAT_metadata</td><td>BIOMAT_Metadaten</td><td>metadata regarding biosamples such as storage and processing</td></tr><tr><td>PIDAT</td><td>PIDAT</td><td>pension insurance data</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentPolicyClassCS</b></p><a name=\"ConsentPolicyClassCS\"> </a><a name=\"hcConsentPolicyClassCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyClass</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT<a name=\"ConsentPolicyClassCS-BIOMAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_analysed_data<a name=\"ConsentPolicyClassCS-BIOMAT_analysed_data\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_retrospective<a name=\"ConsentPolicyClassCS-BIOMAT_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_analysed_data_retrospective<a name=\"ConsentPolicyClassCS-BIOMAT_analysed_data_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_additional_sampling<a name=\"ConsentPolicyClassCS-BIOMAT_additional_sampling\"> </a></td></tr><tr><td style=\"white-space:nowrap\">PII<a name=\"ConsentPolicyClassCS-PII\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IMGDAT<a name=\"ConsentPolicyClassCS-IMGDAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">HIDAT<a name=\"ConsentPolicyClassCS-HIDAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">HIDAT_HIPN<a name=\"ConsentPolicyClassCS-HIDAT_HIPN\"> </a></td></tr><tr><td style=\"white-space:nowrap\">HIDAT_retrospective<a name=\"ConsentPolicyClassCS-HIDAT_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">MDAT<a name=\"ConsentPolicyClassCS-MDAT\"> </a></td></tr><tr><td style=\"white-space:nowrap\">MDAT_GECCO83<a name=\"ConsentPolicyClassCS-MDAT_GECCO83\"> </a></td></tr><tr><td style=\"white-space:nowrap\">MDAT_retrospective<a name=\"ConsentPolicyClassCS-MDAT_retrospective\"> </a></td></tr><tr><td style=\"white-space:nowrap\">BIOMAT_metadata<a name=\"ConsentPolicyClassCS-BIOMAT_metadata\"> </a></td></tr><tr><td style=\"white-space:nowrap\">PIDAT<a name=\"ConsentPolicyClassCS-PIDAT\"> </a></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>BIOMAT</td><td>Biomaterialien</td><td>biosamples</td></tr><tr><td>BIOMAT_analysed_data</td><td>BIOMAT_Analysedaten</td><td>analysed data based on biosamples</td></tr><tr><td>BIOMAT_retrospective</td><td>BIOMAT_retrospektiv</td><td>retrospective biosamples</td></tr><tr><td>BIOMAT_analysed_data_retrospective</td><td>BIOMAT_Analysedaten_retrospektiv</td><td>analysed data based on retrospective biosamples</td></tr><tr><td>BIOMAT_additional_sampling</td><td>BIOMAT_Zusatzmengen</td><td>biosamples, specifically additional sampling</td></tr><tr><td>PII</td><td>IDAT</td><td>personal identifying information</td></tr><tr><td>IMGDAT</td><td>IMGDAT</td><td>images and image data</td></tr><tr><td>HIDAT</td><td>KDAT</td><td>health insurance data</td></tr><tr><td>HIDAT_HIPN</td><td>KDAT_KVNR</td><td>health insurance data, specifically the health insurance member ID or policy number</td></tr><tr><td>HIDAT_retrospective</td><td>KDAT_retrospektiv</td><td>retrospective health insurance data</td></tr><tr><td>MDAT</td><td>MDAT</td><td>medical data</td></tr><tr><td>MDAT_GECCO83</td><td>MDAT_GECCO83</td><td>medical data, specifically the GECCO83 data set</td></tr><tr><td>MDAT_retrospective</td><td>MDAT_retrospektiv</td><td>retrospective medical data</td></tr><tr><td>BIOMAT_metadata</td><td>BIOMAT_Metadaten</td><td>metadata regarding biosamples such as storage and processing</td></tr><tr><td>PIDAT</td><td>PIDAT</td><td>pension insurance data</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [
-     fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyClass"^^xsd:anyURI ;
-     fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyClass>
-  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyClass"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "ConsentPolicyClass"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -54,10 +51,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Auf Biomaterialien basierende Analysedaten" ]
@@ -65,10 +59,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BIOMAT_Analysedaten" ]
@@ -76,10 +67,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "analysed data based on biosamples" ]
@@ -91,10 +79,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Retrospektive Biomaterialien" ]
@@ -102,10 +87,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BIOMAT_retrospektiv" ]
@@ -113,10 +95,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "retrospective biosamples" ]
@@ -128,10 +107,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Auf retrospektiven Biomaterialien basierende Analysedaten" ]
@@ -139,10 +115,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BIOMAT_Analysedaten_retrospektiv" ]
@@ -150,10 +123,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "analysed data based on retrospective biosamples" ]
@@ -165,10 +135,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Biomaterialien, insbesondere zusätzlicher Mengen" ]
@@ -176,10 +143,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BIOMAT_Zusatzmengen" ]
@@ -187,10 +151,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "biosamples, specifically additional sampling" ]
@@ -202,10 +163,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Personenidentifizierende Daten" ]
@@ -213,10 +171,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "IDAT" ]
@@ -224,10 +179,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "personal identifying information" ]
@@ -239,10 +191,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Bilder und Bilddaten" ]
@@ -250,10 +199,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "IMGDAT" ]
@@ -261,10 +207,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "images and image data" ]
@@ -276,10 +219,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Krankenkassendaten" ]
@@ -287,10 +227,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "KDAT" ]
@@ -298,10 +235,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "health insurance data" ]
@@ -313,10 +247,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Krankenkassendaten, insbesondere die Krankenkassenversichertennummer" ]
@@ -324,10 +255,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "KDAT_KVNR" ]
@@ -335,10 +263,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "health insurance data, specifically the health insurance member ID or policy number" ]
@@ -350,10 +275,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Retrospektive Krankenkassendaten" ]
@@ -361,10 +283,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "KDAT_retrospektiv" ]
@@ -372,10 +291,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "retrospective health insurance data" ]
@@ -387,10 +303,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Medizinische Daten" ]
@@ -398,10 +311,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "MDAT" ]
@@ -409,10 +319,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "medical data" ]
@@ -424,10 +331,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Medizinische Daten, insbesondere GECCO83 Datensatz" ]
@@ -435,10 +339,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "MDAT_GECCO83" ]
@@ -446,10 +347,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "medical data, specifically the GECCO83 data set" ]
@@ -461,10 +359,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Retrospektive medizinische Daten" ]
@@ -472,10 +367,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "MDAT_retrospektiv" ]
@@ -483,10 +375,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "retrospective medical data" ]
@@ -498,10 +387,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Biomaterialien-spezifische Metadaten wie zum Beispiel zu Lagerung und Prozessierung" ]
@@ -509,10 +395,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BIOMAT_Metadaten" ]
@@ -520,10 +403,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "metadata regarding biosamples such as storage and processing" ]
@@ -535,10 +415,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Rentenversicherungsdaten" ]
@@ -546,10 +423,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PIDAT" ]
@@ -557,10 +431,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "pension insurance data" ]

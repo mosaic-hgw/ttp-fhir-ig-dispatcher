@@ -14,27 +14,21 @@
      fhir:part ( [
        fhir:name [ fhir:v "bloomfilter" ] ;
        fhir:value [
-         a fhir:Base64Binary ;
+         a fhir:base64Binary ;
          fhir:v "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary
        ]
      ] [
        fhir:name [ fhir:v "target" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "dic_muenster" ]
        ]
      ] [
        fhir:name [ fhir:v "pseudonym" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "dic_1H51T" ]
        ]
      ] )
@@ -43,27 +37,21 @@
      fhir:part ( [
        fhir:name [ fhir:v "bloomfilter" ] ;
        fhir:value [
-         a fhir:Base64Binary ;
+         a fhir:base64Binary ;
          fhir:v "ZHVtbXk="^^xsd:base64Binary
        ]
      ] [
        fhir:name [ fhir:v "target" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "dic_muenster" ]
        ]
      ] [
        fhir:name [ fhir:v "error-code" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [
-           fhir:v "http://hl7.org/fhir/issue-type"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/issue-type>
-         ] ;
+         fhir:system [ fhir:v "http://hl7.org/fhir/issue-type"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "not-found" ] ;
          fhir:display [ fhir:v "Not Found" ]
        ]

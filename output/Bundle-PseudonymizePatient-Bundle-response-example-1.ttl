@@ -17,7 +17,7 @@
        fhir:parameter ( [
          fhir:name [ fhir:v "externalPatientId" ] ;
          fhir:value [
-           a fhir:Id ;
+           a fhir:id ;
            fhir:v "aaaaaaaa-8a1e-4442-af99-50abc27d6f52"
          ]
        ] [
@@ -26,20 +26,14 @@
            fhir:name [ fhir:v "target" ] ;
            fhir:value [
              a fhir:Identifier ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/domains>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "MyStudy-Domain1" ]
            ]
          ] [
            fhir:name [ fhir:v "value" ] ;
            fhir:value [
              a fhir:Identifier ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/pseudonyms>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "56464986521" ]
            ]
          ] )
@@ -49,20 +43,14 @@
            fhir:name [ fhir:v "target" ] ;
            fhir:value [
              a fhir:Identifier ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/domains>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "MyStudy-Domain2" ]
            ]
          ] [
            fhir:name [ fhir:v "value" ] ;
            fhir:value [
              a fhir:Identifier ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/pseudonyms>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "8976834765347" ]
            ]
          ] )
@@ -87,7 +75,7 @@
        fhir:parameter ( [
          fhir:name [ fhir:v "externalPatientId" ] ;
          fhir:value [
-           a fhir:Id ;
+           a fhir:id ;
            fhir:v "bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e"
          ]
        ] [
@@ -96,20 +84,14 @@
            fhir:name [ fhir:v "target" ] ;
            fhir:value [
              a fhir:Identifier ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/domains>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/domains"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "MyStudy-Domain15" ]
            ]
          ] [
            fhir:name [ fhir:v "value" ] ;
            fhir:value [
              a fhir:Identifier ;
-             fhir:system [
-               fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ;
-               fhir:l <http://my.fhir.domain.local/fhir/sid/pseudonyms>
-             ] ;
+             fhir:system [ fhir:v "http://my.fhir.domain.local/fhir/sid/pseudonyms"^^xsd:anyURI ] ;
              fhir:value [ fhir:v "8976834765347" ]
            ]
          ] )

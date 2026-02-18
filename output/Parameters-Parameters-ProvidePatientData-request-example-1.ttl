@@ -12,13 +12,13 @@
   fhir:parameter ( [
      fhir:name [ fhir:v "taskId" ] ;
      fhir:value [
-       a fhir:Id ;
+       a fhir:id ;
        fhir:v "064ddebf-b20e-468a-97fd-88097bcdbc11"
      ]
   ] [
      fhir:name [ fhir:v "target" ] ;
      fhir:value [
-       a fhir:String ;
+       a fhir:string ;
        fhir:v "eyematics"
      ]
   ] [
@@ -26,10 +26,7 @@
      fhir:Parameters.parameter.resource ( [
        a fhir:Patient ;
        fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/patient-birthPlace>
-         ] ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:Address ;
            fhir:city [ fhir:v "Musterhausen" ]
@@ -41,12 +38,9 @@
          fhir:prefix ( [
            fhir:v "Dr. med." ;
            fhir:extension ( [
-             fhir:url [
-               fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ;
-               fhir:l <http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier>
-             ] ;
+             fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ] ;
              fhir:value [
-               a fhir:Code ;
+               a fhir:code ;
                fhir:v "AC"
              ]
            ] )

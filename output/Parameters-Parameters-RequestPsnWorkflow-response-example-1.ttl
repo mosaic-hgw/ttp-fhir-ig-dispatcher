@@ -15,30 +15,21 @@
        fhir:name [ fhir:v "original" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "dic_1H51T" ]
        ]
      ] [
        fhir:name [ fhir:v "target" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "eyematics" ]
        ]
      ] [
        fhir:name [ fhir:v "pseudonym" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "eyematics_6348Q7" ]
        ]
      ] )
@@ -48,30 +39,21 @@
        fhir:name [ fhir:v "original" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "dic_2Q42E" ]
        ]
      ] [
        fhir:name [ fhir:v "target" ] ;
        fhir:value [
          a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
+         fhir:system [ fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "eyematics" ]
        ]
      ] [
        fhir:name [ fhir:v "error-code" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [
-           fhir:v "http://hl7.org/fhir/issue-type"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/issue-type>
-         ] ;
+         fhir:system [ fhir:v "http://hl7.org/fhir/issue-type"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "not-found" ] ;
          fhir:display [ fhir:v "Not Found" ]
        ]

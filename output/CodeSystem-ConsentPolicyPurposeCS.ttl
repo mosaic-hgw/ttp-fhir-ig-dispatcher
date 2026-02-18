@@ -12,12 +12,9 @@
   fhir:id [ fhir:v "ConsentPolicyPurposeCS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentPolicyPurposeCS</b></p><a name=\"ConsentPolicyPurposeCS\"> </a><a name=\"hcConsentPolicyPurposeCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">health_state<a name=\"ConsentPolicyPurposeCS-health_state\"> </a></td><td>health_state</td></tr><tr><td style=\"white-space:nowrap\">general_practitioner<a name=\"ConsentPolicyPurposeCS-general_practitioner\"> </a></td><td>general_practitioner</td></tr><tr><td style=\"white-space:nowrap\">physician<a name=\"ConsentPolicyPurposeCS-physician\"> </a></td><td>physician</td></tr><tr><td style=\"white-space:nowrap\">CRO<a name=\"ConsentPolicyPurposeCS-CRO\"> </a></td><td>CRO</td></tr><tr><td style=\"white-space:nowrap\">third_parties<a name=\"ConsentPolicyPurposeCS-third_parties\"> </a></td><td>third_parties</td></tr><tr><td style=\"white-space:nowrap\">EU_GDPR_LEVEL<a name=\"ConsentPolicyPurposeCS-EU_GDPR_LEVEL\"> </a></td><td>EU_GDPR_LEVEL</td></tr><tr><td style=\"white-space:nowrap\">non_EU_GDPR_LEVEL<a name=\"ConsentPolicyPurposeCS-non_EU_GDPR_LEVEL\"> </a></td><td>non_EU_GDPR_LEVEL</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"ConsentPolicyPurposeCS-industry\"> </a></td><td>industry</td></tr><tr><td style=\"white-space:nowrap\">health_records<a name=\"ConsentPolicyPurposeCS-health_records\"> </a></td><td>health_records</td></tr><tr><td style=\"white-space:nowrap\">monitoring<a name=\"ConsentPolicyPurposeCS-monitoring\"> </a></td><td>monitoring</td></tr><tr><td style=\"white-space:nowrap\">non_profit<a name=\"ConsentPolicyPurposeCS-non_profit\"> </a></td><td>non_profit</td></tr><tr><td style=\"white-space:nowrap\">pharma<a name=\"ConsentPolicyPurposeCS-pharma\"> </a></td><td>pharma</td></tr><tr><td style=\"white-space:nowrap\">project_specific<a name=\"ConsentPolicyPurposeCS-project_specific\"> </a></td><td>project_specific</td></tr><tr><td style=\"white-space:nowrap\">project_participation<a name=\"ConsentPolicyPurposeCS-project_participation\"> </a></td><td>project_participation</td></tr><tr><td style=\"white-space:nowrap\">death<a name=\"ConsentPolicyPurposeCS-death\"> </a></td><td>death</td></tr><tr><td style=\"white-space:nowrap\">timely_unrestricted<a name=\"ConsentPolicyPurposeCS-timely_unrestricted\"> </a></td><td>timely_unrestricted </td></tr><tr><td style=\"white-space:nowrap\">timely_restricted<a name=\"ConsentPolicyPurposeCS-timely_restricted\"> </a></td><td>timely_restricted</td></tr><tr><td style=\"white-space:nowrap\">once<a name=\"ConsentPolicyPurposeCS-once\"> </a></td><td>once</td></tr><tr><td style=\"white-space:nowrap\">databases<a name=\"ConsentPolicyPurposeCS-databases\"> </a></td><td>databases</td></tr><tr><td style=\"white-space:nowrap\">additional_collection<a name=\"ConsentPolicyPurposeCS-additional_collection\"> </a></td><td>additional_collection</td></tr><tr><td style=\"white-space:nowrap\">additional_studies<a name=\"ConsentPolicyPurposeCS-additional_studies\"> </a></td><td>additional_studies</td></tr><tr><td style=\"white-space:nowrap\">additional_findings<a name=\"ConsentPolicyPurposeCS-additional_findings\"> </a></td><td>additional_findings</td></tr><tr><td style=\"white-space:nowrap\">HI<a name=\"ConsentPolicyPurposeCS-HI\"> </a></td><td>HI</td></tr><tr><td style=\"white-space:nowrap\">PI<a name=\"ConsentPolicyPurposeCS-PI\"> </a></td><td>PI</td></tr><tr><td style=\"white-space:nowrap\">results<a name=\"ConsentPolicyPurposeCS-results\"> </a></td><td>results</td></tr><tr><td style=\"white-space:nowrap\">significant<a name=\"ConsentPolicyPurposeCS-significant\"> </a></td><td>significant</td></tr><tr><td style=\"white-space:nowrap\">quality_assurance<a name=\"ConsentPolicyPurposeCS-quality_assurance\"> </a></td><td>quality_assurance </td></tr><tr><td style=\"white-space:nowrap\">scientific<a name=\"ConsentPolicyPurposeCS-scientific\"> </a></td><td>scientific</td></tr><tr><td style=\"white-space:nowrap\">highly_specific<a name=\"ConsentPolicyPurposeCS-highly_specific\"> </a></td><td>highly_specific</td></tr><tr><td style=\"white-space:nowrap\">legally_based_registry<a name=\"ConsentPolicyPurposeCS-legally_based_registry\"> </a></td><td>legally_based_registry</td></tr><tr><td style=\"white-space:nowrap\">laboratory<a name=\"ConsentPolicyPurposeCS-laboratory\"> </a></td><td>laboratory</td></tr><tr><td style=\"white-space:nowrap\">genetic<a name=\"ConsentPolicyPurposeCS-genetic\"> </a></td><td>genetic</td></tr><tr><td style=\"white-space:nowrap\">authority<a name=\"ConsentPolicyPurposeCS-authority\"> </a></td><td>authority</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>health_state</td><td>Gesundheitszustand</td><td>the state of health</td></tr><tr><td>general_practitioner</td><td>Arzt</td><td>from/to the general practitioner /family doctor</td></tr><tr><td>physician</td><td>Hausarzt</td><td>from/to the physician</td></tr><tr><td>CRO</td><td>CRO</td><td>from/to a clinical research organisation</td></tr><tr><td>third_parties</td><td>Dritte</td><td>from/to third parties /with third party research partner(s)</td></tr><tr><td>EU_GDPR_LEVEL</td><td>EU_DSGVO_NIVEAU</td><td>to countries with EU data protection level</td></tr><tr><td>non_EU_GDPR_LEVEL</td><td>non_EU_DSGVO_NIVEAU</td><td>to countries without EU data protection level</td></tr><tr><td>industry</td><td>Industrie</td><td>to partners from the industrial sector</td></tr><tr><td>health_records</td><td>Krankenunterlagen</td><td>by transfer to/from (electronic) health records</td></tr><tr><td>monitoring</td><td>Monitoring</td><td>as part of a monitoring</td></tr><tr><td>non_profit</td><td>non_profit</td><td>to partners from non-profit organisations</td></tr><tr><td>pharma</td><td>pharma</td><td>to a pharmaceutical company involved in the sponsorship</td></tr><tr><td>project_specific</td><td>Vorhaben_spezifisch</td><td>for a  specific research project or study</td></tr><tr><td>project_participation</td><td>Vorhaben_Teilnahme</td><td>on the participation of the data subject in the specific project or a specific study</td></tr><tr><td>death</td><td>Tod</td><td>in the event of the death of the person concerned</td></tr><tr><td>timely_unrestricted</td><td>uneingeschraenkt</td><td> without timely restriction</td></tr><tr><td>timely_restricted</td><td>zeitlich_eingeschraenkt</td><td>with timely restriction</td></tr><tr><td>once</td><td>einmalig</td><td>once</td></tr><tr><td>databases</td><td>Datenbanken</td><td>information from other databases</td></tr><tr><td>additional_collection</td><td>weitere_Erhebungen</td><td>collection of additional [CLASS]</td></tr><tr><td>additional_studies</td><td>weitere_Studien</td><td>information on new projects or studies</td></tr><tr><td>additional_findings</td><td>Zusatzbefund</td><td>notification of additional or incidental findings</td></tr><tr><td>HI</td><td>KV</td><td>from/to health insurances</td></tr><tr><td>PI</td><td>RV</td><td>from/to pension insurances</td></tr><tr><td>results</td><td>Ergebnisse</td><td>communication of research results</td></tr><tr><td>significant</td><td>Erhebliche_Bedeutung</td><td>[PURPOSE] with considerable significance</td></tr><tr><td>quality_assurance</td><td>qualitaetssicherung</td><td>for quality assurance purposes</td></tr><tr><td>scientific</td><td>wissenschaftlich</td><td>in a scientific context</td></tr><tr><td>highly_specific</td><td>hochspezifisch</td><td>in a relevant highly specific way</td></tr><tr><td>legally_based_registry</td><td>gesetzliches_register</td><td>within the framework of a register on a legal basis</td></tr><tr><td>laboratory</td><td>Labor</td><td>in a / of a laboratory</td></tr><tr><td>genetic</td><td>genetisch</td><td>genetic</td></tr><tr><td>authority</td><td>behörde</td><td>in / from / by an authority</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ConsentPolicyPurposeCS</b></p><a name=\"ConsentPolicyPurposeCS\"> </a><a name=\"hcConsentPolicyPurposeCS\"> </a><p>This case-sensitive code system <code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">health_state<a name=\"ConsentPolicyPurposeCS-health_state\"> </a></td><td>health_state</td></tr><tr><td style=\"white-space:nowrap\">general_practitioner<a name=\"ConsentPolicyPurposeCS-general_practitioner\"> </a></td><td>general_practitioner</td></tr><tr><td style=\"white-space:nowrap\">physician<a name=\"ConsentPolicyPurposeCS-physician\"> </a></td><td>physician</td></tr><tr><td style=\"white-space:nowrap\">CRO<a name=\"ConsentPolicyPurposeCS-CRO\"> </a></td><td>CRO</td></tr><tr><td style=\"white-space:nowrap\">third_parties<a name=\"ConsentPolicyPurposeCS-third_parties\"> </a></td><td>third_parties</td></tr><tr><td style=\"white-space:nowrap\">EU_GDPR_LEVEL<a name=\"ConsentPolicyPurposeCS-EU_GDPR_LEVEL\"> </a></td><td>EU_GDPR_LEVEL</td></tr><tr><td style=\"white-space:nowrap\">non_EU_GDPR_LEVEL<a name=\"ConsentPolicyPurposeCS-non_EU_GDPR_LEVEL\"> </a></td><td>non_EU_GDPR_LEVEL</td></tr><tr><td style=\"white-space:nowrap\">industry<a name=\"ConsentPolicyPurposeCS-industry\"> </a></td><td>industry</td></tr><tr><td style=\"white-space:nowrap\">health_records<a name=\"ConsentPolicyPurposeCS-health_records\"> </a></td><td>health_records</td></tr><tr><td style=\"white-space:nowrap\">monitoring<a name=\"ConsentPolicyPurposeCS-monitoring\"> </a></td><td>monitoring</td></tr><tr><td style=\"white-space:nowrap\">non_profit<a name=\"ConsentPolicyPurposeCS-non_profit\"> </a></td><td>non_profit</td></tr><tr><td style=\"white-space:nowrap\">pharma<a name=\"ConsentPolicyPurposeCS-pharma\"> </a></td><td>pharma</td></tr><tr><td style=\"white-space:nowrap\">project_specific<a name=\"ConsentPolicyPurposeCS-project_specific\"> </a></td><td>project_specific</td></tr><tr><td style=\"white-space:nowrap\">project_participation<a name=\"ConsentPolicyPurposeCS-project_participation\"> </a></td><td>project_participation</td></tr><tr><td style=\"white-space:nowrap\">death<a name=\"ConsentPolicyPurposeCS-death\"> </a></td><td>death</td></tr><tr><td style=\"white-space:nowrap\">timely_unrestricted<a name=\"ConsentPolicyPurposeCS-timely_unrestricted\"> </a></td><td>timely_unrestricted </td></tr><tr><td style=\"white-space:nowrap\">timely_restricted<a name=\"ConsentPolicyPurposeCS-timely_restricted\"> </a></td><td>timely_restricted</td></tr><tr><td style=\"white-space:nowrap\">once<a name=\"ConsentPolicyPurposeCS-once\"> </a></td><td>once</td></tr><tr><td style=\"white-space:nowrap\">databases<a name=\"ConsentPolicyPurposeCS-databases\"> </a></td><td>databases</td></tr><tr><td style=\"white-space:nowrap\">additional_collection<a name=\"ConsentPolicyPurposeCS-additional_collection\"> </a></td><td>additional_collection</td></tr><tr><td style=\"white-space:nowrap\">additional_studies<a name=\"ConsentPolicyPurposeCS-additional_studies\"> </a></td><td>additional_studies</td></tr><tr><td style=\"white-space:nowrap\">additional_findings<a name=\"ConsentPolicyPurposeCS-additional_findings\"> </a></td><td>additional_findings</td></tr><tr><td style=\"white-space:nowrap\">HI<a name=\"ConsentPolicyPurposeCS-HI\"> </a></td><td>HI</td></tr><tr><td style=\"white-space:nowrap\">PI<a name=\"ConsentPolicyPurposeCS-PI\"> </a></td><td>PI</td></tr><tr><td style=\"white-space:nowrap\">results<a name=\"ConsentPolicyPurposeCS-results\"> </a></td><td>results</td></tr><tr><td style=\"white-space:nowrap\">significant<a name=\"ConsentPolicyPurposeCS-significant\"> </a></td><td>significant</td></tr><tr><td style=\"white-space:nowrap\">quality_assurance<a name=\"ConsentPolicyPurposeCS-quality_assurance\"> </a></td><td>quality_assurance </td></tr><tr><td style=\"white-space:nowrap\">scientific<a name=\"ConsentPolicyPurposeCS-scientific\"> </a></td><td>scientific</td></tr><tr><td style=\"white-space:nowrap\">highly_specific<a name=\"ConsentPolicyPurposeCS-highly_specific\"> </a></td><td>highly_specific</td></tr><tr><td style=\"white-space:nowrap\">legally_based_registry<a name=\"ConsentPolicyPurposeCS-legally_based_registry\"> </a></td><td>legally_based_registry</td></tr><tr><td style=\"white-space:nowrap\">laboratory<a name=\"ConsentPolicyPurposeCS-laboratory\"> </a></td><td>laboratory</td></tr><tr><td style=\"white-space:nowrap\">genetic<a name=\"ConsentPolicyPurposeCS-genetic\"> </a></td><td>genetic</td></tr><tr><td style=\"white-space:nowrap\">authority<a name=\"ConsentPolicyPurposeCS-authority\"> </a></td><td>authority</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (Deutschland) (German (Germany), de)</b></td><td><b>English (English, en)</b></td></tr><tr><td>health_state</td><td>Gesundheitszustand</td><td>the state of health</td></tr><tr><td>general_practitioner</td><td>Arzt</td><td>from/to the general practitioner /family doctor</td></tr><tr><td>physician</td><td>Hausarzt</td><td>from/to the physician</td></tr><tr><td>CRO</td><td>CRO</td><td>from/to a clinical research organisation</td></tr><tr><td>third_parties</td><td>Dritte</td><td>from/to third parties /with third party research partner(s)</td></tr><tr><td>EU_GDPR_LEVEL</td><td>EU_DSGVO_NIVEAU</td><td>to countries with EU data protection level</td></tr><tr><td>non_EU_GDPR_LEVEL</td><td>non_EU_DSGVO_NIVEAU</td><td>to countries without EU data protection level</td></tr><tr><td>industry</td><td>Industrie</td><td>to partners from the industrial sector</td></tr><tr><td>health_records</td><td>Krankenunterlagen</td><td>by transfer to/from (electronic) health records</td></tr><tr><td>monitoring</td><td>Monitoring</td><td>as part of a monitoring</td></tr><tr><td>non_profit</td><td>non_profit</td><td>to partners from non-profit organisations</td></tr><tr><td>pharma</td><td>pharma</td><td>to a pharmaceutical company involved in the sponsorship</td></tr><tr><td>project_specific</td><td>Vorhaben_spezifisch</td><td>for a  specific research project or study</td></tr><tr><td>project_participation</td><td>Vorhaben_Teilnahme</td><td>on the participation of the data subject in the specific project or a specific study</td></tr><tr><td>death</td><td>Tod</td><td>in the event of the death of the person concerned</td></tr><tr><td>timely_unrestricted</td><td>uneingeschraenkt</td><td> without timely restriction</td></tr><tr><td>timely_restricted</td><td>zeitlich_eingeschraenkt</td><td>with timely restriction</td></tr><tr><td>once</td><td>einmalig</td><td>once</td></tr><tr><td>databases</td><td>Datenbanken</td><td>information from other databases</td></tr><tr><td>additional_collection</td><td>weitere_Erhebungen</td><td>collection of additional [CLASS]</td></tr><tr><td>additional_studies</td><td>weitere_Studien</td><td>information on new projects or studies</td></tr><tr><td>additional_findings</td><td>Zusatzbefund</td><td>notification of additional or incidental findings</td></tr><tr><td>HI</td><td>KV</td><td>from/to health insurances</td></tr><tr><td>PI</td><td>RV</td><td>from/to pension insurances</td></tr><tr><td>results</td><td>Ergebnisse</td><td>communication of research results</td></tr><tr><td>significant</td><td>Erhebliche_Bedeutung</td><td>[PURPOSE] with considerable significance</td></tr><tr><td>quality_assurance</td><td>qualitaetssicherung</td><td>for quality assurance purposes</td></tr><tr><td>scientific</td><td>wissenschaftlich</td><td>in a scientific context</td></tr><tr><td>highly_specific</td><td>hochspezifisch</td><td>in a relevant highly specific way</td></tr><tr><td>legally_based_registry</td><td>gesetzliches_register</td><td>within the framework of a register on a legal basis</td></tr><tr><td>laboratory</td><td>Labor</td><td>in a / of a laboratory</td></tr><tr><td>genetic</td><td>genetisch</td><td>genetic</td></tr><tr><td>authority</td><td>behörde</td><td>in / from / by an authority</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [
-     fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose"^^xsd:anyURI ;
-     fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose>
-  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentPolicyPurpose"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "ConsentPolicyPurpose"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -44,10 +41,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "des Gesundheitszustandes" ]
@@ -55,10 +49,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Gesundheitszustand" ]
@@ -66,10 +57,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "the state of health" ]
@@ -81,10 +69,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "des Hausarztes" ]
@@ -92,10 +77,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Arzt" ]
@@ -103,10 +85,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "from/to the general practitioner /family doctor" ]
@@ -118,10 +97,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "des Arztes" ]
@@ -129,10 +105,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hausarzt" ]
@@ -140,10 +113,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "from/to the physician" ]
@@ -155,10 +125,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "von/an eine Contract Research Organisation und oder eine klinische Koordinierungsstelle (KKS)" ]
@@ -166,10 +133,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CRO" ]
@@ -177,10 +141,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "from/to a clinical research organisation" ]
@@ -192,10 +153,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "von/an/mit Dritte(n) Forschungspartner(n)" ]
@@ -203,10 +161,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dritte" ]
@@ -214,10 +169,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "from/to third parties /with third party research partner(s)" ]
@@ -229,10 +181,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "an Länder mit EU Datenschutzniveau" ]
@@ -240,10 +189,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "EU_DSGVO_NIVEAU" ]
@@ -251,10 +197,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "to countries with EU data protection level" ]
@@ -266,10 +209,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "an Länder ohne EU Datenschutzniveau" ]
@@ -277,10 +217,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "non_EU_DSGVO_NIVEAU" ]
@@ -288,10 +225,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "to countries without EU data protection level" ]
@@ -303,10 +237,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "an Partner aus dem Bereich der Industrie" ]
@@ -314,10 +245,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Industrie" ]
@@ -325,10 +253,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "to partners from the industrial sector" ]
@@ -340,10 +265,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "durch Übertrag in/aus (elektronischen) Krankenunterlagen/Patientenakten" ]
@@ -351,10 +273,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Krankenunterlagen" ]
@@ -362,10 +281,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "by transfer to/from (electronic) health records" ]
@@ -377,10 +293,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "im Rahmen eines Monitoring" ]
@@ -388,10 +301,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Monitoring" ]
@@ -399,10 +309,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "as part of a monitoring" ]
@@ -414,10 +321,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "an Partner aus Non-Profit-Organisationen" ]
@@ -425,10 +329,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "non_profit" ]
@@ -436,10 +337,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "to partners from non-profit organisations" ]
@@ -451,10 +349,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "an eine am Sponsoring beteiligte Pharmafirma" ]
@@ -462,10 +357,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "pharma" ]
@@ -473,10 +365,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "to a pharmaceutical company involved in the sponsorship" ]
@@ -488,10 +377,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "im Rahmen des spezifischen Vorhabens/Projektes oder der spezifischen Studie" ]
@@ -499,10 +385,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Vorhaben_spezifisch" ]
@@ -510,10 +393,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "for a  specific research project or study" ]
@@ -525,10 +405,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "über die Teilnahme der betroffenen Person am spezifischen Vorhaben/Projekt oder einer spezifischen Studie" ]
@@ -536,10 +413,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Vorhaben_Teilnahme" ]
@@ -547,10 +421,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "on the participation of the data subject in the specific project or a specific study" ]
@@ -562,10 +433,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "im Falle des Todes der betroffenen Person" ]
@@ -573,10 +441,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Tod" ]
@@ -584,10 +449,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in the event of the death of the person concerned" ]
@@ -599,10 +461,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "ohne zeitliche Einschränkung" ]
@@ -610,10 +469,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "uneingeschraenkt" ]
@@ -621,10 +477,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v " without timely restriction" ]
@@ -636,10 +489,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "mit zeitlicher Einschränkung" ]
@@ -647,10 +497,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "zeitlich_eingeschraenkt" ]
@@ -658,10 +505,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "with timely restriction" ]
@@ -673,10 +517,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "einmalig" ]
@@ -684,10 +525,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "einmalig" ]
@@ -695,10 +533,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "once" ]
@@ -710,10 +545,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Informationen anderer Datenbanken" ]
@@ -721,10 +553,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Datenbanken" ]
@@ -732,10 +561,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "information from other databases" ]
@@ -747,10 +573,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Erhebung zusätzlicher [CLASS]" ]
@@ -758,10 +581,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "weitere_Erhebungen" ]
@@ -769,10 +589,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "collection of additional [CLASS]" ]
@@ -784,10 +601,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Informationen zu neuen Vorhaben/Projekten oder Studien" ]
@@ -795,10 +609,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "weitere_Studien" ]
@@ -806,10 +617,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "information on new projects or studies" ]
@@ -821,10 +629,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Mitteilung von Zusatz- oder Nebenbefunden" ]
@@ -832,10 +637,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Zusatzbefund" ]
@@ -843,10 +645,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "notification of additional or incidental findings" ]
@@ -858,10 +657,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "von/an Krankenversicherungen" ]
@@ -869,10 +665,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "KV" ]
@@ -880,10 +673,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "from/to health insurances" ]
@@ -895,10 +685,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "von/an Rentenversicherungen" ]
@@ -906,10 +693,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "RV" ]
@@ -917,10 +701,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "from/to pension insurances" ]
@@ -932,10 +713,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "Mitteilung von Forschungsergebnissen" ]
@@ -943,10 +721,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ergebnisse" ]
@@ -954,10 +729,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "communication of research results" ]
@@ -969,10 +741,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "[PURPOSE] mit erheblicher Bedeutung" ]
@@ -980,10 +749,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Erhebliche_Bedeutung" ]
@@ -991,10 +757,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "[PURPOSE] with considerable significance" ]
@@ -1006,10 +769,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "zu Zwecken der Qualitätssicherung" ]
@@ -1017,10 +777,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "qualitaetssicherung" ]
@@ -1028,10 +785,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "for quality assurance purposes" ]
@@ -1043,10 +797,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "im wissenschaftlichen Kontext" ]
@@ -1054,10 +805,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "wissenschaftlich" ]
@@ -1065,10 +813,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in a scientific context" ]
@@ -1080,10 +825,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in einer relevanten und hochspezifischen Weise" ]
@@ -1091,10 +833,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "hochspezifisch" ]
@@ -1102,10 +841,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in a relevant highly specific way" ]
@@ -1117,10 +853,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "im Rahmen eines Registers auf gesetzlicher Grundlage" ]
@@ -1128,10 +861,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "gesetzliches_register" ]
@@ -1139,10 +869,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "within the framework of a register on a legal basis" ]
@@ -1154,10 +881,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in / aus einem Labor" ]
@@ -1165,10 +889,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Labor" ]
@@ -1176,10 +897,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in a / of a laboratory" ]
@@ -1191,10 +909,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "genetisch" ]
@@ -1202,10 +917,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "genetisch" ]
@@ -1213,10 +925,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "genetic" ]
@@ -1228,10 +937,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in einer /von einer / durch eine Behörde" ]
@@ -1239,10 +945,7 @@
        fhir:language [ fhir:v "de-DE" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "behörde" ]
@@ -1250,10 +953,7 @@
        fhir:language [ fhir:v "en-UK" ] ;
        fhir:use [
          a sct:900000000000003001 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000003001" ]
        ] ;
        fhir:value [ fhir:v "in / from / by an authority" ]

@@ -11,12 +11,9 @@
   fhir:id [ fhir:v "ConsentStatusVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentStatusVS</b></p><a name=\"ConsentStatusVS\"> </a><a name=\"hcConsentStatusVS\"> </a><p>This value set contains 11 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED\">ACCEPTED</a></td><td>ACCEPTED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED_OPT_OUT\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED_OPT_OUT\">ACCEPTED_OPT_OUT</a></td><td>ACCEPTED_OPT_OUT</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-DECLINED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-DECLINED\">DECLINED</a></td><td>DECLINED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-UNKNOWN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-UNKNOWN\">UNKNOWN</a></td><td>UNKNOWN</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-NOT_ASKED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-NOT_ASKED\">NOT_ASKED</a></td><td>NOT ASKED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-NOT_CHOSEN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-NOT_CHOSEN\">NOT_CHOSEN</a></td><td>NOT CHOSEN</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-WITHDRAWN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-WITHDRAWN\">WITHDRAWN</a></td><td>WITHDRAWN</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-INVALIDATED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-INVALIDATED\">INVALIDATED</a></td><td>INVALIDATED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-REFUSED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-REFUSED\">REFUSED</a></td><td>REFUSED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-EXPIRED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-EXPIRED\">EXPIRED</a></td><td>EXPIRED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-OBJECTED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-OBJECTED\">OBJECTED</a></td><td>OBJECTED</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ConsentStatusVS</b></p><a name=\"ConsentStatusVS\"> </a><a name=\"hcConsentStatusVS\"> </a><p>This value set contains 11 concepts</p><table class=\"codes\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED\">ACCEPTED</a></td><td>ACCEPTED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-ACCEPTED_OPT_OUT\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-ACCEPTED_OPT_OUT\">ACCEPTED_OPT_OUT</a></td><td>ACCEPTED_OPT_OUT</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-DECLINED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-DECLINED\">DECLINED</a></td><td>DECLINED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-UNKNOWN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-UNKNOWN\">UNKNOWN</a></td><td>UNKNOWN</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-NOT_ASKED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-NOT_ASKED\">NOT_ASKED</a></td><td>NOT ASKED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-NOT_CHOSEN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-NOT_CHOSEN\">NOT_CHOSEN</a></td><td>NOT CHOSEN</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-WITHDRAWN\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-WITHDRAWN\">WITHDRAWN</a></td><td>WITHDRAWN</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-INVALIDATED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-INVALIDATED\">INVALIDATED</a></td><td>INVALIDATED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-REFUSED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-REFUSED\">REFUSED</a></td><td>REFUSED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-EXPIRED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-EXPIRED\">EXPIRED</a></td><td>EXPIRED</td><td/></tr><tr><td><a name=\"ConsentStatusVS-https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus-OBJECTED\"> </a><code>https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-ConsentStatusCS.html#ConsentStatusCS-OBJECTED\">OBJECTED</a></td><td>OBJECTED</td><td/></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [
-     fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatus"^^xsd:anyURI ;
-     fhir:l <https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatus>
-  ] ; # 
+  fhir:url [ fhir:v "https://ths-greifswald.de/fhir/ValueSet/gics/ConsentStatus"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "ConsentStatus"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -33,90 +30,54 @@
   fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ]
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ]
      ] )
   ] ; # 
   fhir:expansion [
      fhir:timestamp [ fhir:v "2021-04-12T12:00:00Z"^^xsd:dateTime ] ;
      fhir:total [ fhir:v 11 ] ;
      fhir:contains ( [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ACCEPTED" ] ;
        fhir:display [ fhir:v "ACCEPTED" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "ACCEPTED_OPT_OUT" ] ;
        fhir:display [ fhir:v "ACCEPTED_OPT_OUT" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "DECLINED" ] ;
        fhir:display [ fhir:v "DECLINED" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "UNKNOWN" ] ;
        fhir:display [ fhir:v "UNKNOWN" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "NOT_ASKED" ] ;
        fhir:display [ fhir:v "NOT ASKED" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "NOT_CHOSEN" ] ;
        fhir:display [ fhir:v "NOT CHOSEN" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "WITHDRAWN" ] ;
        fhir:display [ fhir:v "WITHDRAWN" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "INVALIDATED" ] ;
        fhir:display [ fhir:v "INVALIDATED" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "REFUSED" ] ;
        fhir:display [ fhir:v "REFUSED" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "EXPIRED" ] ;
        fhir:display [ fhir:v "EXPIRED" ]
      ] [
-       fhir:system [
-         fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ;
-         fhir:l <https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus>
-       ] ;
+       fhir:system [ fhir:v "https://ths-greifswald.de/fhir/CodeSystem/gics/ConsentStatus"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "OBJECTED" ] ;
        fhir:display [ fhir:v "OBJECTED" ]
      ] )

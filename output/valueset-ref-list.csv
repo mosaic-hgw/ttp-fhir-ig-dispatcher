@@ -1,7 +1,7 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
 http://hl7.org/fhir/ValueSet/consent-provision-type,4.0.1,draft,"2.16.840.1.113883.4.642.3.757",ConsentProvisionType,ConsentProvisionType,"How a rule statement is applied, such as adding additional consent or removing consent.","ValueSet/PolicyStatusVS","hl7.fhir.r4.core"
-http://hl7.org/fhir/ValueSet/iso3166-1-2,4.0.1,active,,Iso3166-1-2,Iso 3166 Part 1: 2 Letter Codes,"This value set defines the ISO 3166 Part 1 2-letter codes","StructureDefinition/Idat","hl7.terminology.r4"
-http://hl7.org/fhir/ValueSet/languages,4.0.1,draft,"2.16.840.1.113883.4.642.3.20",CommonLanguages,Common Languages,"This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)","StructureDefinition/Idat","hl7.terminology.r4"
+http://hl7.org/fhir/ValueSet/iso3166-1-2,4.0.1,active,,Iso3166-1-2,Iso 3166 Part 1: 2 Letter Codes,"This value set defines the ISO 3166 Part 1 2-letter codes","StructureDefinition/Idat","Other"
+http://hl7.org/fhir/ValueSet/languages,4.0.1,draft,"2.16.840.1.113883.4.642.3.20",CommonLanguages,Common Languages,"This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)","StructureDefinition/Idat","Other"
 http://hl7.org/fhir/ValueSet/marital-status,4.0.1,active,"2.16.840.1.113883.4.642.3.29",Marital Status Codes,MaritalStatus,"This value set defines the set of codes that can be used to indicate the marital status of a person.","StructureDefinition/Idat","THO (V3)"
 https://ths-greifswald.de/fhir/ValueSet/dispatcher/IdatElements,2025.2.0,active,,IdatElements,,"",,"Internal"
 https://ths-greifswald.de/fhir/ValueSet/epix/BloomfilterType,2025.2.0,draft,,BloomfilterType,,"",,"Internal"
