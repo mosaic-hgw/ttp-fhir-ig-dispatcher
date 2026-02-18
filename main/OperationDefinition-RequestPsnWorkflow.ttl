@@ -32,7 +32,6 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Abfragen bzw. anlegen von Pseudonymen auf Basis eines vorkonfigurierten Pseudonymisierungsablaufs (Workflow) für einen gegebenen Geltungsbereich (Studie und Standort). Die Rückgabe der generierten standort- und studienspezifischen-Pseudonyme erfolgt als Parameter."] ; # 
-  fhir:purpose [ fhir:v "Teil des FHIR Gateway für Dispatcher und gPAS. Weitere Infos unter https://ths-greifswald.de"] ; # 
   fhir:code [ fhir:v "requestPsnWorkflow"] ; # 
   fhir:comment [ fhir:v "Abfragen bzw. anlegen von Pseudonymen auf Basis eines vorkonfigurierten Pseudonymisierungsablaufs (Workflow) für einen gegebenen Geltungsbereich (Studie und Standort). Die Rückgabe der generierten standort- und studienspezifischen-Pseudonyme erfolgt als Parameter."] ; # 
   fhir:system [ fhir:v true] ; # 

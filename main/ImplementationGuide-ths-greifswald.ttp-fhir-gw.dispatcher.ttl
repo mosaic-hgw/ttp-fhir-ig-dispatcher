@@ -11,16 +11,16 @@
   fhir:id [ fhir:v "ths-greifswald.ttp-fhir-gw.dispatcher"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ths-greifswald.ttp-fhir-gw.dispatcher</b></p><a name=\"ths-greifswald.ttp-fhir-gw.dispatcher\"> </a><a name=\"hcths-greifswald.ttp-fhir-gw.dispatcher\"> </a><h2>IGTTPFHIRGatewaybergreifendeSchnittstellen</h2><p>The official URL for this implementation guide is: </p><pre>https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher</pre></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ths-greifswald.ttp-fhir-gw.dispatcher</b></p><a name=\"ths-greifswald.ttp-fhir-gw.dispatcher\"> </a><a name=\"hcths-greifswald.ttp-fhir-gw.dispatcher\"> </a><h2>IGTTPFHIRGatewayUebergreifendeSchnittstellen</h2><p>The official URL for this implementation guide is: </p><pre>https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher</pre></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher"^^xsd:anyURI ;
      fhir:l <https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher>
   ] ; # 
   fhir:version [ fhir:v "2025.2.0"] ; # 
-  fhir:name [ fhir:v "IGTTPFHIRGatewaybergreifendeSchnittstellen"] ; # 
+  fhir:name [ fhir:v "IGTTPFHIRGatewayUebergreifendeSchnittstellen"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-01-20T10:31:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-18T15:29:15+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
@@ -1288,26 +1288,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/BloomfilterTypeVS> ;
-         fhir:reference [ fhir:v "ValueSet/BloomfilterTypeVS" ]
-       ] ;
-       fhir:name [ fhir:v "BloomfilterType" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -1317,473 +1297,6 @@
        ] ;
        fhir:name [ fhir:v "BloomfilterType" ] ;
        fhir:description [ fhir:v "Types of Bloomfilters." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentComponentTypeVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentComponentTypeVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentComponentType" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentComponentTypeCS> ;
-         fhir:reference [ fhir:v "CodeSystem/ConsentComponentTypeCS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentComponentType" ] ;
-       fhir:description [ fhir:v "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentPolicyActionVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentPolicyActionVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyAction" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentPolicyActionCS> ;
-         fhir:reference [ fhir:v "CodeSystem/ConsentPolicyActionCS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyAction" ] ;
-       fhir:description [ fhir:v "Extensible description of the permissible (data processing-) action resulting from consented module or policy." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentPolicyActorVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentPolicyActorVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyActor" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentPolicyActorCS> ;
-         fhir:reference [ fhir:v "CodeSystem/ConsentPolicyActorCS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyActor" ] ;
-       fhir:description [ fhir:v "Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentPolicyClassVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentPolicyClassVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyClass" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentPolicyClassCS> ;
-         fhir:reference [ fhir:v "CodeSystem/ConsentPolicyClassCS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyClass" ] ;
-       fhir:description [ fhir:v "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentPolicyPurposeVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentPolicyPurposeVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyPurpose" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentPolicyPurposeCS> ;
-         fhir:reference [ fhir:v "CodeSystem/ConsentPolicyPurposeCS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentPolicyPurpose" ] ;
-       fhir:description [ fhir:v "Expandable specification of the application context and/or scope of a consent policy or module" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatus" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/ConsentStatusCS> ;
-         fhir:reference [ fhir:v "CodeSystem/ConsentStatusCS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatus" ] ;
-       fhir:description [ fhir:v " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusConsentFullValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentFullValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusConsentFullValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusConsentOptOutFullValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentOptOutFullValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusConsentOptOutFullValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusConsentOptOutShortValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentOptOutShortValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusConsentOptOutShortValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusConsentShortValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusConsentShortValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusConsentShortValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusObjectionFullValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusObjectionFullValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusObjectionFullValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusObjectionShortValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusObjectionShortValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusObjectionShortValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusRefusalFullValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusRefusalFullValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusRefusalFullValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusRefusalShortValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusRefusalShortValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusRefusalShortValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusWithdrawalFullValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusWithdrawalFullValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusWithdrawalFullValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/ConsentStatusWithdrawalShortValuesVS> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentStatusWithdrawalShortValuesVS" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentStatusWithdrawalShortValues" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/DesignationUseCS> ;
-         fhir:reference [ fhir:v "CodeSystem/DesignationUseCS" ]
-       ] ;
-       fhir:name [ fhir:v "DesignationUse" ] ;
-       fhir:description [ fhir:v "Use codes (contexts) for terminology designations" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1829,129 +1342,6 @@
          a fhir:Canonical ;
          fhir:v "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat"^^xsd:anyURI ;
          fhir:l <https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/IdatElementsVS> ;
-         fhir:reference [ fhir:v "ValueSet/IdatElementsVS" ]
-       ] ;
-       fhir:name [ fhir:v "IdatElements" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/IdatElementsCS> ;
-         fhir:reference [ fhir:v "CodeSystem/IdatElementsCS" ]
-       ] ;
-       fhir:name [ fhir:v "IdatElements" ] ;
-       fhir:description [ fhir:v "Element names for use in $requestTasks operation." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/IdMatchingTypeVS> ;
-         fhir:reference [ fhir:v "ValueSet/IdMatchingTypeVS" ]
-       ] ;
-       fhir:name [ fhir:v "IdMatchingType" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/IdMatchingTypeCS> ;
-         fhir:reference [ fhir:v "CodeSystem/IdMatchingTypeCS" ]
-       ] ;
-       fhir:name [ fhir:v "IdMatchingType" ] ;
-       fhir:description [ fhir:v "ID matching types used in consent management" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/MatchStatusVS> ;
-         fhir:reference [ fhir:v "ValueSet/MatchStatusVS" ]
-       ] ;
-       fhir:name [ fhir:v "MatchStatus" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/MatchStatusCS> ;
-         fhir:reference [ fhir:v "CodeSystem/MatchStatusCS" ]
-       ] ;
-       fhir:name [ fhir:v "MatchStatus" ] ;
-       fhir:description [ fhir:v "Possible match statuses in the context of adding patient identities." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -2141,67 +1531,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/PolicyVS> ;
-         fhir:reference [ fhir:v "ValueSet/PolicyVS" ]
-       ] ;
-       fhir:name [ fhir:v "Policy" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/PolicyCS> ;
-         fhir:reference [ fhir:v "CodeSystem/PolicyCS" ]
-       ] ;
-       fhir:name [ fhir:v "Policy" ] ;
-       fhir:description [ fhir:v "Policies used in consent management" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/PolicyStatusVS> ;
-         fhir:reference [ fhir:v "ValueSet/PolicyStatusVS" ]
-       ] ;
-       fhir:name [ fhir:v "PolicyStatus" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "OperationDefinition"
          ]
        ] ) ;
@@ -2346,47 +1675,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/ValueSet/SaveActionVS> ;
-         fhir:reference [ fhir:v "ValueSet/SaveActionVS" ]
-       ] ;
-       fhir:name [ fhir:v "SaveAction" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://ths-greifswald.de/fhir/dispatcher/CodeSystem/SaveActionCS> ;
-         fhir:reference [ fhir:v "CodeSystem/SaveActionCS" ]
-       ] ;
-       fhir:name [ fhir:v "SaveAction" ] ;
-       fhir:description [ fhir:v "Possible save actions in the context of adding patient identities." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "OperationDefinition"
          ]
        ] ) ;
@@ -2428,6 +1716,25 @@
            ] ;
            fhir:value [
              a fhir:Url ;
+             fhir:v "index.html"^^xsd:anyURI ;
+             fhir:l fhir:index.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "index.html"^^xsd:anyURI ;
+           fhir:l fhir:index.html
+         ] ;
+         fhir:title [ fhir:v "Implementation Guide Übergreifende Schnittstellen" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
              fhir:v "Allgemein.html"^^xsd:anyURI ;
              fhir:l fhir:Allgemein.html
            ]
@@ -2447,16 +1754,16 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "index.html"^^xsd:anyURI ;
-             fhir:l fhir:index.html
+             fhir:v "Terminologie.html"^^xsd:anyURI ;
+             fhir:l fhir:Terminologie.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "index.html"^^xsd:anyURI ;
-           fhir:l fhir:index.html
+           fhir:v "Terminologie.html"^^xsd:anyURI ;
+           fhir:l fhir:Terminologie.html
          ] ;
-         fhir:title [ fhir:v "Implementation Guide Übergreifende Schnittstellen" ] ;
+         fhir:title [ fhir:v "Terminologie" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

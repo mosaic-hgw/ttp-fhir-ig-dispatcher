@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"3"}
-    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -108,24 +108,27 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="OperationDefinition-RequestPsnWorkflow.html">requestPsnWorkflow</a>
+        <a href="OperationDefinition-ProvidePatientData.html">providePatientData</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-PseudonymizePatient.html">pseudonymizePatient</a>
       </li>
       <li>
         <a href="OperationDefinition-RequestPsnFromBfWorkflow.html">requestPsnFromBfWorkflow</a>
       </li>
       <li>
-        <a href="OperationDefinition-RequestTasks.html">requestTasks</a>
+        <a href="OperationDefinition-RequestPsnWorkflow.html">requestPsnWorkflow</a>
       </li>
       <li>
-        <a href="OperationDefinition-ProvidePatientData.html">providePatientData</a>
+        <a href="OperationDefinition-RequestTasks.html">requestTasks</a>
       </li>
       <li>
         <a href="OperationDefinition-UpdateBf.html">updateBf</a>
       </li>
-      <li>
-        <a href="OperationDefinition-PseudonymizePatient.html">pseudonymizePatient</a>
-      </li>
     </ul>
+  </li>
+  <li>
+    <a href="Terminologie.html">Terminologie</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -159,7 +162,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewaybergreifendeSchnittstellen - Local Development build (v2025.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewayUebergreifendeSchnittstellen - Local Development build (v2025.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -177,13 +180,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
+         <a href="#3">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#4">Terminology: Code Systems</a>
-      </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -270,145 +270,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tbody>
    </table>
    <a name="3"> </a>
-   <h3>Terminology: Value Sets </h3>
-    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-BloomfilterTypeVS.html"
-                  title="ValueSet/BloomfilterTypeVS">BloomfilterType</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentComponentTypeVS.html"
-                  title="ValueSet/ConsentComponentTypeVS">ConsentComponentType</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentPolicyActionVS.html"
-                  title="ValueSet/ConsentPolicyActionVS">ConsentPolicyAction</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentPolicyActorVS.html"
-                  title="ValueSet/ConsentPolicyActorVS">ConsentPolicyActor</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentPolicyClassVS.html"
-                  title="ValueSet/ConsentPolicyClassVS">ConsentPolicyClass</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentPolicyPurposeVS.html"
-                  title="ValueSet/ConsentPolicyPurposeVS">ConsentPolicyPurpose</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusVS.html" title="ValueSet/ConsentStatusVS">ConsentStatus</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusConsentFullValuesVS.html"
-                  title="ValueSet/ConsentStatusConsentFullValuesVS">ConsentStatusConsentFullValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusConsentOptOutFullValuesVS.html"
-                  title="ValueSet/ConsentStatusConsentOptOutFullValuesVS">ConsentStatusConsentOptOutFullValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusConsentOptOutShortValuesVS.html"
-                  title="ValueSet/ConsentStatusConsentOptOutShortValuesVS">ConsentStatusConsentOptOutShortValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusConsentShortValuesVS.html"
-                  title="ValueSet/ConsentStatusConsentShortValuesVS">ConsentStatusConsentShortValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusObjectionFullValuesVS.html"
-                  title="ValueSet/ConsentStatusObjectionFullValuesVS">ConsentStatusObjectionFullValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusObjectionShortValuesVS.html"
-                  title="ValueSet/ConsentStatusObjectionShortValuesVS">ConsentStatusObjectionShortValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusRefusalFullValuesVS.html"
-                  title="ValueSet/ConsentStatusRefusalFullValuesVS">ConsentStatusRefusalFullValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusRefusalShortValuesVS.html"
-                  title="ValueSet/ConsentStatusRefusalShortValuesVS">ConsentStatusRefusalShortValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusWithdrawalFullValuesVS.html"
-                  title="ValueSet/ConsentStatusWithdrawalFullValuesVS">ConsentStatusWithdrawalFullValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ConsentStatusWithdrawalShortValuesVS.html"
-                  title="ValueSet/ConsentStatusWithdrawalShortValuesVS">ConsentStatusWithdrawalShortValues</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-IdMatchingTypeVS.html" title="ValueSet/IdMatchingTypeVS">IdMatchingType</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-IdatElementsVS.html" title="ValueSet/IdatElementsVS">IdatElements</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-MatchStatusVS.html" title="ValueSet/MatchStatusVS">MatchStatus</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-PolicyVS.html" title="ValueSet/PolicyVS">Policy</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-PolicyStatusVS.html" title="ValueSet/PolicyStatusVS">PolicyStatus</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-SaveActionVS.html" title="ValueSet/SaveActionVS">SaveAction</a>
-            </td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="4"> </a>
    <h3>Terminology: Code Systems </h3>
     <p>These define new code systems used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -423,113 +284,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Types of Bloomfilters.</p>
 </td>
          </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-ConsentComponentTypeCS.html"
-                  title="CodeSystem/ConsentComponentTypeCS">ConsentComponentType</a>
-            </td>
-            <td>
-<p>Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-ConsentPolicyActionCS.html"
-                  title="CodeSystem/ConsentPolicyActionCS">ConsentPolicyAction</a>
-            </td>
-            <td>
-<p>Extensible description of the permissible (data processing-) action resulting from consented module or policy.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-ConsentPolicyActorCS.html"
-                  title="CodeSystem/ConsentPolicyActorCS">ConsentPolicyActor</a>
-            </td>
-            <td>
-<p>Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-ConsentPolicyClassCS.html"
-                  title="CodeSystem/ConsentPolicyClassCS">ConsentPolicyClass</a>
-            </td>
-            <td>
-<p>Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-ConsentPolicyPurposeCS.html"
-                  title="CodeSystem/ConsentPolicyPurposeCS">ConsentPolicyPurpose</a>
-            </td>
-            <td>
-<p>Expandable specification of the application context and/or scope of a consent policy or module</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-ConsentStatusCS.html"
-                  title="CodeSystem/ConsentStatusCS">ConsentStatus</a>
-            </td>
-            <td>
-<p>consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-DesignationUseCS.html"
-                  title="CodeSystem/DesignationUseCS">DesignationUse</a>
-            </td>
-            <td>
-<p>Use codes (contexts) for terminology designations</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-IdMatchingTypeCS.html"
-                  title="CodeSystem/IdMatchingTypeCS">IdMatchingType</a>
-            </td>
-            <td>
-<p>ID matching types used in consent management</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-IdatElementsCS.html" title="CodeSystem/IdatElementsCS">IdatElements</a>
-            </td>
-            <td>
-<p>Element names for use in $requestTasks operation.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-MatchStatusCS.html" title="CodeSystem/MatchStatusCS">MatchStatus</a>
-            </td>
-            <td>
-<p>Possible match statuses in the context of adding patient identities.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-PolicyCS.html" title="CodeSystem/PolicyCS">Policy</a>
-            </td>
-            <td>
-<p>Policies used in consent management</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-SaveActionCS.html" title="CodeSystem/SaveActionCS">SaveAction</a>
-            </td>
-            <td>
-<p>Possible save actions in the context of adding patient identities.</p>
-</td>
-         </tr>
       </tbody>
    </table>
-   <a name="5"> </a>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -626,7 +383,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 10:31+0000">2026-01-20</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 18, 2026 15:29+0000">2026-02-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

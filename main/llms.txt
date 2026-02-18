@@ -4,6 +4,7 @@
 
 * [Implementation Guide Übergreifende Schnittstellen](index.md)
 * [Artifacts Summary](artifacts.md)
+* [Terminologie](Terminologie.md)
 * [Allgemein](Allgemein.md)
 
 ## Resources
@@ -11,44 +12,6 @@
 ### CodeSystems
 
 * [BloomfilterType](CodeSystem-BloomfilterTypeCS.md)
-* [ConsentComponentType](CodeSystem-ConsentComponentTypeCS.md)
-* [ConsentPolicyAction](CodeSystem-ConsentPolicyActionCS.md)
-* [ConsentPolicyActor](CodeSystem-ConsentPolicyActorCS.md)
-* [ConsentPolicyClass](CodeSystem-ConsentPolicyClassCS.md)
-* [ConsentPolicyPurpose](CodeSystem-ConsentPolicyPurposeCS.md)
-* [ConsentStatus](CodeSystem-ConsentStatusCS.md)
-* [DesignationUse](CodeSystem-DesignationUseCS.md)
-* [IdMatchingType](CodeSystem-IdMatchingTypeCS.md)
-* [IdatElements](CodeSystem-IdatElementsCS.md)
-* [MatchStatus](CodeSystem-MatchStatusCS.md)
-* [Policy](CodeSystem-PolicyCS.md)
-* [SaveAction](CodeSystem-SaveActionCS.md)
-
-### ValueSets
-
-* [BloomfilterType](ValueSet-BloomfilterTypeVS.md)
-* [ConsentComponentType](ValueSet-ConsentComponentTypeVS.md)
-* [ConsentPolicyAction](ValueSet-ConsentPolicyActionVS.md)
-* [ConsentPolicyActor](ValueSet-ConsentPolicyActorVS.md)
-* [ConsentPolicyClass](ValueSet-ConsentPolicyClassVS.md)
-* [ConsentPolicyPurpose](ValueSet-ConsentPolicyPurposeVS.md)
-* [ConsentStatusConsentFullValues](ValueSet-ConsentStatusConsentFullValuesVS.md)
-* [ConsentStatusConsentOptOutFullValues](ValueSet-ConsentStatusConsentOptOutFullValuesVS.md)
-* [ConsentStatusConsentOptOutShortValues](ValueSet-ConsentStatusConsentOptOutShortValuesVS.md)
-* [ConsentStatusConsentShortValues](ValueSet-ConsentStatusConsentShortValuesVS.md)
-* [ConsentStatusObjectionFullValues](ValueSet-ConsentStatusObjectionFullValuesVS.md)
-* [ConsentStatusObjectionShortValues](ValueSet-ConsentStatusObjectionShortValuesVS.md)
-* [ConsentStatusRefusalFullValues](ValueSet-ConsentStatusRefusalFullValuesVS.md)
-* [ConsentStatusRefusalShortValues](ValueSet-ConsentStatusRefusalShortValuesVS.md)
-* [ConsentStatus](ValueSet-ConsentStatusVS.md)
-* [ConsentStatusWithdrawalFullValues](ValueSet-ConsentStatusWithdrawalFullValuesVS.md)
-* [ConsentStatusWithdrawalShortValues](ValueSet-ConsentStatusWithdrawalShortValuesVS.md)
-* [IdMatchingType](ValueSet-IdMatchingTypeVS.md)
-* [IdatElements](ValueSet-IdatElementsVS.md)
-* [MatchStatus](ValueSet-MatchStatusVS.md)
-* [PolicyStatus](ValueSet-PolicyStatusVS.md)
-* [Policy](ValueSet-PolicyVS.md)
-* [SaveAction](ValueSet-SaveActionVS.md)
 
 ### Resource Profiles
 
@@ -56,7 +19,7 @@
 
 ### ImplementationGuides
 
-* [IGTTPFHIRGatewaybergreifendeSchnittstellen](index.md)
+* [IGTTPFHIRGatewayUebergreifendeSchnittstellen](index.md)
 
 ### OperationDefinitions
 

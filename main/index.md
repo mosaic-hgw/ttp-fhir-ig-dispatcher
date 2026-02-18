@@ -10,9 +10,9 @@
   "id" : "ths-greifswald.ttp-fhir-gw.dispatcher",
   "url" : "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher",
   "version" : "2025.2.0",
-  "name" : "IGTTPFHIRGatewaybergreifendeSchnittstellen",
+  "name" : "IGTTPFHIRGatewayUebergreifendeSchnittstellen",
   "status" : "active",
-  "date" : "2026-01-20T10:31:00+00:00",
+  "date" : "2026-02-18T15:29:15+00:00",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {
@@ -716,19 +716,6 @@
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/BloomfilterTypeVS"
-        },
-        "name" : "BloomfilterType",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "CodeSystem"
           }
         ],
@@ -737,312 +724,6 @@
         },
         "name" : "BloomfilterType",
         "description" : "Types of Bloomfilters.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentComponentTypeVS"
-        },
-        "name" : "ConsentComponentType",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/ConsentComponentTypeCS"
-        },
-        "name" : "ConsentComponentType",
-        "description" : "Typen der für gICS relevanten Consent-Componenten zur Unterscheidung als Suchkriterium",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentPolicyActionVS"
-        },
-        "name" : "ConsentPolicyAction",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/ConsentPolicyActionCS"
-        },
-        "name" : "ConsentPolicyAction",
-        "description" : "Extensible description of the permissible (data processing-) action resulting from consented module or policy.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentPolicyActorVS"
-        },
-        "name" : "ConsentPolicyActor",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/ConsentPolicyActorCS"
-        },
-        "name" : "ConsentPolicyActor",
-        "description" : "Expandable categorisation of consumer/requestor of a consent enforcement request  related to a specific consent component (e.g. policy or module)",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentPolicyClassVS"
-        },
-        "name" : "ConsentPolicyClass",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/ConsentPolicyClassCS"
-        },
-        "name" : "ConsentPolicyClass",
-        "description" : "Extensible description of the application perspective of a ConsentPolicy (e.g. selected data view 'IDAT')",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentPolicyPurposeVS"
-        },
-        "name" : "ConsentPolicyPurpose",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/ConsentPolicyPurposeCS"
-        },
-        "name" : "ConsentPolicyPurpose",
-        "description" : "Expandable specification of the application context and/or scope of a consent policy or module",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusVS"
-        },
-        "name" : "ConsentStatus",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/ConsentStatusCS"
-        },
-        "name" : "ConsentStatus",
-        "description" : " consent states are used to depict the participant’s will. Therefore, documentation should allow different status values. Further details from https://doi.org/10.1186/s12967-020-02457-y",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusConsentFullValuesVS"
-        },
-        "name" : "ConsentStatusConsentFullValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusConsentOptOutFullValuesVS"
-        },
-        "name" : "ConsentStatusConsentOptOutFullValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusConsentOptOutShortValuesVS"
-        },
-        "name" : "ConsentStatusConsentOptOutShortValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusConsentShortValuesVS"
-        },
-        "name" : "ConsentStatusConsentShortValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusObjectionFullValuesVS"
-        },
-        "name" : "ConsentStatusObjectionFullValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusObjectionShortValuesVS"
-        },
-        "name" : "ConsentStatusObjectionShortValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusRefusalFullValuesVS"
-        },
-        "name" : "ConsentStatusRefusalFullValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusRefusalShortValuesVS"
-        },
-        "name" : "ConsentStatusRefusalShortValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusWithdrawalFullValuesVS"
-        },
-        "name" : "ConsentStatusWithdrawalFullValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/ConsentStatusWithdrawalShortValuesVS"
-        },
-        "name" : "ConsentStatusWithdrawalShortValues",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/DesignationUseCS"
-        },
-        "name" : "DesignationUse",
-        "description" : "Use codes (contexts) for terminology designations",
         "exampleBoolean" : false
       },
       {
@@ -1071,87 +752,6 @@
         },
         "name" : "Idat-example-1",
         "exampleCanonical" : "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/IdatElementsVS"
-        },
-        "name" : "IdatElements",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/IdatElementsCS"
-        },
-        "name" : "IdatElements",
-        "description" : "Element names for use in $requestTasks operation.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/IdMatchingTypeVS"
-        },
-        "name" : "IdMatchingType",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/IdMatchingTypeCS"
-        },
-        "name" : "IdMatchingType",
-        "description" : "ID matching types used in consent management",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/MatchStatusVS"
-        },
-        "name" : "MatchStatus",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/MatchStatusCS"
-        },
-        "name" : "MatchStatus",
-        "description" : "Possible match statuses in the context of adding patient identities.",
-        "exampleBoolean" : false
       },
       {
         "extension" : [
@@ -1274,46 +874,6 @@
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/PolicyVS"
-        },
-        "name" : "Policy",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/PolicyCS"
-        },
-        "name" : "Policy",
-        "description" : "Policies used in consent management",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/PolicyStatusVS"
-        },
-        "name" : "PolicyStatus",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "OperationDefinition"
           }
         ],
@@ -1409,33 +969,6 @@
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/SaveActionVS"
-        },
-        "name" : "SaveAction",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/SaveActionCS"
-        },
-        "name" : "SaveAction",
-        "description" : "Possible save actions in the context of adding patient identities.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "OperationDefinition"
           }
         ],
@@ -1462,6 +995,17 @@
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "index.html"
+            }
+          ],
+          "nameUrl" : "index.html",
+          "title" : "Implementation Guide Übergreifende Schnittstellen",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
               "valueUrl" : "Allgemein.html"
             }
           ],
@@ -1473,11 +1017,11 @@
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "index.html"
+              "valueUrl" : "Terminologie.html"
             }
           ],
-          "nameUrl" : "index.html",
-          "title" : "Implementation Guide Übergreifende Schnittstellen",
+          "nameUrl" : "Terminologie.html",
+          "title" : "Terminologie",
           "generation" : "markdown"
         }
       ]

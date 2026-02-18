@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"3.1"}
-    h3,h4,h5,h6{--heading-prefix:"3.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.1"}
+    h3,h4,h5,h6{--heading-prefix:"4.1"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -108,24 +108,27 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="OperationDefinition-RequestPsnWorkflow.html">requestPsnWorkflow</a>
+        <a href="OperationDefinition-ProvidePatientData.html">providePatientData</a>
+      </li>
+      <li>
+        <a href="OperationDefinition-PseudonymizePatient.html">pseudonymizePatient</a>
       </li>
       <li>
         <a href="OperationDefinition-RequestPsnFromBfWorkflow.html">requestPsnFromBfWorkflow</a>
       </li>
       <li>
-        <a href="OperationDefinition-RequestTasks.html">requestTasks</a>
+        <a href="OperationDefinition-RequestPsnWorkflow.html">requestPsnWorkflow</a>
       </li>
       <li>
-        <a href="OperationDefinition-ProvidePatientData.html">providePatientData</a>
+        <a href="OperationDefinition-RequestTasks.html">requestTasks</a>
       </li>
       <li>
         <a href="OperationDefinition-UpdateBf.html">updateBf</a>
       </li>
-      <li>
-        <a href="OperationDefinition-PseudonymizePatient.html">pseudonymizePatient</a>
-      </li>
     </ul>
+  </li>
+  <li>
+    <a href="Terminologie.html">Terminologie</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -152,7 +155,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewaybergreifendeSchnittstellen - Local Development build (v2025.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewayUebergreifendeSchnittstellen - Local Development build (v2025.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -251,7 +254,7 @@
 
 <div style="display:inline-block" markdown="1">
 
-<h4 id="zweck">Zweck</h4>
+<h2 id="zweck">Zweck</h2>
 <p>Identifizierende Daten (IDAT) werden für einen Clearing-Prozess an
 die fTTP übertragen. Die darin enthaltenen Attribute (z.B. Vorname, Nachname, usw.)
 dienen für ein konventionelles Record Linkage und werden danach in der fTTP
@@ -261,7 +264,7 @@ unwiederbringlich gelöscht.</p>
   <img width="700" src="assets/images/fhirgw-providePatientData.png" />
 </p>
 
-<h4 id="voraussetzung">Voraussetzung</h4>
+<h2 id="voraussetzung">Voraussetzung</h2>
 <ul>
   <li>API-Key: Der spezifizierte API-Key muss valide und zum Aufruf der Methode autorisiert sein. Der API-KEY wird im Request-Header übermittelt.</li>
   <li>Die übermittelten IDAT müssen valide sein.</li>
@@ -292,12 +295,12 @@ unwiederbringlich gelöscht.</p>
   <!-- insert notes if present -->
   
 
-<h3>Hinweise</h3>
+
 
 
 <div style="display:inline-block" markdown="1">
 
-<h4 id="aufruf-und-rückgabe">Aufruf und Rückgabe</h4>
+<h2 id="aufruf-und-rückgabe">Aufruf und Rückgabe</h2>
 <p>Die bereitgestellte Funktionalität kann per POST-Request aufgerufen werden. Die erforderlichen Angaben werden per POST-BODY in Form von <a href="https://www.hl7.org/fhir/parameters.html">FHIR Parameters</a> übermittelt.</p>
 
 <p><code class="language-plaintext highlighter-rouge">&lt;HOST&gt;:&lt;PORT&gt;/ttp-fhir/fhir/dispatcher/$providePatientData</code></p>
@@ -316,7 +319,7 @@ unwiederbringlich gelöscht.</p>
   <li>422: Fehlende oder falsche Patienten-Attribute.</li>
 </ul>
 
-<h4 id="beispiel">Beispiel</h4>
+<h2 id="beispiel">Beispiel</h2>
 
 <ul>
   <li><a href="Parameters-Parameters-ProvidePatientData-request-example-1.html">Request-Body</a></li>
@@ -346,7 +349,7 @@ unwiederbringlich gelöscht.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 20, 2026 10:31+0000">2026-01-20</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Feb 18, 2026 15:29+0000">2026-02-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
