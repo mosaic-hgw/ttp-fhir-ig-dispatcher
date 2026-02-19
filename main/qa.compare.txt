@@ -4,7 +4,7 @@ IGTTPFHIRGatewayUebergreifendeSchnittstellen : Validation Results
 err = 18, warn = 55, info = 10
 $--
 Generated $--. FHIR version $-- for ths-greifswald.ttp-fhir-gw.dispatcher#$-- (canonical = https://ths-greifswald.de/fhir/dispatcher)
- Build Errors : 8 / 17 / 0
+ Build Errors : 2 / 17 / 0
  /workspace/fsh-generated/resources/Bundle-PseudonymizePatient-Bundle-request-example-1 : 0 / 7 / 5
  /workspace/fsh-generated/resources/Bundle-PseudonymizePatient-Bundle-response-example-1 : 0 / 8 / 5
  /workspace/fsh-generated/resources/CodeSystem-BloomfilterTypeCS : 2 / 1 / 1
@@ -43,12 +43,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/PseudonymizePatient-Bundle-response-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: OperationDefinition-PseudonymizePatient.html#/html/body/div/div/div/div/div/div/div/p/a at Line 306, column 42: The link 'StructureDefinition-PatientPseudonymized.html' for "PatientPseudonymized-Profil" cannot be resolved
 ERROR: OperationDefinition-UpdateBf.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 322, column 8: The link 'Parameters-Parameters-UpdateBf-response-example-1.html' for "Rückmeldung" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 267, column 12: The link 'OperationDefinition-requestPsnWorkflow.md' for "requestPsnWorkflow" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 271, column 12: The link 'OperationDefinition-requestPsnFromBfWorkflow.md' for "requestPsnFromBfWorkflow" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 275, column 12: The link 'OperationDefinition-updateBf.md' for "updateBf" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 12: The link 'OperationDefinition-requestTasks.md' for "requestTasks" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 283, column 12: The link 'OperationDefinition-providePatientData.md' for "providePatientData" cannot be resolved
-ERROR: index.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 300, column 12: The link 'OperationDefinition-pseudonymizePatient.md' for "pseudonymizePatient" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
