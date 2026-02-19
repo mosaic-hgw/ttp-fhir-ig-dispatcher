@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "BloomfilterType"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-06-12"^^xsd:date] ; # 
+  fhir:date [ fhir:v "2026-02-18"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
@@ -31,7 +31,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Types of Bloomfilters."] ; # 
-  fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:copyright [ fhir:v "Copyright 2020-2026 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 

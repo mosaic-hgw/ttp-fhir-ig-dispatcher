@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "IDAT"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-06-12"^^xsd:date] ; # 
+  fhir:date [ fhir:v "2026-02-18"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
@@ -32,7 +32,7 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Patienten-Profil zur Übermittlung von angeforderten IDAT an die fTTP für den Clearing-Prozess."] ; # 
-  fhir:copyright [ fhir:v "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
+  fhir:copyright [ fhir:v "Copyright 2020-2026 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;

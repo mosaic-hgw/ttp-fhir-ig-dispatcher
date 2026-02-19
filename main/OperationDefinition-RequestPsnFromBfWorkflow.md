@@ -14,7 +14,7 @@
   "title" : "requestPsnFromBfWorkflow",
   "status" : "active",
   "kind" : "operation",
-  "date" : "2025-06-12",
+  "date" : "2026-02-18",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {

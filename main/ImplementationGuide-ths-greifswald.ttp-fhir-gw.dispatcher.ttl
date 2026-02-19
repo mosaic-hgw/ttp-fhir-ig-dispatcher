@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "2025.2.0"] ; # 
   fhir:name [ fhir:v "IGTTPFHIRGatewayUebergreifendeSchnittstellen"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-02-19T07:32:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-19T07:33:31+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;

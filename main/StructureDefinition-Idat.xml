@@ -77,7 +77,7 @@
   <title value="IDAT"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-06-12"/>
+  <date value="2026-02-18"/>
   <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <contact>
     <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
@@ -87,7 +87,7 @@
     </telecom>
   </contact>
   <description value="Patienten-Profil zur Übermittlung von angeforderten IDAT an die fTTP für den Clearing-Prozess."/>
-  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <copyright value="Copyright 2020-2026 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>

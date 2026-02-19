@@ -10,7 +10,7 @@
   "name" : "BloomfilterType",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-12",
+  "date" : "2026-02-18",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [{
     "name" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
@@ -20,7 +20,7 @@
     }]
   }],
   "description" : "Types of Bloomfilters.",
-  "copyright" : "Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
+  "copyright" : "Copyright 2020-2026 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 2,

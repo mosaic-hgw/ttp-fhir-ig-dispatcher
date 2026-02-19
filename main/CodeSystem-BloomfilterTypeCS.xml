@@ -10,7 +10,7 @@
   <name value="BloomfilterType"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-06-12"/>
+  <date value="2026-02-18"/>
   <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <contact>
     <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
@@ -20,7 +20,7 @@
     </telecom>
   </contact>
   <description value="Types of Bloomfilters."/>
-  <copyright value="Copyright 2020-2025 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
+  <copyright value="Copyright 2020-2026 Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="2"/>
