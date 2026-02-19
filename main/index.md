@@ -1,4 +1,4 @@
-# Implementation Guide Übergreifende Schnittstellen - v2025.2.0
+# Implementation Guide Workflow-basierte Schnittstellen - v2025.2.0
 
 
 
@@ -10,9 +10,9 @@
   "id" : "ths-greifswald.ttp-fhir-gw.dispatcher",
   "url" : "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher",
   "version" : "2025.2.0",
-  "name" : "IGTTPFHIRGatewayUebergreifendeSchnittstellen",
+  "name" : "IGTTPFHIRGatewayWorkflowbasierteSchnittstellen",
   "status" : "active",
-  "date" : "2026-02-19T07:45:15+00:00",
+  "date" : "2026-02-19T13:16:13+00:00",
   "publisher" : "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald",
   "contact" : [
     {
@@ -999,7 +999,7 @@
             }
           ],
           "nameUrl" : "index.html",
-          "title" : "Implementation Guide Übergreifende Schnittstellen",
+          "title" : "Implementation Guide Workflow-basierte Schnittstellen",
           "generation" : "markdown"
         },
         {

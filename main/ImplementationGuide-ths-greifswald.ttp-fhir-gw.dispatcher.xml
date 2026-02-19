@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ths-greifswald.ttp-fhir-gw.dispatcher"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ths-greifswald.ttp-fhir-gw.dispatcher</b></p><a name="ths-greifswald.ttp-fhir-gw.dispatcher"> </a><a name="hcths-greifswald.ttp-fhir-gw.dispatcher"> </a><h2>IGTTPFHIRGatewayUebergreifendeSchnittstellen</h2><p>The official URL for this implementation guide is: </p><pre>https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher</pre></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ths-greifswald.ttp-fhir-gw.dispatcher</b></p><a name="ths-greifswald.ttp-fhir-gw.dispatcher"> </a><a name="hcths-greifswald.ttp-fhir-gw.dispatcher"> </a><h2>IGTTPFHIRGatewayWorkflowbasierteSchnittstellen</h2><p>The official URL for this implementation guide is: </p><pre>https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher</pre></div>
   </text>
   <url value="https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher"/>
   <version value="2025.2.0"/>
-  <name value="IGTTPFHIRGatewayUebergreifendeSchnittstellen"/>
+  <name value="IGTTPFHIRGatewayWorkflowbasierteSchnittstellen"/>
   <status value="active"/>
-  <date value="2026-02-19T07:45:15+00:00"/>
+  <date value="2026-02-19T13:16:13+00:00"/>
   <publisher value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
   <contact>
     <name value="Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"/>
@@ -660,7 +660,7 @@
           <valueUrl value="index.html"/>
         </extension>
         <nameUrl value="index.html"/>
-        <title value="Implementation Guide Übergreifende Schnittstellen"/>
+        <title value="Implementation Guide Workflow-basierte Schnittstellen"/>
         <generation value="markdown"/>
       </page>
       <page>

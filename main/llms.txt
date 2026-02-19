@@ -2,7 +2,7 @@
 
 ## Pages
 
-* [Implementation Guide Übergreifende Schnittstellen](index.md)
+* [Implementation Guide Workflow-basierte Schnittstellen](index.md)
 * [Artifacts Summary](artifacts.md)
 * [Terminologie](Terminologie.md)
 * [Allgemein](Allgemein.md)
@@ -19,7 +19,7 @@
 
 ### ImplementationGuides
 
-* [IGTTPFHIRGatewayUebergreifendeSchnittstellen](index.md)
+* [IGTTPFHIRGatewayWorkflowbasierteSchnittstellen](index.md)
 
 ### OperationDefinitions
 

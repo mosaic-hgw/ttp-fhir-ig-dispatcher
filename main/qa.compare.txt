@@ -1,4 +1,4 @@
-IGTTPFHIRGatewayUebergreifendeSchnittstellen : Validation Results
+IGTTPFHIRGatewayWorkflowbasierteSchnittstellen : Validation Results
 =========================================
 
 err = 18, warn = 55, info = 10

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Implementation Guide Übergreifende Schnittstellen -  v2025.2.0</title>
+    <title>Implementation Guide Workflow-basierte Schnittstellen -  v2025.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -142,7 +142,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Implementation Guide Übergreifende Schnittstellen</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Implementation Guide Workflow-basierte Schnittstellen</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -162,8 +162,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewayUebergreifendeSchnittstellen - Local Development build (v2025.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Implementation Guide Übergreifende Schnittstellen</h2>
+  <!--ReleaseHeader--><p id="publish-box">IGTTPFHIRGatewayWorkflowbasierteSchnittstellen - Local Development build (v2025.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://ths-greifswald.de/fhir/dispatcher/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Implementation Guide Workflow-basierte Schnittstellen</h2>
   
 
 
@@ -200,7 +200,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">IGTTPFHIRGatewayUebergreifendeSchnittstellen</span></td>
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">IGTTPFHIRGatewayWorkflowbasierteSchnittstellen</span></td>
     </tr>
 
 
@@ -219,7 +219,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#fhir-support-für-übergreifende-schnittstellen" id="markdown-toc-fhir-support-für-übergreifende-schnittstellen">FHIR-Support für Übergreifende Schnittstellen</a>    <ul>
+  <li><a href="#fhir-support-für-workflow-basierte-schnittstellen" id="markdown-toc-fhir-support-für-workflow-basierte-schnittstellen">FHIR-Support für Workflow-basierte Schnittstellen</a>    <ul>
       <li><a href="#endpunkt" id="markdown-toc-endpunkt">Endpunkt</a></li>
       <li><a href="#übersicht-der-fttp-operations" id="markdown-toc-übersicht-der-fttp-operations">Übersicht der fTTP-Operations</a></li>
       <li><a href="#übersicht-der-generalisierten-fttp-operations" id="markdown-toc-übersicht-der-generalisierten-fttp-operations">Übersicht der generalisierten fTTP-Operations</a></li>
@@ -232,7 +232,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 </div>
-<h1 id="fhir-support-für-übergreifende-schnittstellen">FHIR-Support für Übergreifende Schnittstellen</h1>
+<h1 id="fhir-support-für-workflow-basierte-schnittstellen">FHIR-Support für Workflow-basierte Schnittstellen</h1>
 
 <p>Stand 18.02.2026</p>
 
@@ -240,11 +240,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Diese werden in entsprechenden <a href="https://www.ths-greifswald.de/fhir">Implementierungsleitfäden</a> themenspezifisch beschrieben und zahlreiche Details erläutert.</p>
 
-<p>Der vorliegende <strong>Implementation Guide Übergreifende Schnittstellen</strong> setzt den Fokus auf Operations, Profile und Extensions, die für die <a href="https://www.ths-greifswald.de/dispatcher/fhir">föderierte Treuhandstelle (fTTP)</a> relevant sind.</p>
+<p>Der vorliegende <strong>Implementation Guide Workflow-basierte Schnittstellen</strong> setzt den Fokus auf Operations, Profile und Extensions, die für die <a href="https://www.ths-greifswald.de/dispatcher/fhir">föderierte Treuhandstelle (fTTP)</a> relevant sind.</p>
 
 <h3 id="endpunkt">Endpunkt</h3>
 
-<p>Der FHIR-Endpunkt (<code class="language-plaintext highlighter-rouge">base</code>) für die übergreifende Schnittstelle lautet</p>
+<p>Der FHIR-Endpunkt (<code class="language-plaintext highlighter-rouge">base</code>) für die workflow-basierte Schnittstelle lautet</p>
 
 <p><strong><code class="language-plaintext highlighter-rouge">http[s]://\&lt;host\&gt;:\&lt;port\&gt;/ttp-fhir/fhir/dispatcher</code></strong></p>
 
@@ -337,7 +337,7 @@ Im Kontext des <strong>föderierten Record Linkage mittels fTTP</strong> werden 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Feb 19, 2026 07:45+0000">2026-02-19</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ths-greifswald.de/">Unabhängige Treuhandstelle der Universitätsmedizin Greifswald</a>.  Package ths-greifswald.ttp-fhir-gw.dispatcher#2025.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Feb 19, 2026 13:16+0000">2026-02-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
