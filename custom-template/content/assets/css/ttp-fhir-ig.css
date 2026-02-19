@@ -89,3 +89,7 @@ div.col-12 p, div.col-12 pre {
 code[class*="language-"], pre[class*="language-"] {
   white-space: pre-wrap;
 }
+
+p > img {
+	float: initial;
+}
