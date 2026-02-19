@@ -1,4 +1,4 @@
-# FHIR-Support für Übergreifende Schnittstellen
+# FHIR-Support für Workflow-basierte Schnittstellen
 
 Stand 18.02.2026
 
@@ -6,11 +6,11 @@ Die Softwarelösungen E-PIX, gPAS, gICS und Dispatcher werden in zahlreichen For
 
 Diese werden in entsprechenden [Implementierungsleitfäden](https://www.ths-greifswald.de/fhir) themenspezifisch beschrieben und zahlreiche Details erläutert.
 
-Der vorliegende **Implementation Guide Übergreifende Schnittstellen** setzt den Fokus auf Operations, Profile und Extensions, die für die [föderierte Treuhandstelle (fTTP)](https://www.ths-greifswald.de/dispatcher/fhir) relevant sind.
+Der vorliegende **Implementation Guide Workflow-basierte Schnittstellen** setzt den Fokus auf Operations, Profile und Extensions, die für die [föderierte Treuhandstelle (fTTP)](https://www.ths-greifswald.de/dispatcher/fhir) relevant sind.
            
 ### Endpunkt
 
-Der FHIR-Endpunkt (```base```) für die übergreifende Schnittstelle lautet
+Der FHIR-Endpunkt (```base```) für die workflow-basierte Schnittstelle lautet
 
 <strong>```http[s]://\<host\>:\<port\>/ttp-fhir/fhir/dispatcher```</strong>
 

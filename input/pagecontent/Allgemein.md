@@ -35,7 +35,7 @@ Für die verschiedenen Bereiche werden jeweils eigene FHIR-Endpunkte eingerichte
 |Record Linkage und Identitätsmanagement|http[s]://\<host\>:\<port\>/ttp-fhir/fhir/epix|
 |Pseudonymmanagement|http[s]://\<host\>:\<port\>/ttp-fhir/fhir/gpas|
 |Einwilligungsmanagement|http[s]://\<host\>:\<port\>/ttp-fhir/fhir/gics|
-|Übergreifende Schnittstellen|http[s]://\<host\>:\<port\>/ttp-fhir/fhir/dispatcher|
+|Workflow-basierte Schnittstellen|http[s]://\<host\>:\<port\>/ttp-fhir/fhir/dispatcher|
 
 ### RESTful API und Suche
 

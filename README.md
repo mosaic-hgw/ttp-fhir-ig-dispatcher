@@ -1,4 +1,4 @@
-# FHIR IG 'Overarching Interfaces' for the TTP-FHIR Gateway
+# FHIR IG 'Workflow-based Interfaces' for the TTP-FHIR Gateway
 Implementation Guide created with FSH and IG-Publisher
 
 ## Overview
@@ -6,7 +6,7 @@ Implementation Guide created with FSH and IG-Publisher
 The software tools E-PIX, gPAS, gICS and dispatcher are used in numerous research institutions and projects to develop Trusted Third Party Services (TTP). In order to better support the use of these tools in FHIR-based TTP infrastructures, the aim of this project is to describe the necessary profiles, extensions, and value sets, as well as their use (in the form of implementation guides).
 Language.
 
-This IG 'Overarching Interfaces' focuses on operations, profiles and extensions relevant for the federated Trusted Third Party (fTTP).
+This IG 'Workflow-based Interfaces' focuses on operations, profiles and extensions relevant for the federated Trusted Third Party (fTTP).
 
 Required CodeSystems and ValueSets are described in the supplementary [IG Terminology](https://mosaic-hgw.github.io/ttp-fhir-ig-terminology/main/index.html)
 
