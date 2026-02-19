@@ -21,20 +21,20 @@ Im Kontext des **föderierten Record Linkage mittels fTTP** werden unterschiedli
 
 Nachfolgende Tabelle listet die zum aktuellen Zeitpunkt gültigen **fTTP**-Funktionalitäten ([federated Trusted Third Party](https://www.ths-greifswald.de/forscher/num/fttp-fact-sheet)).
 
-| Operation|erforderlich für fTTP-Modul|
--- | ---
-|[requestPsnWorkflow](OperationDefinition-requestPsnWorkflow.md)|Wahrscheinlichkeit|
-|[requestPsnFromBfWorkflow](OperationDefinition-requestPsnFromBfWorkflow.md)|Wahrscheinlichkeit|
-|[updateBf](OperationDefinition-updateBf.md)|Wahrscheinlichkeit|
-|[requestTasks](OperationDefinition-requestTasks.md)|Wahrscheinlichkeit/Clearing|
-|[providePatientData](OperationDefinition-providePatientData.md)|Clearing|
+| Operation                                                                     |erforderlich für fTTP-Modul|
+-------------------------------------------------------------------------------| ---
+| [requestPsnWorkflow](OperationDefinition-RequestPsnWorkflow.html)             |Wahrscheinlichkeit|
+| [requestPsnFromBfWorkflow](OperationDefinition-RequestPsnFromBfWorkflow.html) |Wahrscheinlichkeit|
+| [updateBf](OperationDefinition-UpdateBf.html)                                 |Wahrscheinlichkeit|
+| [requestTasks](OperationDefinition-RequestTasks.html)                         |Wahrscheinlichkeit/Clearing|
+| [providePatientData](OperationDefinition-ProvidePatientData.html)             |Clearing|
 
 
 ### Übersicht der generalisierten fTTP-Operations
 
-| Operation                                                                                               | Zweck                                                  |
----------------------------------------------------------------------------------------------------------|--------------------------------------------------------
-| [pseudonymizePatient](OperationDefinition-pseudonymizePatient.md) | Erzeugung von Pseudonym(en) für eine Patient-Ressource |
+| Operation                                                           | Zweck                                                  |
+---------------------------------------------------------------------|--------------------------------------------------------
+| [pseudonymizePatient](OperationDefinition-PseudonymizePatient.html) | Erzeugung von Pseudonym(en) für eine Patient-Ressource |
 
 ### Package
 
