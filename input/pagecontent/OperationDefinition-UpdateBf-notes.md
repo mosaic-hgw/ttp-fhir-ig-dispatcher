@@ -16,4 +16,4 @@ Im vollständigen Fehlerfall wird einer der folgenden HTTP Statuscodes in Verbin
 ## Beispiel
 
 * [Request-Body](Parameters-Parameters-UpdateBf-request-example-1.html)
-* [Rückmeldung](Parameters-Parameters-UpdateBf-response-example-1.html)
+* [Rückmeldung](OperationOutcome-OperationOutcome-UpdateBf-response-example-1.html)
