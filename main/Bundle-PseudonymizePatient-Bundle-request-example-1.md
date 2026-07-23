@@ -1,5 +1,16 @@
 # PseudonymizePatient-Bundle-request-example-1 - v2025.2.0
 
+ ![](assets/images/Design-Logo-THS-deutsch-271-padding.png) 
+
+ 
+ 2025.2.0 - ci-build  
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **PseudonymizePatient-Bundle-request-example-1**
+
+## Example Bundle: PseudonymizePatient-Bundle-request-example-1
+
 
 
 ## Resource Content
@@ -9,143 +20,119 @@
   "resourceType" : "Bundle",
   "id" : "PseudonymizePatient-Bundle-request-example-1",
   "type" : "batch",
-  "entry" : [
-    {
-      "resource" : {
-        "resourceType" : "Parameters",
-        "id" : "PseudonymizePatient-Bundle-request-example-1-Par1",
-        "parameter" : [
-          {
-            "name" : "study",
-            "valueString" : "MyStudy"
-          },
-          {
-            "name" : "patient",
-            "resource" : {
-              "resourceType" : "Patient",
-              "id" : "aaaaaaaa-8a1e-4442-af99-50abc27d6f52",
-              "identifier" : [
-                {
-                  "type" : {
-                    "coding" : [
-                      {
-                        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-                        "code" : "MR"
-                      }
-                    ]
-                  },
-                  "system" : "http://my.fhir.domain.local/fhir/sid/patients",
-                  "value" : "1337"
-                },
-                {
-                  "system" : "http://fhir.de/sid/gkv/kvid-10",
-                  "value" : "A123456789"
-                },
-                {
-                  "type" : {
-                    "coding" : [
-                      {
-                        "system" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
-                        "code" : "A"
-                      }
-                    ]
-                  },
-                  "system" : "https://ths-greifswald.de/fhir/sid/epix/bloomfilter",
-                  "value" : "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="
-                }
-              ]
-            }
-          },
-          {
-            "name" : "context",
-            "part" : [
-              {
-                "name" : "target",
-                "valueString" : "MyStudy-Domain1"
-              },
-              {
-                "name" : "count",
-                "valueInteger" : 1
-              }
-            ]
-          },
-          {
-            "name" : "context",
-            "part" : [
-              {
-                "name" : "target",
-                "valueString" : "MyStudy-Domain2"
-              },
-              {
-                "name" : "count",
-                "valueInteger" : 1
-              }
-            ]
-          }
-        ]
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Parameters",
+      "id" : "PseudonymizePatient-Bundle-request-example-1-Par1",
+      "parameter" : [{
+        "name" : "study",
+        "valueString" : "MyStudy"
       },
-      "request" : {
-        "method" : "POST",
-        "url" : "$pseudonymizePatient"
-      }
+      {
+        "name" : "patient",
+        "resource" : {
+          "resourceType" : "Patient",
+          "id" : "aaaaaaaa-8a1e-4442-af99-50abc27d6f52",
+          "identifier" : [{
+            "type" : {
+              "coding" : [{
+                "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "code" : "MR"
+              }]
+            },
+            "system" : "http://my.fhir.domain.local/fhir/sid/patients",
+            "value" : "1337"
+          },
+          {
+            "system" : "http://fhir.de/sid/gkv/kvid-10",
+            "value" : "A123456789"
+          },
+          {
+            "type" : {
+              "coding" : [{
+                "system" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
+                "code" : "A"
+              }]
+            },
+            "system" : "https://ths-greifswald.de/fhir/sid/epix/bloomfilter",
+            "value" : "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="
+          }]
+        }
+      },
+      {
+        "name" : "context",
+        "part" : [{
+          "name" : "target",
+          "valueString" : "MyStudy-Domain1"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1
+        }]
+      },
+      {
+        "name" : "context",
+        "part" : [{
+          "name" : "target",
+          "valueString" : "MyStudy-Domain2"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1
+        }]
+      }]
     },
-    {
-      "resource" : {
-        "resourceType" : "Parameters",
-        "id" : "PseudonymizePatient-Bundle-request-example-1-Par2",
-        "parameter" : [
-          {
-            "name" : "study",
-            "valueString" : "MyStudy"
-          },
-          {
-            "name" : "patient",
-            "resource" : {
-              "resourceType" : "Patient",
-              "id" : "bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e",
-              "identifier" : [
-                {
-                  "type" : {
-                    "coding" : [
-                      {
-                        "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-                        "code" : "MR"
-                      }
-                    ]
-                  },
-                  "system" : "http://my.fhir.domain.local/fhir/sid/patients",
-                  "value" : "0815"
-                },
-                {
-                  "system" : "http://fhir.de/sid/gkv/kvid-10",
-                  "value" : "Z987654321"
-                }
-              ],
-              "name" : [
-                {
-                  "family" : "Hinterlist",
-                  "given" : ["Herbert"]
-                }
-              ]
-            }
-          },
-          {
-            "name" : "context",
-            "part" : [
-              {
-                "name" : "target",
-                "valueString" : "NotMyStudy-Domain15"
-              }
-            ]
-          }
-        ]
-      },
-      "request" : {
-        "method" : "POST",
-        "url" : "$pseudonymizePatient"
-      }
+    "request" : {
+      "method" : "POST",
+      "url" : "$pseudonymizePatient"
     }
-  ]
+  },
+  {
+    "resource" : {
+      "resourceType" : "Parameters",
+      "id" : "PseudonymizePatient-Bundle-request-example-1-Par2",
+      "parameter" : [{
+        "name" : "study",
+        "valueString" : "MyStudy"
+      },
+      {
+        "name" : "patient",
+        "resource" : {
+          "resourceType" : "Patient",
+          "id" : "bbbbbbbb-e258-4471-9ac3-6dfdfac35a6e",
+          "identifier" : [{
+            "type" : {
+              "coding" : [{
+                "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "code" : "MR"
+              }]
+            },
+            "system" : "http://my.fhir.domain.local/fhir/sid/patients",
+            "value" : "0815"
+          },
+          {
+            "system" : "http://fhir.de/sid/gkv/kvid-10",
+            "value" : "Z987654321"
+          }],
+          "name" : [{
+            "family" : "Hinterlist",
+            "given" : ["Herbert"]
+          }]
+        }
+      },
+      {
+        "name" : "context",
+        "part" : [{
+          "name" : "target",
+          "valueString" : "NotMyStudy-Domain15"
+        }]
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "$pseudonymizePatient"
+    }
+  }]
 }
 
 ```

@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,151 +7,118 @@
 
 <https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-RequestTasks-response-example-1> a fhir:Parameters ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "Parameters-RequestTasks-response-example-1"] ; # 
-  fhir:parameter ( [
-     fhir:name [ fhir:v "dic_psn_available" ] ;
-     fhir:part ( [
-       fhir:name [ fhir:v "bloomfilter" ] ;
-       fhir:value [
-         a fhir:Base64Binary ;
-         fhir:v "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary
+  fhir:Resource.id [ fhir:value "Parameters-RequestTasks-response-example-1"] ;
+  fhir:Parameters.parameter [
+     fhir:index 0 ;
+     fhir:Parameters.parameter.name [ fhir:value "dic_psn_available" ] ;
+     fhir:Parameters.parameter.part [
+       fhir:index 0 ;
+       fhir:Parameters.parameter.name [ fhir:value "bloomfilter" ] ;
+       fhir:Parameters.parameter.valueBase64Binary [ fhir:value "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary ]
+     ], [
+       fhir:index 1 ;
+       fhir:Parameters.parameter.name [ fhir:value "target" ] ;
+       fhir:Parameters.parameter.valueIdentifier [
+         fhir:Identifier.system [ fhir:value "https://ths-greifswald.de/gpas" ] ;
+         fhir:Identifier.value [ fhir:value "eyematics" ]
        ]
-     ] [
-       fhir:name [ fhir:v "target" ] ;
-       fhir:value [
-         a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
-         fhir:value [ fhir:v "eyematics" ]
+     ], [
+       fhir:index 2 ;
+       fhir:Parameters.parameter.name [ fhir:value "pseudonym" ] ;
+       fhir:Parameters.parameter.valueIdentifier [
+         fhir:Identifier.system [ fhir:value "https://ths-greifswald.de/gpas" ] ;
+         fhir:Identifier.value [ fhir:value "mii_6348Q7" ]
        ]
-     ] [
-       fhir:name [ fhir:v "pseudonym" ] ;
-       fhir:value [
-         a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
-         fhir:value [ fhir:v "mii_6348Q7" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Parameters.parameter.name [ fhir:value "send_idat" ] ;
+     fhir:Parameters.parameter.part [
+       fhir:index 0 ;
+       fhir:Parameters.parameter.name [ fhir:value "expires" ] ;
+       fhir:Parameters.parameter.valueInstant [ fhir:value "2021-05-28T13:00:00.00+02:00"^^xsd:dateTime ]
+     ], [
+       fhir:index 1 ;
+       fhir:Parameters.parameter.name [ fhir:value "taskId" ] ;
+       fhir:Parameters.parameter.valueId [ fhir:value "064ddebf-b20e-468a-97fd-88097bcdbc11" ]
+     ], [
+       fhir:index 2 ;
+       fhir:Parameters.parameter.name [ fhir:value "pseudonym" ] ;
+       fhir:Parameters.parameter.valueIdentifier [
+         fhir:Identifier.system [ fhir:value "https://ths-greifswald.de/gpas" ] ;
+         fhir:Identifier.value [ fhir:value "mii_1244Q2" ]
        ]
-     ] )
-  ] [
-     fhir:name [ fhir:v "send_idat" ] ;
-     fhir:part ( [
-       fhir:name [ fhir:v "expires" ] ;
-       fhir:value [
-         a fhir:Instant ;
-         fhir:v "2021-05-28T13:00:00.00+02:00"^^xsd:dateTime
+     ], [
+       fhir:index 3 ;
+       fhir:Parameters.parameter.name [ fhir:value "element" ] ;
+       fhir:Parameters.parameter.valueCoding [
+         fhir:Coding.system [ fhir:value "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements" ] ;
+         fhir:Coding.code [ fhir:value "given" ]
        ]
-     ] [
-       fhir:name [ fhir:v "taskId" ] ;
-       fhir:value [
-         a fhir:Id ;
-         fhir:v "064ddebf-b20e-468a-97fd-88097bcdbc11"
+     ], [
+       fhir:index 4 ;
+       fhir:Parameters.parameter.name [ fhir:value "element" ] ;
+       fhir:Parameters.parameter.valueCoding [
+         fhir:Coding.system [ fhir:value "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements" ] ;
+         fhir:Coding.code [ fhir:value "family" ]
        ]
-     ] [
-       fhir:name [ fhir:v "pseudonym" ] ;
-       fhir:value [
-         a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
-         fhir:value [ fhir:v "mii_1244Q2" ]
+     ], [
+       fhir:index 5 ;
+       fhir:Parameters.parameter.name [ fhir:value "element" ] ;
+       fhir:Parameters.parameter.valueCoding [
+         fhir:Coding.system [ fhir:value "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements" ] ;
+         fhir:Coding.code [ fhir:value "birthdate" ]
        ]
-     ] [
-       fhir:name [ fhir:v "element" ] ;
-       fhir:value [
-         a fhir:Coding ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
-         ] ;
-         fhir:code [ fhir:v "given" ]
+     ], [
+       fhir:index 6 ;
+       fhir:Parameters.parameter.name [ fhir:value "element" ] ;
+       fhir:Parameters.parameter.valueCoding [
+         fhir:Coding.system [ fhir:value "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements" ] ;
+         fhir:Coding.code [ fhir:value "gender" ]
        ]
-     ] [
-       fhir:name [ fhir:v "element" ] ;
-       fhir:value [
-         a fhir:Coding ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
-         ] ;
-         fhir:code [ fhir:v "family" ]
+     ], [
+       fhir:index 7 ;
+       fhir:Parameters.parameter.name [ fhir:value "element" ] ;
+       fhir:Parameters.parameter.valueCoding [
+         fhir:Coding.system [ fhir:value "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements" ] ;
+         fhir:Coding.code [ fhir:value "birthplace" ]
        ]
-     ] [
-       fhir:name [ fhir:v "element" ] ;
-       fhir:value [
-         a fhir:Coding ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
-         ] ;
-         fhir:code [ fhir:v "birthdate" ]
+     ], [
+       fhir:index 8 ;
+       fhir:Parameters.parameter.name [ fhir:value "element" ] ;
+       fhir:Parameters.parameter.valueCoding [
+         fhir:Coding.system [ fhir:value "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements" ] ;
+         fhir:Coding.code [ fhir:value "degree" ]
        ]
-     ] [
-       fhir:name [ fhir:v "element" ] ;
-       fhir:value [
-         a fhir:Coding ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
-         ] ;
-         fhir:code [ fhir:v "gender" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:Parameters.parameter.name [ fhir:value "repeat_request" ] ;
+     fhir:Parameters.parameter.part [
+       fhir:index 0 ;
+       fhir:Parameters.parameter.name [ fhir:value "study" ] ;
+       fhir:Parameters.parameter.valueIdentifier [
+         fhir:Identifier.system [ fhir:value "https://ths-greifswald.de/gpas" ] ;
+         fhir:Identifier.value [ fhir:value "mii" ]
        ]
-     ] [
-       fhir:name [ fhir:v "element" ] ;
-       fhir:value [
-         a fhir:Coding ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
-         ] ;
-         fhir:code [ fhir:v "birthplace" ]
+     ], [
+       fhir:index 1 ;
+       fhir:Parameters.parameter.name [ fhir:value "bloomfilter" ] ;
+       fhir:Parameters.parameter.valueBase64Binary [ fhir:value "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary ]
+     ], [
+       fhir:index 2 ;
+       fhir:Parameters.parameter.name [ fhir:value "target" ] ;
+       fhir:Parameters.parameter.valueIdentifier [
+         fhir:Identifier.system [ fhir:value "https://ths-greifswald.de/gpas" ] ;
+         fhir:Identifier.value [ fhir:value "eyematics" ]
        ]
-     ] [
-       fhir:name [ fhir:v "element" ] ;
-       fhir:value [
-         a fhir:Coding ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/fhir/CodeSystem/dispatcher/IdatElements>
-         ] ;
-         fhir:code [ fhir:v "degree" ]
-       ]
-     ] )
-  ] [
-     fhir:name [ fhir:v "repeat_request" ] ;
-     fhir:part ( [
-       fhir:name [ fhir:v "study" ] ;
-       fhir:value [
-         a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
-         fhir:value [ fhir:v "mii" ]
-       ]
-     ] [
-       fhir:name [ fhir:v "bloomfilter" ] ;
-       fhir:value [
-         a fhir:Base64Binary ;
-         fhir:v "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary
-       ]
-     ] [
-       fhir:name [ fhir:v "target" ] ;
-       fhir:value [
-         a fhir:Identifier ;
-         fhir:system [
-           fhir:v "https://ths-greifswald.de/gpas"^^xsd:anyURI ;
-           fhir:l <https://ths-greifswald.de/gpas>
-         ] ;
-         fhir:value [ fhir:v "eyematics" ]
-       ]
-     ] )
-  ] ) . # 
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-RequestTasks-response-example-1.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

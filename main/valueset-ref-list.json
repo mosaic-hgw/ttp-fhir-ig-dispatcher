@@ -1,47 +1,43 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/iso3166-1-2",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "Iso3166-1-2",
-      "title" : "Iso 3166 Part 1: 2 Letter Codes",
-      "description" : "This value set defines the ISO 3166 Part 1 2-letter codes",
-      "systems" : ["urn:iso:std:iso:3166"],
-      "uses" : {
-      },
-      "StructureDefinition-Idat.html" : "IDAT"
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/iso3166-1-2",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Iso3166-1-2",
+    "title" : "Iso 3166 Part 1: 2 Letter Codes",
+    "description" : "This value set defines the ISO 3166 Part 1 2-letter codes",
+    "systems" : ["urn:iso:std:iso:3166"],
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/languages",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "CommonLanguages",
-      "title" : "Common Languages",
-      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
-      "systems" : ["urn:ietf:bcp:47"],
-      "oids" : ["2.16.840.1.113883.4.642.3.20"],
-      "sources" : ["2.16.840.1.113883.4.642.3.20"],
-      "uses" : {
-      },
-      "StructureDefinition-Idat.html" : "IDAT"
+    "StructureDefinition-Idat.html" : "IDAT"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "Marital Status Codes",
-      "title" : "MaritalStatus",
-      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.29"],
-      "sources" : ["2.16.840.1.113883.4.642.3.29"],
-      "uses" : {
-      },
-      "StructureDefinition-Idat.html" : "IDAT"
-    }
-  ]
+    "StructureDefinition-Idat.html" : "IDAT"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Marital Status Codes",
+    "title" : "MaritalStatus",
+    "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
+    "oids" : ["2.16.840.1.113883.4.642.3.29"],
+    "sources" : ["2.16.840.1.113883.4.642.3.29"],
+    "uses" : {
+    },
+    "StructureDefinition-Idat.html" : "IDAT"
+  }]
 }

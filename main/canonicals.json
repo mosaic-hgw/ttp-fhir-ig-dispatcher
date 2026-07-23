@@ -1,65 +1,63 @@
-[
-  {
-    "id" : "BloomfilterTypeCS",
-    "type" : "CodeSystem",
-    "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
-    "version" : "2025.2.0",
-    "name" : "BloomfilterType"
-  },
-  {
-    "id" : "UpdateBf",
-    "type" : "OperationDefinition",
-    "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/UpdateBf",
-    "version" : "2025.2.0",
-    "name" : "UpdateBf"
-  },
-  {
-    "id" : "ProvidePatientData",
-    "type" : "OperationDefinition",
-    "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/providePatientData",
-    "version" : "2025.2.0",
-    "name" : "ProvidePatientData"
-  },
-  {
-    "id" : "RequestPsnFromBfWorkflow",
-    "type" : "OperationDefinition",
-    "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnFromBfWorkflow",
-    "version" : "2025.2.0",
-    "name" : "RequestPsnFromBfWorkflow"
-  },
-  {
-    "id" : "RequestPsnWorkflow",
-    "type" : "OperationDefinition",
-    "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnWorkflow",
-    "version" : "2025.2.0",
-    "name" : "RequestPsnWorkflow"
-  },
-  {
-    "id" : "RequestTasks",
-    "type" : "OperationDefinition",
-    "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestTasks",
-    "version" : "2025.2.0",
-    "name" : "RequestTasks"
-  },
-  {
-    "id" : "PseudonymizePatient",
-    "type" : "OperationDefinition",
-    "url" : "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient",
-    "version" : "2025.2.0",
-    "name" : "PseudonymizePatient"
-  },
-  {
-    "id" : "Idat",
-    "type" : "StructureDefinition",
-    "url" : "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat",
-    "version" : "2025.2.0",
-    "name" : "Idat"
-  },
-  {
-    "id" : "ths-greifswald.ttp-fhir-gw.dispatcher",
-    "type" : "ImplementationGuide",
-    "url" : "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher",
-    "version" : "2025.2.0",
-    "name" : "IGTTPFHIRGatewayWorkflowbasierteSchnittstellen"
-  }
-]
+[{
+  "id" : "BloomfilterTypeCS",
+  "type" : "CodeSystem",
+  "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
+  "version" : "2025.2.0",
+  "name" : "BloomfilterType"
+},
+{
+  "id" : "UpdateBf",
+  "type" : "OperationDefinition",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/UpdateBf",
+  "version" : "2025.2.0",
+  "name" : "UpdateBf"
+},
+{
+  "id" : "ProvidePatientData",
+  "type" : "OperationDefinition",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/providePatientData",
+  "version" : "2025.2.0",
+  "name" : "ProvidePatientData"
+},
+{
+  "id" : "RequestPsnFromBfWorkflow",
+  "type" : "OperationDefinition",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnFromBfWorkflow",
+  "version" : "2025.2.0",
+  "name" : "RequestPsnFromBfWorkflow"
+},
+{
+  "id" : "RequestPsnWorkflow",
+  "type" : "OperationDefinition",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestPsnWorkflow",
+  "version" : "2025.2.0",
+  "name" : "RequestPsnWorkflow"
+},
+{
+  "id" : "RequestTasks",
+  "type" : "OperationDefinition",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/dispatcher/requestTasks",
+  "version" : "2025.2.0",
+  "name" : "RequestTasks"
+},
+{
+  "id" : "PseudonymizePatient",
+  "type" : "OperationDefinition",
+  "url" : "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient",
+  "version" : "2025.2.0",
+  "name" : "PseudonymizePatient"
+},
+{
+  "id" : "Idat",
+  "type" : "StructureDefinition",
+  "url" : "https://ths-greifswald.de/fhir/StructureDefinition/dispatcher/Patient/Idat",
+  "version" : "2025.2.0",
+  "name" : "Idat"
+},
+{
+  "id" : "ths-greifswald.ttp-fhir-gw.dispatcher",
+  "type" : "ImplementationGuide",
+  "url" : "https://ths-greifswald.de/fhir/dispatcher/ImplementationGuide/ths-greifswald.ttp-fhir-gw.dispatcher",
+  "version" : "2025.2.0",
+  "name" : "IGTTPFHIRGatewayWorkflowbasierteSchnittstellen"
+}]

@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,99 +7,112 @@
 
 <https://ths-greifswald.de/fhir/dispatcher/OperationDefinition/PseudonymizePatient> a fhir:OperationDefinition ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "PseudonymizePatient"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition PseudonymizePatient</b></p><a name=\"PseudonymizePatient\"> </a><a name=\"hcPseudonymizePatient\"> </a><p>URL: [base]/$pseudonymizePatient</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden</p>\n</div></td></tr><tr><td>IN</td><td>patient</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a></td><td/><td><div><p>Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen</p>\n</div></td></tr><tr><td>IN</td><td>context</td><td/><td>1..*</td><td/><td/><td><div><p>Kontext der zu generierenden oder zu suchenden Pseudonyme.</p>\n</div></td></tr><tr><td>IN</td><td>context.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen.</p>\n</div></td></tr><tr><td>IN</td><td>context.count</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td/><td><div><p>Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1.</p>\n</div></td></tr><tr><td>OUT</td><td>externalPatientId</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation.</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym</td><td/><td>1..*</td><td/><td/><td><div><p>Gruppierung der domänenspezifischen Pseudonyme.</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym.value</td><td/><td>0..*</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt).</p>\n</div></td></tr></table><div><p>Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen.</p>\n</div></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient"^^xsd:anyURI ;
-     fhir:l <https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient>
-  ] ; # 
-  fhir:version [ fhir:v "2025.2.0"] ; # 
-  fhir:name [ fhir:v "PseudonymizePatient"] ; # 
-  fhir:title [ fhir:v "pseudonymizePatient"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:kind [ fhir:v "operation"] ; # 
-  fhir:date [ fhir:v "2026-02-18"^^xsd:date] ; # 
-  fhir:publisher [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://www.ths-greifswald.de/" ]
-     ] )
-  ] ) ; # 
-  fhir:affectsState [ fhir:v true] ; # 
-  fhir:code [ fhir:v "pseudonymizePatient"] ; # 
-  fhir:comment [ fhir:v "Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen."] ; # 
-  fhir:system [ fhir:v true] ; # 
-  fhir:type [ fhir:v false] ; # 
-  fhir:instance [ fhir:v false] ; # 
-  fhir:parameter ( [
-     fhir:name [ fhir:v "study" ] ;
-     fhir:use [ fhir:v "in" ] ;
-     fhir:min [ fhir:v 1 ] ;
-     fhir:max [ fhir:v "1" ] ;
-     fhir:documentation [ fhir:v "Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden" ] ;
-     fhir:type [ fhir:v "string" ]
-  ] [
-     fhir:name [ fhir:v "patient" ] ;
-     fhir:use [ fhir:v "in" ] ;
-     fhir:min [ fhir:v 1 ] ;
-     fhir:max [ fhir:v "1" ] ;
-     fhir:documentation [ fhir:v "Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen" ] ;
-     fhir:type [ fhir:v "Patient" ]
-  ] [
-     fhir:name [ fhir:v "context" ] ;
-     fhir:use [ fhir:v "in" ] ;
-     fhir:min [ fhir:v 1 ] ;
-     fhir:max [ fhir:v "*" ] ;
-     fhir:documentation [ fhir:v "Kontext der zu generierenden oder zu suchenden Pseudonyme." ] ;
-     fhir:part ( [
-       fhir:name [ fhir:v "target" ] ;
-       fhir:use [ fhir:v "in" ] ;
-       fhir:min [ fhir:v 1 ] ;
-       fhir:max [ fhir:v "1" ] ;
-       fhir:documentation [ fhir:v "Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen." ] ;
-       fhir:type [ fhir:v "string" ]
-     ] [
-       fhir:name [ fhir:v "count" ] ;
-       fhir:use [ fhir:v "in" ] ;
-       fhir:min [ fhir:v 0 ] ;
-       fhir:max [ fhir:v "1" ] ;
-       fhir:documentation [ fhir:v "Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1." ] ;
-       fhir:type [ fhir:v "integer" ]
-     ] )
-  ] [
-     fhir:name [ fhir:v "externalPatientId" ] ;
-     fhir:use [ fhir:v "out" ] ;
-     fhir:min [ fhir:v 1 ] ;
-     fhir:max [ fhir:v "1" ] ;
-     fhir:documentation [ fhir:v "ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation." ] ;
-     fhir:type [ fhir:v "string" ]
-  ] [
-     fhir:name [ fhir:v "pseudonym" ] ;
-     fhir:use [ fhir:v "out" ] ;
-     fhir:min [ fhir:v 1 ] ;
-     fhir:max [ fhir:v "*" ] ;
-     fhir:documentation [ fhir:v "Gruppierung der domänenspezifischen Pseudonyme." ] ;
-     fhir:part ( [
-       fhir:name [ fhir:v "target" ] ;
-       fhir:use [ fhir:v "out" ] ;
-       fhir:min [ fhir:v 1 ] ;
-       fhir:max [ fhir:v "1" ] ;
-       fhir:documentation [ fhir:v "Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung" ] ;
-       fhir:type [ fhir:v "Identifier" ]
-     ] [
-       fhir:name [ fhir:v "value" ] ;
-       fhir:use [ fhir:v "out" ] ;
-       fhir:min [ fhir:v 0 ] ;
-       fhir:max [ fhir:v "*" ] ;
-       fhir:documentation [ fhir:v "Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt)." ] ;
-       fhir:type [ fhir:v "Identifier" ]
-     ] )
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "PseudonymizePatient"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition PseudonymizePatient</b></p><a name=\"PseudonymizePatient\"> </a><a name=\"hcPseudonymizePatient\"> </a><p>URL: [base]/$pseudonymizePatient</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>study</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden</p>\n</div></td></tr><tr><td>IN</td><td>patient</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a></td><td/><td><div><p>Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen</p>\n</div></td></tr><tr><td>IN</td><td>context</td><td/><td>1..*</td><td/><td/><td><div><p>Kontext der zu generierenden oder zu suchenden Pseudonyme.</p>\n</div></td></tr><tr><td>IN</td><td>context.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen.</p>\n</div></td></tr><tr><td>IN</td><td>context.count</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td/><td><div><p>Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1.</p>\n</div></td></tr><tr><td>OUT</td><td>externalPatientId</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation.</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym</td><td/><td>1..*</td><td/><td/><td><div><p>Gruppierung der domänenspezifischen Pseudonyme.</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym.target</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung</p>\n</div></td></tr><tr><td>OUT</td><td>pseudonym.value</td><td/><td>0..*</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td/><td><div><p>Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt).</p>\n</div></td></tr></table><div><p>Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen.</p>\n</div></div>"
+  ] ;
+  fhir:OperationDefinition.url [ fhir:value "https://ths-greifswald.de/fhir/OperationDefinition/gpas/pseudonymizePatient"] ;
+  fhir:OperationDefinition.version [ fhir:value "2025.2.0"] ;
+  fhir:OperationDefinition.name [ fhir:value "PseudonymizePatient"] ;
+  fhir:OperationDefinition.title [ fhir:value "pseudonymizePatient"] ;
+  fhir:OperationDefinition.status [ fhir:value "active"] ;
+  fhir:OperationDefinition.kind [ fhir:value "operation"] ;
+  fhir:OperationDefinition.date [ fhir:value "2026-02-18"^^xsd:date] ;
+  fhir:OperationDefinition.publisher [ fhir:value "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald"] ;
+  fhir:OperationDefinition.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Unabhängige Treuhandstelle der Universitätsmedizin Greifswald" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ths-greifswald.de/" ]
+     ]
+  ] ;
+  fhir:OperationDefinition.affectsState [ fhir:value "true"^^xsd:boolean] ;
+  fhir:OperationDefinition.code [ fhir:value "pseudonymizePatient"] ;
+  fhir:OperationDefinition.comment [ fhir:value "Abfrage von 1-n eines Pseudonym-Werten für einen Originalwert und eine spezifische Domäne. Eine gleichzeitige Verarbeitung von mehreren Pseudonymisierungen kann durch Übergabe mehrerer entsprechender Requests in einem FHIR-Batch-Bundle erfolgen."] ;
+  fhir:OperationDefinition.system [ fhir:value "true"^^xsd:boolean] ;
+  fhir:OperationDefinition.type [ fhir:value "false"^^xsd:boolean] ;
+  fhir:OperationDefinition.instance [ fhir:value "false"^^xsd:boolean] ;
+  fhir:OperationDefinition.parameter [
+     fhir:index 0 ;
+     fhir:OperationDefinition.parameter.name [ fhir:value "study" ] ;
+     fhir:OperationDefinition.parameter.use [ fhir:value "in" ] ;
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+     fhir:OperationDefinition.parameter.max [ fhir:value "1" ] ;
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "Angabe der Studie auf Basis derer für die angegebenen Originalwerte vorhandene Pseudonyme gesucht und ggf. erzeugt werden" ] ;
+     fhir:OperationDefinition.parameter.type [ fhir:value "string" ]
+  ], [
+     fhir:index 1 ;
+     fhir:OperationDefinition.parameter.name [ fhir:value "patient" ] ;
+     fhir:OperationDefinition.parameter.use [ fhir:value "in" ] ;
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+     fhir:OperationDefinition.parameter.max [ fhir:value "1" ] ;
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "Patienten-Ressource des Patienten, für die 1-n Pseudonyme erzeugt werden sollen" ] ;
+     fhir:OperationDefinition.parameter.type [ fhir:value "Patient" ]
+  ], [
+     fhir:index 2 ;
+     fhir:OperationDefinition.parameter.name [ fhir:value "context" ] ;
+     fhir:OperationDefinition.parameter.use [ fhir:value "in" ] ;
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+     fhir:OperationDefinition.parameter.max [ fhir:value "*" ] ;
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "Kontext der zu generierenden oder zu suchenden Pseudonyme." ] ;
+     fhir:OperationDefinition.parameter.part [
+       fhir:index 0 ;
+       fhir:OperationDefinition.parameter.name [ fhir:value "target" ] ;
+       fhir:OperationDefinition.parameter.use [ fhir:value "in" ] ;
+       fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+       fhir:OperationDefinition.parameter.max [ fhir:value "1" ] ;
+       fhir:OperationDefinition.parameter.documentation [ fhir:value "Angabe der Pseudonymisierungs-Domäne in welcher nach vorhandenen Pseudonymen gesucht wird oder neue Pseudonyme erzeugt werden sollen." ] ;
+       fhir:OperationDefinition.parameter.type [ fhir:value "string" ]
+     ], [
+       fhir:index 1 ;
+       fhir:OperationDefinition.parameter.name [ fhir:value "count" ] ;
+       fhir:OperationDefinition.parameter.use [ fhir:value "in" ] ;
+       fhir:OperationDefinition.parameter.min [ fhir:value "0"^^xsd:integer ] ;
+       fhir:OperationDefinition.parameter.max [ fhir:value "1" ] ;
+       fhir:OperationDefinition.parameter.documentation [ fhir:value "Angabe der Anzahl zu erzeugender Pseudonyme innerhalb der Domäne. Default = 1." ] ;
+       fhir:OperationDefinition.parameter.type [ fhir:value "integer" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:OperationDefinition.parameter.name [ fhir:value "externalPatientId" ] ;
+     fhir:OperationDefinition.parameter.use [ fhir:value "out" ] ;
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+     fhir:OperationDefinition.parameter.max [ fhir:value "1" ] ;
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "ID der Patient-Ressource zum Zweck der Rückreferenzierung. Es wird die vom Client übermittelte ID (Element Patient.id) verwendet, in Anlehnung an das Konzept 'Update as Create' as der FHIR-Spezifikation." ] ;
+     fhir:OperationDefinition.parameter.type [ fhir:value "string" ]
+  ], [
+     fhir:index 4 ;
+     fhir:OperationDefinition.parameter.name [ fhir:value "pseudonym" ] ;
+     fhir:OperationDefinition.parameter.use [ fhir:value "out" ] ;
+     fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+     fhir:OperationDefinition.parameter.max [ fhir:value "*" ] ;
+     fhir:OperationDefinition.parameter.documentation [ fhir:value "Gruppierung der domänenspezifischen Pseudonyme." ] ;
+     fhir:OperationDefinition.parameter.part [
+       fhir:index 0 ;
+       fhir:OperationDefinition.parameter.name [ fhir:value "target" ] ;
+       fhir:OperationDefinition.parameter.use [ fhir:value "out" ] ;
+       fhir:OperationDefinition.parameter.min [ fhir:value "1"^^xsd:integer ] ;
+       fhir:OperationDefinition.parameter.max [ fhir:value "1" ] ;
+       fhir:OperationDefinition.parameter.documentation [ fhir:value "Angabe der Domäne (entspricht dem beim Request übermittelten Wert) zum Zweck der Rückreferenzierung" ] ;
+       fhir:OperationDefinition.parameter.type [ fhir:value "Identifier" ]
+     ], [
+       fhir:index 1 ;
+       fhir:OperationDefinition.parameter.name [ fhir:value "value" ] ;
+       fhir:OperationDefinition.parameter.use [ fhir:value "out" ] ;
+       fhir:OperationDefinition.parameter.min [ fhir:value "0"^^xsd:integer ] ;
+       fhir:OperationDefinition.parameter.max [ fhir:value "*" ] ;
+       fhir:OperationDefinition.parameter.documentation [ fhir:value "Das erzeugte Pseudonym (wird nur im Erfolgsfall übermittelt)." ] ;
+       fhir:OperationDefinition.parameter.type [ fhir:value "Identifier" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/OperationDefinition/PseudonymizePatient.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

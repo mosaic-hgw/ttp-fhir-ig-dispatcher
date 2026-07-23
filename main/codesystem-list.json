@@ -1,12 +1,10 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
-      "version" : "2025.2.0",
-      "status" : "active",
-      "name" : "BloomfilterType",
-      "title" : null,
-      "description" : "Types of Bloomfilters."
-    }
-  ]
+  "codeSystems" : [{
+    "url" : "https://ths-greifswald.de/fhir/CodeSystem/epix/BloomfilterType",
+    "version" : "2025.2.0",
+    "status" : "active",
+    "name" : "BloomfilterType",
+    "title" : null,
+    "description" : "Types of Bloomfilters."
+  }]
 }

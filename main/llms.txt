@@ -3,9 +3,9 @@
 ## Pages
 
 * [Implementation Guide Workflow-basierte Schnittstellen](index.md)
-* [Artifacts Summary](artifacts.md)
-* [Terminologie](Terminologie.md)
 * [Allgemein](Allgemein.md)
+* [Terminologie](Terminologie.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 

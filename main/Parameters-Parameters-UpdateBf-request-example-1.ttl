@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,38 +7,33 @@
 
 <https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-UpdateBf-request-example-1> a fhir:Parameters ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "Parameters-UpdateBf-request-example-1"] ; # 
-  fhir:parameter ( [
-     fhir:name [ fhir:v "study" ] ;
-     fhir:value [
-       a fhir:String ;
-       fhir:v "mii"
-     ]
-  ] [
-     fhir:name [ fhir:v "bloomfilter" ] ;
-     fhir:value [
-       a fhir:Base64Binary ;
-       fhir:v "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary
-     ]
-  ] [
-     fhir:name [ fhir:v "source" ] ;
-     fhir:value [
-       a fhir:String ;
-       fhir:v "dic_muenster"
-     ]
-  ] [
-     fhir:name [ fhir:v "pseudonym" ] ;
-     fhir:value [
-       a fhir:String ;
-       fhir:v "dic_2Q42E"
-     ]
-  ] [
-     fhir:name [ fhir:v "bfVersion" ] ;
-     fhir:value [
-       a fhir:String ;
-       fhir:v "2"
-     ]
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "Parameters-UpdateBf-request-example-1"] ;
+  fhir:Parameters.parameter [
+     fhir:index 0 ;
+     fhir:Parameters.parameter.name [ fhir:value "study" ] ;
+     fhir:Parameters.parameter.valueString [ fhir:value "mii" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Parameters.parameter.name [ fhir:value "bloomfilter" ] ;
+     fhir:Parameters.parameter.valueBase64Binary [ fhir:value "SWNoIGJpbiBlaW4gQmxvb21maWx0ZXIuIFZlcnNwcm9jaGVuLg=="^^xsd:base64Binary ]
+  ], [
+     fhir:index 2 ;
+     fhir:Parameters.parameter.name [ fhir:value "source" ] ;
+     fhir:Parameters.parameter.valueString [ fhir:value "dic_muenster" ]
+  ], [
+     fhir:index 3 ;
+     fhir:Parameters.parameter.name [ fhir:value "pseudonym" ] ;
+     fhir:Parameters.parameter.valueString [ fhir:value "dic_2Q42E" ]
+  ], [
+     fhir:index 4 ;
+     fhir:Parameters.parameter.name [ fhir:value "bfVersion" ] ;
+     fhir:Parameters.parameter.valueString [ fhir:value "2" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-UpdateBf-request-example-1.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

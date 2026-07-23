@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,54 +7,53 @@
 
 <https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-ProvidePatientData-request-example-1> a fhir:Parameters ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "Parameters-ProvidePatientData-request-example-1"] ; # 
-  fhir:parameter ( [
-     fhir:name [ fhir:v "taskId" ] ;
-     fhir:value [
-       a fhir:Id ;
-       fhir:v "064ddebf-b20e-468a-97fd-88097bcdbc11"
-     ]
-  ] [
-     fhir:name [ fhir:v "target" ] ;
-     fhir:value [
-       a fhir:String ;
-       fhir:v "eyematics"
-     ]
-  ] [
-     fhir:name [ fhir:v "patient" ] ;
-     fhir:Parameters.parameter.resource ( [
+  fhir:Resource.id [ fhir:value "Parameters-ProvidePatientData-request-example-1"] ;
+  fhir:Parameters.parameter [
+     fhir:index 0 ;
+     fhir:Parameters.parameter.name [ fhir:value "taskId" ] ;
+     fhir:Parameters.parameter.valueId [ fhir:value "064ddebf-b20e-468a-97fd-88097bcdbc11" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Parameters.parameter.name [ fhir:value "target" ] ;
+     fhir:Parameters.parameter.valueString [ fhir:value "eyematics" ]
+  ], [
+     fhir:index 2 ;
+     fhir:Parameters.parameter.name [ fhir:value "patient" ] ;
+     fhir:Parameters.parameter.resource [
        a fhir:Patient ;
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/StructureDefinition/patient-birthPlace"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/StructureDefinition/patient-birthPlace>
-         ] ;
-         fhir:value [
-           a fhir:Address ;
-           fhir:city [ fhir:v "Musterhausen" ]
+       fhir:DomainResource.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/patient-birthPlace" ] ;
+         fhir:Extension.valueAddress [
+           fhir:Address.city [ fhir:value "Musterhausen" ]
          ]
-       ] ) ;
-       fhir:name ( [
-         fhir:family [ fhir:v "Mustermann" ] ;
-         fhir:given ( [ fhir:v "Martin" ] ) ;
-         fhir:prefix ( [
-           fhir:v "Dr. med." ;
-           fhir:extension ( [
-             fhir:url [
-               fhir:v "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"^^xsd:anyURI ;
-               fhir:l <http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier>
-             ] ;
-             fhir:value [
-               a fhir:Code ;
-               fhir:v "AC"
-             ]
-           ] )
-         ] )
-       ] ) ;
-       fhir:gender [ fhir:v "male" ] ;
-       fhir:birthDate [ fhir:v "1965-12-03"^^xsd:date ]
-     ] )
-  ] ) . # 
+       ] ;
+       fhir:Patient.name [
+         fhir:index 0 ;
+         fhir:HumanName.family [ fhir:value "Mustermann" ] ;
+         fhir:HumanName.given [
+           fhir:value "Martin" ;
+           fhir:index 0
+         ] ;
+         fhir:HumanName.prefix [
+           fhir:value "Dr. med." ;
+           fhir:index 0 ;
+           fhir:Element.extension [
+             fhir:index 0 ;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier" ] ;
+             fhir:Extension.valueCode [ fhir:value "AC" ]
+           ]
+         ]
+       ] ;
+       fhir:Patient.gender [ fhir:value "male" ] ;
+       fhir:Patient.birthDate [ fhir:value "1965-12-03"^^xsd:date ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://ths-greifswald.de/fhir/dispatcher/Parameters/Parameters-ProvidePatientData-request-example-1.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 
